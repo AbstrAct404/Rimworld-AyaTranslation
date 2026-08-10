@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>冻焰弹幕</commandLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>向射程内指定位置附近发射5枚冻焰弹。\n发动条件：[苍褪的太阳]至少2\n消耗：[白银币]5</commandDesc>
       </value>
@@ -22,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>暗影波</commandLabel>
       </value>
@@ -32,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>以自身为中心释放半径7格的波动。\n发动条件：[苍褪的太阳]3\n消耗：[白银币]5</commandDesc>
       </value>
@@ -42,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>苦痛打击</commandLabel>
       </value>
@@ -52,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>对目标造成伤害并使其眩晕。\n发动条件：[苍褪的太阳]4\n消耗：[白银币]5</commandDesc>
       </value>
@@ -62,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_d"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_d"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>十字破甲</commandLabel>
       </value>
@@ -72,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_d"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_d"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>破坏目标的护甲。\n发动条件：[苍褪的太阳]4\n消耗：[白银币]10</commandDesc>
       </value>
@@ -82,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[7]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_e"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[7]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_e"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>死者苏生</commandLabel>
       </value>
@@ -92,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[7]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_e"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[7]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>复活目标。\n发动条件：[苍褪的太阳]5\n消耗：[白银币]60</commandDesc>
       </value>
@@ -102,9 +102,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[8]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_f"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[8]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_f"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>混沌帷幕</commandLabel>
       </value>
@@ -112,9 +112,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[8]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_f"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[8]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_f"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>使自身进入概率反射状态。\n发动条件：[苍褪的太阳]5\n消耗：[白银币]40</commandDesc>
       </value>
@@ -122,9 +122,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[9]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_y"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[9]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_y"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>冥府邀约</commandLabel>
       </value>
@@ -132,9 +132,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[9]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_y"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[9]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Zoichor"]/comps[1]/li[@Class="Zoichor_Dll.HAR_ZC_CompProperties_Skill_y"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>使目标立即死亡。\n发动条件：[苍褪的太阳]6\n消耗：[白银币]30</commandDesc>
       </value>
@@ -142,9 +142,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_ZC_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/ThingDef[@Name="HAR_ZC_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_ZC_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/ThingDef[@Name="HAR_ZC_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>

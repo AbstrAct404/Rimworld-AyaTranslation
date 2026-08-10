@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[1]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[@Class="Xenoorca.HAR_XO_CompProperties_Skill_Skip"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[1]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[@Class="Xenoorca.HAR_XO_CompProperties_Skill_Skip"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>深渊潜游</commandLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[1]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[@Class="Xenoorca.HAR_XO_CompProperties_Skill_Skip"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[1]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Xenoorca_b"]/comps[1]/li[@Class="Xenoorca.HAR_XO_CompProperties_Skill_Skip"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>瞬间移动到射程内任意格。</commandDesc>
       </value>

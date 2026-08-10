@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>王权召唤（自动）</AutoLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤眷属。眷属数量取决于“人工种族”等级，重新召唤的冷却时间为1天。</AutoDesc>
       </value>
@@ -22,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>王权召唤（手动）</CommandLabel>
       </value>
@@ -32,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤眷属。眷属的等级和数量取决于“人工种族”等级，重新召唤的冷却时间为1天。</CommandDesc>
       </value>
@@ -42,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[2]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[2]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>王权之威</commandLabel>
       </value>
@@ -52,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[2]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandDesc="自身と周囲の味方に身体強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[2]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandDesc="自身と周囲の味方に身体強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>强化自身及周围友军的身体机能。冷却时间为3天。</commandDesc>
       </value>
@@ -62,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアブレス"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアブレス"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>王权庇佑</commandLabel>
       </value>
@@ -72,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandDesc="自身と周囲の味方に防御強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandDesc="自身と周囲の味方に防御強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>强化自身及周围友军的防御。冷却时间为3天。</commandDesc>
       </value>

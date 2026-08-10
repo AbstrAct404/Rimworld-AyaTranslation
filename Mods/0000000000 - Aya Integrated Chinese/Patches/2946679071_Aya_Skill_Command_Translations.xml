@@ -2,69 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[4]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>影跃</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[4]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[4]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>瞬间移动到射程内任意格。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[6]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[6]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>复仇反击</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[6]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[6]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>处于黑暗中时，传送至向自己射击的敌人身边并造成伤害。冷却时间为3天。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[7]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[7]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>血狂</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[7]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[7]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>释放覆盖半径3格的斩击并迫使目标出血；受击者处于黑暗中时还会受到额外伤害。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[4]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>影之彗星</commandLabel>
       </value>
@@ -72,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>瞬间移动到射程内任意格。</commandDesc>
       </value>
@@ -82,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>天之剑</commandLabel>
       </value>
@@ -92,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>向射程内指定位置附近发射5枚爆裂弹。</commandDesc>
       </value>
@@ -102,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>天之剑</commandLabel>
       </value>
@@ -112,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>向射程内指定位置发射分裂弹。</commandDesc>
       </value>
@@ -122,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[7]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_y"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[7]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_y"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>黎明之女·晨星</commandLabel>
       </value>
@@ -132,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[7]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_y"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[7]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_y"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>对自身周围10格内的目标发动即死攻击。</commandDesc>
       </value>
@@ -142,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[8]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_z"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[8]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_z"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>光辉之希望</commandLabel>
       </value>
@@ -152,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[8]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_z"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[8]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_z"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>重置显现临界。冷却时间为1天。</commandDesc>
       </value>
@@ -162,9 +102,69 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.CompProperties_HAR_CO_Skill_Skip"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.CompProperties_HAR_CO_Skill_Skip"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>影跃</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.CompProperties_HAR_CO_Skill_Skip"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.CompProperties_HAR_CO_Skill_Skip"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>瞬间移动到射程内任意格。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive_b"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive_b"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>复仇反击</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive_b"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive_b"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>处于黑暗中时，传送至向自己射击的敌人身边并造成伤害。冷却时间为3天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血狂</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>释放覆盖半径3格的斩击并迫使目标出血；受击者处于黑暗中时还会受到额外伤害。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>

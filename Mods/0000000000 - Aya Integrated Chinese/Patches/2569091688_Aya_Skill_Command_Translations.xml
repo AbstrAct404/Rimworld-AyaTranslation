@@ -2,9 +2,19 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/AutoLabel[1]</xpath>
+    <xpath>Defs/ThingDef[@Name="HAR_LL_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/AutoLabel[1]</xpath>
+      <xpath>Defs/ThingDef[@Name="HAR_LL_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>致命召唤（自动）</AutoLabel>
       </value>
@@ -12,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤强大存在。重新召唤的冷却时间为1年。</AutoDesc>
       </value>
@@ -22,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>致命召唤（手动）</CommandLabel>
       </value>
@@ -32,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[2]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤强大存在。重新召唤的冷却时间为1年。</CommandDesc>
       </value>
@@ -42,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[2]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[2]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>你好，朋友！</commandLabel>
       </value>
@@ -52,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[2]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[2]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>招募射程内指定位置的目标。\n\n来成为朋友吧！</commandDesc>
       </value>
@@ -62,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>神子骑士</commandLabel>
       </value>
@@ -72,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>强化射程内指定位置周围3格内的目标。\n\n愿祝福与你同在！</commandDesc>
       </value>
@@ -82,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>神子天眼</commandLabel>
       </value>
@@ -92,21 +102,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Littluna_c"]/comps[1]/li[@Class="Littluna.HAR_LL_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>对射程内指定位置周围8格内的非友方目标造成足以使其倒地的伤害。\n\n既不离去，便伏于尘土。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_LL_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_LL_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

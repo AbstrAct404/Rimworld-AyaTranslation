@@ -2,9 +2,19 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_Skip"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_Skip"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>阳炎</commandLabel>
       </value>
@@ -12,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_Skip"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_Skip"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>瞬间移动到射程内任意格。</commandDesc>
       </value>
@@ -22,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>狐凭</commandLabel>
       </value>
@@ -32,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>对射程内指定位置周围4格发动异常状态攻击。</commandDesc>
       </value>
@@ -42,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>蛊毒</commandLabel>
       </value>
@@ -52,21 +62,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Silkiera.CompProperties_HAR_SK_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置召唤大量狂暴虫群。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

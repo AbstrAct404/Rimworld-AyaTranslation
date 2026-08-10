@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>吸血鬼之吻</commandLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>啃咬一个目标并吸血。\n发动条件：人工种族等级1\n冷却时间：30分钟</commandDesc>
       </value>
@@ -22,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>渡鸦侍从</commandLabel>
       </value>
@@ -32,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>召唤3只狂暴渡鸦。\n发动条件：人工种族等级2\n冷却时间：3小时</commandDesc>
       </value>
@@ -42,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>空明</commandLabel>
       </value>
@@ -52,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>进入概率闪避状态。\n发动条件：人工种族等级3\n冷却时间：1天</commandDesc>
       </value>
@@ -62,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[7]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_d"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[7]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_d"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>机能瓦解</commandLabel>
       </value>
@@ -72,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[7]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_d"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[7]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_d"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>暂时麻痹一个目标的部分身体机能。\n发动条件：人工种族等级4\n冷却时间：1小时</commandDesc>
       </value>
@@ -82,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[8]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_e"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[8]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_e"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>高位使徒</commandLabel>
       </value>
@@ -92,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[8]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_e"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[8]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>接受高位存在的力量并进入强化状态。\n发动条件：人工种族等级5\n冷却时间：3天</commandDesc>
       </value>
@@ -102,9 +102,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[9]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_f"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[9]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_f"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>飓风飞跃</commandLabel>
       </value>
@@ -112,9 +112,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[9]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_f"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[9]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_f"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>飞向指定位置。\n发动条件：人工种族等级6\n冷却时间：30分钟</commandDesc>
       </value>
@@ -122,9 +122,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[10]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_g"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[10]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_g"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>血潮冲击</commandLabel>
       </value>
@@ -132,9 +132,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[10]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_g"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[10]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_g"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>释放扇形冲击波，将目标击退至指定位置。\n发动条件：人工种族等级7\n冷却时间：30分钟</commandDesc>
       </value>
@@ -142,9 +142,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[11]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_h"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[11]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_h"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>复仇女神</commandLabel>
       </value>
@@ -152,9 +152,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[11]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_h"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[11]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_h"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>进入反击状态。\n发动条件：人工种族等级8\n冷却时间：1天</commandDesc>
       </value>
@@ -162,9 +162,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[12]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_i"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[12]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_i"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>尸骸捕食</commandLabel>
       </value>
@@ -172,9 +172,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[12]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_i"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[12]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_i"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>吞噬尸体并强化自身。\n发动条件：人工种族等级9\n冷却时间：30分钟</commandDesc>
       </value>
@@ -182,9 +182,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[13]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_j"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[13]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_j"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>完全觉醒</commandLabel>
       </value>
@@ -192,9 +192,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[13]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_j"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[13]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_j"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>进入觉醒状态。\n发动条件：人工种族等级10\n冷却时间：1天</commandDesc>
       </value>
