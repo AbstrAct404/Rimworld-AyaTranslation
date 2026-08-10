@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>
@@ -22,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[1]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[1]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>血噬</commandLabel>
       </value>
@@ -32,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[1]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[1]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>啃咬相邻目标并吸取鲜血，每次为[救济的血杯]补充3～6点鲜血。</commandDesc>
       </value>
@@ -42,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[2]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_CommandExplosive"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[2]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_CommandExplosive"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>焚血甲胄</commandLabel>
       </value>
@@ -52,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[2]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_CommandExplosive"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[2]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_CommandExplosive"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>解放伊娃莉特的强化外壳。\n发动条件：[救济的血杯]至少60\n消耗：[救济的血杯]5</commandDesc>
       </value>
@@ -62,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>血震</commandLabel>
       </value>
@@ -72,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>以目标为中心释放半径3格的冲击波。\n发动条件：[救济的血杯]至少30\n消耗：[救济的血杯]3</commandDesc>
       </value>
@@ -82,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>血戮</commandLabel>
       </value>
@@ -92,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>对目标所在格发动强力一击。\n发动条件：[救济的血杯]至少50\n消耗：[救济的血杯]5</commandDesc>
       </value>
@@ -102,9 +102,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_d"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_d"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>猩红风暴</commandLabel>
       </value>
@@ -112,9 +112,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_d"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_d"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>以目标为中心释放半径8格的冲击波，迫使范围内目标出血。\n发动条件：[救济的血杯]至少100\n消耗：[救济的血杯]10</commandDesc>
       </value>
@@ -122,9 +122,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_e"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_e"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>召唤眷属</commandLabel>
       </value>
@@ -132,9 +132,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_e"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>召唤眷属。\n发动条件：[救济的血杯]至少200\n消耗：[救济的血杯]100</commandDesc>
       </value>

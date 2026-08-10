@@ -2,9 +2,19 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/ThingDef[@Name="HAR_IH_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/ThingDef[@Name="HAR_IH_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_CommandExplosive_b"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_CommandExplosive_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>万军之主解放</commandLabel>
       </value>
@@ -12,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_CommandExplosive_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_CommandExplosive_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>每次释放20%的“万军之主”。完全释放至100%后将无法复活。</commandDesc>
       </value>
@@ -22,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>末日审判</commandLabel>
       </value>
@@ -32,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="Idhale.HAR_IH_CompProperties_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径5格的冲击波，该伤害可无视受伤倍率。</commandDesc>
       </value>
@@ -42,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/AutoLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/AutoLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>天之使者召唤（自动）</AutoLabel>
       </value>
@@ -52,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤眷属。眷属的等级和数量取决于“人工上位种族”等级，重新召唤的冷却时间为2天。</AutoDesc>
       </value>
@@ -62,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>天之使者召唤（手动）</CommandLabel>
       </value>
@@ -72,21 +82,11 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[7]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Idhale_b_Player"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤眷属。眷属的等级和数量取决于“人工种族”等级，重新召唤的冷却时间为2天。</CommandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_IH_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_IH_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

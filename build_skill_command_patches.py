@@ -43,19 +43,39 @@ def xpath_literal(value: str) -> str:
 def iter_nodes_with_paths(
     parent: ET.Element, prefix: str = ""
 ) -> list[tuple[ET.Element, str]]:
-    """Return descendants with stable, source-structural XPath fragments.
+    """Return descendants with resilient source-structural XPath fragments.
 
-    RimWorld may load several custom comps with identical field text.  Matching
-    by text (and grouping the replacements in one sequence) made a failed match
-    capable of skipping later skill fields.  Positional source paths target
-    every declared field independently, before Def inheritance is resolved.
+    Custom skill components have a stable CLR ``Class`` name but their ordinal
+    position in ``comps`` can change when an upstream update adds a component.
+    Prefer the class selector for a uniquely named component; retain the
+    positional form where a class is absent or repeated, so every selector
+    remains unambiguous.
     """
 
     found: list[tuple[ET.Element, str]] = []
     positions: dict[str, int] = {}
+    class_counts: dict[str, int] = {}
+    for child in parent:
+        if child.tag == "li" and child.get("Class"):
+            class_name = child.get("Class", "")
+            class_counts[class_name] = class_counts.get(class_name, 0) + 1
     for child in parent:
         positions[child.tag] = positions.get(child.tag, 0) + 1
-        fragment = f"{child.tag}[{positions[child.tag]}]"
+        class_name = child.get("Class", "")
+        if (
+            child.tag == "li"
+            and class_name
+            and class_counts.get(class_name) == 1
+        ):
+            fragment = f"li[@Class={xpath_literal(class_name)}]"
+        elif child.tag == "li" and class_name:
+            # Repeated component classes need one more discriminator.  The
+            # field-specific predicate is filled when generating the patch,
+            # allowing e.g. three CommandExplosive instances to survive a
+            # component-order change without one patch selecting the others.
+            fragment = f"li[@Class={xpath_literal(class_name)}]__AYA_FIELD_ID__"
+        else:
+            fragment = f"{child.tag}[{positions[child.tag]}]"
         path = f"{prefix}/{fragment}" if prefix else fragment
         found.append((child, path))
         found.extend(iter_nodes_with_paths(child, path))
@@ -123,6 +143,11 @@ def main() -> None:
                         continue
                     translated = translated.replace("\n", r"\n")
                     xpath = f"{definition_xpath}/{relative_path}"
+                    if "__AYA_FIELD_ID__" in xpath:
+                        xpath = xpath.replace(
+                            "__AYA_FIELD_ID__",
+                            f"[{node.tag}={xpath_literal(original)}]",
+                        )
                     operations.append(
                         (
                             definition.tag,

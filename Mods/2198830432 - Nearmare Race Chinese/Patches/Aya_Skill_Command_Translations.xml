@@ -2,9 +2,9 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>暗夜巡游（自动）</AutoLabel>
       </value>
@@ -12,9 +12,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤眷属。眷属的等级和数量取决于“人工种族”等级，重新召唤的冷却时间为2天。</AutoDesc>
       </value>
@@ -22,9 +22,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>暗夜巡游（手动）</CommandLabel>
       </value>
@@ -32,9 +32,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤眷属。眷属的等级和数量取决于“人工种族”等级，重新召唤的冷却时间为2天。</CommandDesc>
       </value>
@@ -42,9 +42,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/AutoLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>暗夜祈愿（自动）</AutoLabel>
       </value>
@@ -52,9 +52,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤眷属。眷属数量取决于“人工种族”等级，重新召唤的冷却时间为1天。</AutoDesc>
       </value>
@@ -62,9 +62,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>暗夜祈愿（手动）</CommandLabel>
       </value>
@@ -72,9 +72,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[1]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_b"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤眷属。眷属的等级和数量取决于“人工种族”等级，重新召唤的冷却时间为1天。</CommandDesc>
       </value>
@@ -82,9 +82,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[1]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[1]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>终劫之裁</commandLabel>
       </value>
@@ -92,9 +92,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[1]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[1]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径5格的冲击波。</commandDesc>
       </value>
@@ -102,9 +102,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[2]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[2]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>灼燃之怒</commandLabel>
       </value>
@@ -112,9 +112,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[2]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[2]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径2格的精神波，使目标狂暴；该技能不会被友军视为敌对行为。</commandDesc>
       </value>
@@ -122,9 +122,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>溃烂颓败</commandLabel>
       </value>
@@ -132,9 +132,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径3格的精神波，使目标行动迟缓。冷却时间为3天。</commandDesc>
       </value>
@@ -142,9 +142,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_d"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_d"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>蔓延严寒</commandLabel>
       </value>
@@ -152,9 +152,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_d"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_d"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置生成半径10格的力场，对敌对目标造成冻伤。</commandDesc>
       </value>
@@ -162,9 +162,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_e"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_e"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>浸染晦暗</commandLabel>
       </value>
@@ -172,9 +172,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_e"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径6格的精神波，使目标身体变得脆弱。</commandDesc>
       </value>
@@ -182,9 +182,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/AutoLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/AutoLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
       <value>
         <AutoLabel>超存在召唤（自动）</AutoLabel>
       </value>
@@ -192,9 +192,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/AutoDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/AutoDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
       <value>
         <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤超存在。\n【建议提前存档】</AutoDesc>
       </value>
@@ -202,9 +202,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/CommandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/CommandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
       <value>
         <CommandLabel>超存在召唤（手动）</CommandLabel>
       </value>
@@ -212,9 +212,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/CommandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[6]/CommandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
       <value>
         <CommandDesc>手动召唤超存在。\n【建议提前存档】</CommandDesc>
       </value>
@@ -222,129 +222,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[1]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[1]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>尸体解剖</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[1]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[1]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>解剖射程内指定位置周围2格内的尸体并采集药材。\n获得的药材会随尸体种类而变化。\n冷却时间为12小时。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[2]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[2]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>古法疗愈</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[2]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[2]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>治疗目标的伤口。\n消耗：液态药材30</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[3]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[3]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>强攻灵药</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[3]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[3]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>强化目标。\n消耗：液态药材20、固态药材10</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[4]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[4]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>铁壁魔药</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[4]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[4]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>强化目标。\n消耗：液态药材20、粉末药材10</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[5]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[5]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>复生秘药</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[5]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[5]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>复活目标。\n消耗：液态药材100、固态药材100、粉末药材100</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[6]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[6]/commandLabel[1]</xpath>
-      <value>
-        <commandLabel>傀儡化死药</commandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[6]/commandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[6]/commandDesc[1]</xpath>
-      <value>
-        <commandDesc>强化目标，但是……\n消耗：液态药材280、固态药材280、粉末药材280</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[2]/commandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[2]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_a"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>快速充能</commandLabel>
       </value>
@@ -352,9 +232,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[2]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_a"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[2]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_a"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>为赫斯提亚熔炉补充30%能量。\n副作用是更容易饥饿。\n冷却时间为1天。</commandDesc>
       </value>
@@ -362,9 +242,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[3]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_b"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[3]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_b"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>能量手雷</commandLabel>
       </value>
@@ -372,9 +252,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[3]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_b"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[3]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>向指定位置投掷手雷。\n消耗能量：5</commandDesc>
       </value>
@@ -382,9 +262,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[4]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_c"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[4]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_c"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>低角防护盾</commandLabel>
       </value>
@@ -392,9 +272,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[4]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_c"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[4]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_c"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>以自身为中心展开半径2格的低角度防护盾。\n消耗能量：20</commandDesc>
       </value>
@@ -402,9 +282,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[5]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_d"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[5]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_d"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>阔剑地雷</commandLabel>
       </value>
@@ -412,9 +292,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[5]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_d"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[5]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_d"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在指定位置布设阔剑地雷。\n消耗能量：10</commandDesc>
       </value>
@@ -422,9 +302,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[6]/commandLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_e"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[6]/commandLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_e"]/commandLabel[1]</xpath>
       <value>
         <commandLabel>八联迫击炮</commandLabel>
       </value>
@@ -432,9 +312,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[6]/commandDesc[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_e"]/commandDesc[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[6]/commandDesc[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Nearmaere_e.HAR_NM_CompProperties_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>向指定位置附近发射八联装迫击炮。\n消耗能量：60</commandDesc>
       </value>
@@ -442,9 +322,129 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_a"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>尸体解剖</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_a"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_a"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>解剖射程内指定位置周围2格内的尸体并采集药材。\n获得的药材会随尸体种类而变化。\n冷却时间为12小时。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_b"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_b"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>古法疗愈</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_b"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_b"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>治疗目标的伤口。\n消耗：液态药材30</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_c"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_c"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>强攻灵药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_c"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_c"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：液态药材20、固态药材10</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_d"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_d"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>铁壁魔药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_d"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_d"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：液态药材20、粉末药材10</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_e"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_e"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>复生秘药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_e"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_e"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>复活目标。\n消耗：液态药材100、固态药材100、粉末药材100</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_z"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_z"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>傀儡化死药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_z"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_z"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标，但是……\n消耗：液态药材280、固态药材280、粉末药材280</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>
@@ -452,9 +452,9 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[1]/useLabel[1]</xpath>
+    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[1]/useLabel[1]</xpath>
+      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
       <value>
         <useLabel>激活 {0_label}</useLabel>
       </value>
