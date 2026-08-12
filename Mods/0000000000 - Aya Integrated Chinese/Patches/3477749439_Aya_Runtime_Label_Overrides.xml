@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]/label</xpath>
+      <value>
+        <label>儿童衬衫</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]/label</xpath>
+      <value>
+        <label>儿童罩衫</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_BMOT_Building_Incubator"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_BMOT_Building_Incubator"]/label</xpath>
+      <value>
+        <label>地之佛拉斯</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Bullet_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Bullet_a"]/label</xpath>
+      <value>
+        <label>冰冷之炎</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Food_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Food_a"]/label</xpath>
+      <value>
+        <label>员工餐的松饼</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Food_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Food_b"]/label</xpath>
+      <value>
+        <label>地狱浓汤</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_a"]/label</xpath>
+      <value>
+        <label>看守者帽子</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_b"]/label</xpath>
+      <value>
+        <label>看守者围巾</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_c"]/label</xpath>
+      <value>
+        <label>看守者箍冠</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_d"]/label</xpath>
+      <value>
+        <label>地狱头盔</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Heads_e"]/label</xpath>
+      <value>
+        <label>混沌面具</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Item_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Item_a"]/label</xpath>
+      <value>
+        <label>碎裂的苍阳果</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Item_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Item_b"]/label</xpath>
+      <value>
+        <label>残缺的苍阳果</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Item_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Item_c"]/label</xpath>
+      <value>
+        <label>完整的苍阳果</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Onskin_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Onskin_a"]/label</xpath>
+      <value>
+        <label>看守者内衣</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_a"]/label</xpath>
+      <value>
+        <label>看守者斗篷A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_b"]/label</xpath>
+      <value>
+        <label>看守者斗篷B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_c"]/label</xpath>
+      <value>
+        <label>看守者斗篷C</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_d"]/label</xpath>
+      <value>
+        <label>看守者外套</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_e"]/label</xpath>
+      <value>
+        <label>地狱斗篷</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_f"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Shell_f"]/label</xpath>
+      <value>
+        <label>混沌斗篷</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_a"]/label</xpath>
+      <value>
+        <label>看守者连衣裙A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_b"]/label</xpath>
+      <value>
+        <label>看守者连衣裙B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_c"]/label</xpath>
+      <value>
+        <label>看守者连衣裙C</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_d"]/label</xpath>
+      <value>
+        <label>地狱盔甲</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Tops_e"]/label</xpath>
+      <value>
+        <label>混沌连衣裙</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_ZC_Weapon_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_ZC_Weapon_a"]/label</xpath>
+      <value>
+        <label>阿拉斯托耳</label>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BOSS_EF_Hive_Enforcer"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BOSS_EF_Hive_Enforcer"]/label</xpath>
+      <value>
+        <label>蜂巢陨星</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BOSS_EF_Item_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BOSS_EF_Item_a"]/label</xpath>
+      <value>
+        <label>耀斑甘油</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BOSS_EF_Item_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BOSS_EF_Item_b"]/label</xpath>
+      <value>
+        <label>星陨铁</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Weapon_Enforcer_Bullet_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Weapon_Enforcer_Bullet_a"]/label</xpath>
+      <value>
+        <label>耀斑飞弹</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Weapon_Enforcer_Bullet_z"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Weapon_Enforcer_Bullet_z"]/label</xpath>
+      <value>
+        <label>彗星脉冲</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Weapon_Enforcer_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Weapon_Enforcer_a"]/label</xpath>
+      <value>
+        <label>耀斑飞弹</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Weapon_Enforcer_z"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Weapon_Enforcer_z"]/label</xpath>
+      <value>
+        <label>彗星脉冲</label>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -2,6 +2,96 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BMOT_Building_Incubator"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="BMOT_Building_Incubator"]/label</xpath>
+      <value>
+        <label>神之形</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Armor_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Armor_a"]/label</xpath>
+      <value>
+        <label>埃利昂护甲</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_a"]/label</xpath>
+      <value>
+        <label>伊沙芭头冠</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_b"]/label</xpath>
+      <value>
+        <label>伊沙芭头饰</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_c"]/label</xpath>
+      <value>
+        <label>伊沙芭宝石</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_d"]/label</xpath>
+      <value>
+        <label>埃利昂头盔</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Head_e"]/label</xpath>
+      <value>
+        <label>伊沙芭面纱</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_a"]/label</xpath>
+      <value>
+        <label>伊沙芭夹克 A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_b"]/label</xpath>
+      <value>
+        <label>伊沙芭夹克 B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_c"]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_c"]/label</xpath>
@@ -12,11 +102,311 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Shell_d"]/label</xpath>
+      <value>
+        <label>伊沙芭长袍</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_a"]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_a"]/label</xpath>
       <value>
         <label>伊沙芭连衣裙 A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_b"]/label</xpath>
+      <value>
+        <label>伊沙芭连衣裙 B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_c"]/label</xpath>
+      <value>
+        <label>伊沙芭连衣裙 C</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_d"]/label</xpath>
+      <value>
+        <label>伊沙芭连衣裙 D</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_Tops_e"]/label</xpath>
+      <value>
+        <label>伊沙芭连衣裙 E</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_onskin_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Apparel_onskin_a"]/label</xpath>
+      <value>
+        <label>伊沙芭长袜</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_a"]/label</xpath>
+      <value>
+        <label>光之奴·夜魔</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_b"]/label</xpath>
+      <value>
+        <label>光之奴·人鱼</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_c"]/label</xpath>
+      <value>
+        <label>光之奴·幽鬼</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_d"]/label</xpath>
+      <value>
+        <label>光之奴·细菌</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_e"]/label</xpath>
+      <value>
+        <label>光之奴·龙人</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_f"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_f"]/label</xpath>
+      <value>
+        <label>光之奴·宇宙</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_g"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_g"]/label</xpath>
+      <value>
+        <label>光之奴·王族</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_h"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_h"]/label</xpath>
+      <value>
+        <label>光之奴·混沌</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_i"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_EyeCover_i"]/label</xpath>
+      <value>
+        <label>光之奴·兽人</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Item_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Item_a"]/label</xpath>
+      <value>
+        <label>肖像种：重设计数据 A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Item_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Item_b"]/label</xpath>
+      <value>
+        <label>肖像种：重设计数据 B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Item_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Item_c"]/label</xpath>
+      <value>
+        <label>肖像种：重设计数据 C</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Item_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Item_d"]/label</xpath>
+      <value>
+        <label>肖像种：重设计数据 D</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Item_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Item_e"]/label</xpath>
+      <value>
+        <label>肖像种：重设计数据 E</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Material_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Material_a"]/label</xpath>
+      <value>
+        <label>伊娃莉特血晶矿</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_a"]/label</xpath>
+      <value>
+        <label>美亚</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_b"]/label</xpath>
+      <value>
+        <label>露卡</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_c"]/label</xpath>
+      <value>
+        <label>琪拉</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_d"]/label</xpath>
+      <value>
+        <label>索尔</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_e"]/label</xpath>
+      <value>
+        <label>悠</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Monster_f"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Monster_f"]/label</xpath>
+      <value>
+        <label>露娜</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_a"]/label</xpath>
+      <value>
+        <label>伊娃莉特封装胶囊</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Spawn_b"]/label</xpath>
+      <value>
+        <label>封有■■■■■的休眠仓</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_EL_Weapon_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_EL_Weapon_a"]/label</xpath>
+      <value>
+        <label>绝罚之恨</label>
       </value>
     </match>
   </Operation>

@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_AH_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_AH_a"]/label</xpath>
+      <value>
+        <label>艾提翁头盔 A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_AH_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_AH_b"]/label</xpath>
+      <value>
+        <label>艾提翁头盔 B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Armor_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Armor_a"]/label</xpath>
+      <value>
+        <label>艾提翁护甲</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Armor_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Armor_b"]/label</xpath>
+      <value>
+        <label>奥尔芬礼装</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Filth_FireFoam_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Filth_FireFoam_a"]/label</xpath>
+      <value>
+        <label>绯红权能</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Filth_FireFoam_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Filth_FireFoam_b"]/label</xpath>
+      <value>
+        <label>苍蓝权能</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_ArcheCartridge"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_ArcheCartridge"]/label</xpath>
+      <value>
+        <label>本源药盒</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_a"]/label</xpath>
+      <value>
+        <label>法则数据胞</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_b"]/label</xpath>
+      <value>
+        <label>工艺遗物</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_c"]/label</xpath>
+      <value>
+        <label>伊迪安传感器</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_d"]/label</xpath>
+      <value>
+        <label>创世反应堆</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Charmides_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Charmides_a"]/label</xpath>
+      <value>
+        <label>伊迪安·卡尔米德 A型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Charmides_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Charmides_b"]/label</xpath>
+      <value>
+        <label>伊迪安·卡尔米德 B型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Critias"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Critias"]/label</xpath>
+      <value>
+        <label>伊迪安·克里提亚斯（焚书模型）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Laches_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Laches_a"]/label</xpath>
+      <value>
+        <label>伊迪安·拉刻斯</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Menexenus_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Menexenus_a"]/label</xpath>
+      <value>
+        <label>伊迪安·梅涅克赛努 A型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Menexenus_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Menexenus_b"]/label</xpath>
+      <value>
+        <label>伊迪安·梅涅克赛努 B型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Theaetetus_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Theaetetus_a"]/label</xpath>
+      <value>
+        <label>伊迪安·泰阿泰德 A型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Theaetetus_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Item_spawn_Theaetetus_b"]/label</xpath>
+      <value>
+        <label>伊迪安·泰阿泰德 B型</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_M_Race_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_M_Race_a"]/label</xpath>
+      <value>
+        <label>自然拟态</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_Things_Mysterion"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_Things_Mysterion"]/label</xpath>
+      <value>
+        <label>秘仪机</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_tops_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_tops_a"]/label</xpath>
+      <value>
+        <label>梅卡涅礼装 A</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_tops_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_tops_b"]/label</xpath>
+      <value>
+        <label>梅卡涅礼装 B</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IA_tops_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IA_tops_c"]/label</xpath>
+      <value>
+        <label>梅卡涅礼装 C</label>
+      </value>
+    </match>
+  </Operation>
+</Patch>

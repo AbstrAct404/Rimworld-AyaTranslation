@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]/label</xpath>
+      <value>
+        <label>儿童衬衫</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]/label</xpath>
+      <value>
+        <label>儿童罩衫</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AO_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AO_a"]/label</xpath>
+      <value>
+        <label>内衣A款（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AS_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AS_a"]/label</xpath>
+      <value>
+        <label>幽鬼斗篷（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_a"]/label</xpath>
+      <value>
+        <label>幽鬼衬衫（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_b"]/label</xpath>
+      <value>
+        <label>牧菌妖姬装束（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_c"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_c"]/label</xpath>
+      <value>
+        <label>幽鬼礼服（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_d"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_d"]/label</xpath>
+      <value>
+        <label>幽鬼护士服（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_e"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_e"]/label</xpath>
+      <value>
+        <label>幽鬼奴隶服（幽灵姬）</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_AT_z"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_AT_z"]/label</xpath>
+      <value>
+        <label>以太礼装</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_Archotech_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_Archotech_a"]/label</xpath>
+      <value>
+        <label>天穹之钥</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_Bullet_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_Bullet_a"]/label</xpath>
+      <value>
+        <label>虚空贯刃</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_Bullet_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_Bullet_b"]/label</xpath>
+      <value>
+        <label>灾厄爆枪</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_Item_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_Item_a"]/label</xpath>
+      <value>
+        <label>辉耀之石</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_NPC_Race_a"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_NPC_Race_a"]/label</xpath>
+      <value>
+        <label>拉哈特·谢拉哈</label>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="HAR_IH_NPC_Race_b"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="HAR_IH_NPC_Race_b"]/label</xpath>
+      <value>
+        <label>巨型魔像</label>
+      </value>
+    </match>
+  </Operation>
+</Patch>

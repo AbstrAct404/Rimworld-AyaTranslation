@@ -2,9 +2,9 @@
 
 Some Aya defs are touched by runtime compatibility code after normal
 DefInjected localization is loaded.  Their descriptions remain translated,
-but their labels can fall back to the Japanese source text.  A small,
-reviewed allow-list keeps these labels stable without replacing every
-ThingDef label in the supported mods.
+but their labels can fall back to the Japanese source text.  The reviewed
+allow-list covers known exceptional defs, while discovery adds every direct
+Japanese ThingDef label with a checked-in translation.
 """
 
 from __future__ import annotations
@@ -13,11 +13,12 @@ import json
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-from build_translations import xml_write
+from build_translations import MODS, WORKSHOP, active_defs, is_japanese, text, xml_write
 
 
 MODS_ROOT = Path("Mods")
 OUTPUT_NAME = "Aya_Runtime_Label_Overrides.xml"
+MODIFIER_CLASSES = {"PatchOperationReplace", "PatchOperationAdd", "PatchOperationRemove"}
 
 # Defs observed in startup/runtime compatibility logs or reported in game.
 TARGETS = {
@@ -34,6 +35,48 @@ TARGETS = {
 }
 
 
+def discovered_targets() -> dict[str, list[str]]:
+    """Find direct Japanese ThingDef labels that have a checked-in translation.
+
+    Character Editor and inventory widgets can read ``ThingDef.label`` after
+    DefInjected has already run.  A direct replacement for every discovered
+    source label prevents those paths from resurrecting Japanese text.  The
+    reviewed allow-list above remains authoritative for exceptional defs.
+    """
+    discovered: dict[str, list[str]] = {mod_id: list(names) for mod_id, names in TARGETS.items()}
+    for mod_id, _mod_name in MODS:
+        source = WORKSHOP / mod_id
+        package = next(MODS_ROOT.glob(f"{mod_id} - * Chinese"), None)
+        if package is None:
+            continue
+        labels = load_labels(package)
+        if not source.is_dir():
+            continue
+        defs = active_defs(source)
+        if defs is None:
+            continue
+        names = discovered.setdefault(mod_id, [])
+        for file in defs.rglob("*.xml"):
+            try:
+                root = ET.parse(file).getroot()
+            except ET.ParseError:
+                continue
+            for definition in root:
+                if definition.tag != "ThingDef":
+                    continue
+                def_name = text(definition.find("defName"))
+                source_label = text(definition.find("label"))
+                if (
+                    def_name
+                    and is_japanese(source_label)
+                    and def_name in labels
+                    and def_name not in names
+                ):
+                    names.append(def_name)
+        names.sort()
+    return discovered
+
+
 def load_labels(package: Path) -> dict[str, str]:
     labels: dict[str, str] = {}
     root = package / "Languages" / "ChineseSimplified" / "DefInjected" / "ThingDef"
@@ -45,13 +88,37 @@ def load_labels(package: Path) -> dict[str, str]:
     return labels
 
 
+def existing_runtime_targets(package: Path) -> set[str]:
+    """Find label XPaths already owned by a dedicated runtime patch."""
+    targets: set[str] = set()
+    patch_root = package / "Patches"
+    if not patch_root.is_dir():
+        return targets
+    for file in patch_root.glob("*.xml"):
+        if file.name == OUTPUT_NAME:
+            continue
+        try:
+            root = ET.parse(file).getroot()
+        except ET.ParseError:
+            continue
+        for node in root.iter():
+            if node.get("Class") not in MODIFIER_CLASSES:
+                continue
+            xpath = (node.findtext("xpath") or "").strip()
+            if xpath.endswith("/label"):
+                targets.add(xpath)
+    return targets
+
+
 def main() -> None:
     generated: list[dict[str, str]] = []
-    for mod_id, def_names in TARGETS.items():
+    targets = discovered_targets()
+    for mod_id, def_names in targets.items():
         package = next(MODS_ROOT.glob(f"{mod_id} - * Chinese"), None)
         if package is None:
             raise SystemExit(f"translation package missing for {mod_id}")
         labels = load_labels(package)
+        occupied = existing_runtime_targets(package)
         missing = [def_name for def_name in def_names if def_name not in labels]
         if missing:
             raise SystemExit(
@@ -62,6 +129,8 @@ def main() -> None:
         for def_name in def_names:
             label = labels[def_name]
             base = f'Defs/ThingDef[defName="{def_name}"]'
+            if base + "/label" in occupied:
+                continue
             conditional = ET.SubElement(
                 patch, "Operation", {"Class": "PatchOperationConditional"}
             )

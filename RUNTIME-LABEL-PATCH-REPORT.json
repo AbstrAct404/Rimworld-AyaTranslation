@@ -1,6 +1,21 @@
 {
-  "generatedOperations": 10,
+  "generatedOperations": 505,
   "operations": [
+    {
+      "modId": "2198830432",
+      "defName": "Bullet_AssaultRifle_NM",
+      "label": "魑枪「郄浍堕狱」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Geist_Knife",
+      "label": "缚刃「盖斯特」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Geist_Knife_Projectile",
+      "label": "缚刃「盖斯特」"
+    },
     {
       "modId": "2198830432",
       "defName": "Gun_AssaultRifle_NM",
@@ -8,8 +23,443 @@
     },
     {
       "modId": "2198830432",
+      "defName": "HAR_NM_AH_f",
+      "label": "心灵头盔（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_AH_g",
+      "label": "修女头巾（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_AH_h",
+      "label": "魔女之帽（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_AH_r",
+      "label": "ETHOS 头部增幅器（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_AH_x",
+      "label": "旅者之帽（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_Belt_a",
+      "label": "辉光之盾（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_EyeCover_a",
+      "label": "圣洁光环（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_a",
+      "label": "心灵装甲（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_b",
+      "label": "修女礼装 A（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_c",
+      "label": "修女礼装 B（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_A_d",
+      "label": "修女礼装 C（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Archotech_a",
+      "label": "魔女之棺"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_BDress",
+      "label": "黑夜晚礼服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Blouse",
+      "label": "衬衫（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_BroadshieldProjector",
+      "label": "召唤的护盾"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_China",
+      "label": "旗袍（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Cts",
+      "label": "发箍（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_DLArmor",
+      "label": "轻型战斗服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Filth_FireFoam_a",
+      "label": "极寒力场（扩散）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_HArmor",
+      "label": "轻型头盔（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_HCArmor",
+      "label": "巫咒之盔（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Itimai",
+      "label": "遮体布（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_KArmor",
+      "label": "咒令装（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Kimono",
+      "label": "和服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_MCt",
+      "label": "女仆发箍（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_MHK",
+      "label": "花饰（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_MRbn",
+      "label": "丝带（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Maid",
+      "label": "通用女仆装（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Miko",
+      "label": "巫女服（人鱼姬）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_NurseS",
+      "label": "护士服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_P",
+      "label": "内衣A款（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pb",
+      "label": "内衣B款（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pc",
+      "label": "内衣C款（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pd",
+      "label": "内衣D款（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pe",
+      "label": "内衣E款（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pf",
+      "label": "魔女内衣（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Os_Pg",
+      "label": "ETHOS 内衣（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Proj_GrenadeFrag",
+      "label": "召唤的手雷"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_RiderS",
+      "label": "赛车服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_SShirts",
+      "label": "带袖衬衫（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sc_Uniform",
+      "label": "学生制服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_BKo",
+      "label": "外套屏障（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Cry",
+      "label": "魔女水晶（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Ho",
+      "label": "羽织（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_K",
+      "label": "披衣（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Kb",
+      "label": "披风（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Kc",
+      "label": "大衣（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Kd",
+      "label": "风衣（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_Ke",
+      "label": "外套（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_SKo",
+      "label": "短披风（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_r",
+      "label": "ETHOS 外置增幅器（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Sh_x",
+      "label": "旅者外套（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_TES_a",
+      "label": "茨鲁埃萨"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Tar",
+      "label": "头冠（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_TrapIED_HighExplosive",
+      "label": "召唤的地雷"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Tshirt",
+      "label": "T恤衫（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_VanometricPowerCell",
+      "label": "伪神族发电机"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_WDress",
+      "label": "白夜晚礼服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Weapon_Gun_a",
+      "label": "卡兰德星步枪"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Weapon_Gun_b",
+      "label": "卡兰德星霰弹枪"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Weapon_Sword_a",
+      "label": "卡兰德星剑"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Wear_r",
+      "label": "ETHOS 制服（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "HAR_NM_Wear_x",
+      "label": "旅者礼装（魅魔）"
+    },
+    {
+      "modId": "2198830432",
       "defName": "HAR_NM_Wear_y",
       "label": "魔女礼装（魅魔）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Larva_SKnife",
+      "label": "凭剑「拉尔夫」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Larva_SKnife_Projectile",
+      "label": "凭剑「拉尔夫」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nearmaere",
+      "label": "1级.永夜巨兽"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightGaunts",
+      "label": "1级.噩梦骇兽"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightGaunts_b",
+      "label": "噩梦骇兽（2级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightGaunts_c",
+      "label": "噩梦骇兽（3级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightGaunts_d",
+      "label": "噩梦骇兽（4级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightGaunts_e",
+      "label": "噩梦骇兽（5级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightStalker",
+      "label": "1级.夜潜猎手"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightStalker_b",
+      "label": "夜潜猎手（2级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightStalker_c",
+      "label": "夜潜猎手（3级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightStalker_d",
+      "label": "夜潜猎手（4级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_NightStalker_e",
+      "label": "夜潜猎手（5级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nightmare",
+      "label": "1级.永夜巨兽"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nightmare_b",
+      "label": "永夜巨兽（2级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nightmare_c",
+      "label": "永夜巨兽（3级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nightmare_d",
+      "label": "永夜巨兽（4级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "NM_M_Nightmare_e",
+      "label": "永夜巨兽（5级）"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Nearmaere_WildHunt",
+      "label": "梦杖「荒猎」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Nearmaere_WildHunt_B",
+      "label": "梦杖「荒猎」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Rugeiyu_Pila",
+      "label": "魔枪「勒盖耶」"
+    },
+    {
+      "modId": "2198830432",
+      "defName": "Rugeiyu_Pilum_Thrown",
+      "label": "魔枪「勒盖耶」"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "Bullet_Gun_AssaultRifle_SK",
+      "label": "炽热之枪"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "Bullet_IncendiaryLauncher_SK",
+      "label": "熔岩发射器"
     },
     {
       "modId": "2233666290",
@@ -17,9 +467,349 @@
       "label": "炽热之枪"
     },
     {
+      "modId": "2233666290",
+      "defName": "Gun_IncendiaryLauncher_SK",
+      "label": "熔岩发射器"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_a",
+      "label": "装饰用角（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_b",
+      "label": "发箍（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_c",
+      "label": "围巾（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_d",
+      "label": "军用披肩（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_e",
+      "label": "羊毛绒披肩（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_f",
+      "label": "黑钢头盔"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AH_g",
+      "label": "妖狐的发簪"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AO_a",
+      "label": "内衣A（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AS_a",
+      "label": "摩登外套（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AS_b",
+      "label": "工装外套（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AS_c",
+      "label": "羽绒服（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AT_a",
+      "label": "村民装束（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AT_b",
+      "label": "工作装束（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AT_c",
+      "label": "居家服（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AT_d",
+      "label": "小镇女性装束（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_AT_e",
+      "label": "侍者装束（亚人兽娘）"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_A_a",
+      "label": "黑钢装甲"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_A_b",
+      "label": "妖狐的衣物"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_a",
+      "label": "亚人工业白金券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_b",
+      "label": "亚人工业黑色券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_c",
+      "label": "宠物券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_d",
+      "label": "飞蛾姬券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_e",
+      "label": "幽灵姬券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Archotech_f",
+      "label": "小人族券"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Art_a",
+      "label": "观赏用卡车"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Item_Extra_a",
+      "label": "亚人工业猫咪印章"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Lamp",
+      "label": "面板灯"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_a",
+      "label": "亚人便当"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_b",
+      "label": "兽娘套餐"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_c",
+      "label": "兽娘能量饮料"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_d",
+      "label": "兽娘袋装肉"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_e",
+      "label": "兽娘拉面"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Meal_f",
+      "label": "兽娘罐头"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Mechanoid_race_a",
+      "label": "亚工造机械生命体·收割者"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Mechanoid_race_b",
+      "label": "亚工造机械生命体·掠夺者"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Mechanoid_race_c",
+      "label": "亚工造机械生命体·暗影"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Mechanoid_race_e",
+      "label": "亚工造机械生命体·铁血战兵"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Medicine_a",
+      "label": "亚人医疗包"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_NPC_Z_Item_a",
+      "label": "镇魂反物质场"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Wall_Fence",
+      "label": "现代化围栏"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Weapon_a",
+      "label": "丰收大镰刀"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_Weapon_b",
+      "label": "勤勉者扫帚"
+    },
+    {
+      "modId": "2233666290",
+      "defName": "HAR_SK_race_Cat",
+      "label": "柔顺的猫"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "Aya_Race_Ap_NC_C_T_a",
+      "label": "儿童暗夜装"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Armor_a",
+      "label": "血月装甲（耐久型）"
+    },
+    {
       "modId": "2394460334",
       "defName": "HAR_NC_Armor_b",
       "label": "血月装甲（突袭型）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Armor_c",
+      "label": "血月装甲（标准型）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Armor_z",
+      "label": "异端装甲"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_a",
+      "label": "皇冠头饰（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_b",
+      "label": "血月头盔"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_c",
+      "label": "发箍（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_d",
+      "label": "缎带（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_e",
+      "label": "黑棠花头饰（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Heads_z",
+      "label": "异端头盔"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Item_a",
+      "label": "血色蜂蜜酒"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Material_a",
+      "label": "令人厌恶的肉块"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Shell_a",
+      "label": "披风（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Shell_b",
+      "label": "外套（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Shell_c",
+      "label": "防尘斗篷（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Spawn_a",
+      "label": "样本：XSE023"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Tops_a",
+      "label": "暗夜装A（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Tops_b",
+      "label": "暗夜装B（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Tops_c",
+      "label": "暗夜装C（牧菌妖姬）"
+    },
+    {
+      "modId": "2394460334",
+      "defName": "HAR_NC_Tops_z",
+      "label": "异端礼装"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_Apparel_Head_a",
+      "label": "影之缎带"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_Apparel_Head_b",
+      "label": "影之风帽"
     },
     {
       "modId": "2946679071",
@@ -33,13 +823,113 @@
     },
     {
       "modId": "2946679071",
+      "defName": "HAR_CO_Apparel_Tops_a",
+      "label": "斯基亚礼装 A"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_Apparel_Tops_b",
+      "label": "斯基亚礼装 B"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_Apparel_Tops_c",
+      "label": "斯基亚礼装 C"
+    },
+    {
+      "modId": "2946679071",
       "defName": "HAR_CO_Apparel_Tops_z",
       "label": "米什帕提姆礼装"
     },
     {
       "modId": "2946679071",
+      "defName": "HAR_CO_NPC_Race_a",
+      "label": "埃维德拉万"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Archotech_a",
+      "label": "异象之书"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Archotech_b",
+      "label": "盟约灵晶"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Bullet_a",
+      "label": "天之剑"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Bullet_b",
+      "label": "灾厄彗星"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Bullet_c",
+      "label": "灾厄彗星"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_UB_Item_a",
+      "label": "原形超物质"
+    },
+    {
+      "modId": "2946679071",
       "defName": "HAR_CO_Weapon_UB",
       "label": "无限之光"
+    },
+    {
+      "modId": "2946679071",
+      "defName": "HAR_CO_Weapon_a",
+      "label": "幽冥的祭礼刀"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "BMOT_Building_Incubator",
+      "label": "神之形"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Armor_a",
+      "label": "埃利昂护甲"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Head_a",
+      "label": "伊沙芭头冠"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Head_b",
+      "label": "伊沙芭头饰"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Head_c",
+      "label": "伊沙芭宝石"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Head_d",
+      "label": "埃利昂头盔"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Head_e",
+      "label": "伊沙芭面纱"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Shell_a",
+      "label": "伊沙芭夹克 A"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Shell_b",
+      "label": "伊沙芭夹克 B"
     },
     {
       "modId": "3153539856",
@@ -48,8 +938,1593 @@
     },
     {
       "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Shell_d",
+      "label": "伊沙芭长袍"
+    },
+    {
+      "modId": "3153539856",
       "defName": "HAR_EL_Apparel_Tops_a",
       "label": "伊沙芭连衣裙 A"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Tops_b",
+      "label": "伊沙芭连衣裙 B"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Tops_c",
+      "label": "伊沙芭连衣裙 C"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Tops_d",
+      "label": "伊沙芭连衣裙 D"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_Tops_e",
+      "label": "伊沙芭连衣裙 E"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Apparel_onskin_a",
+      "label": "伊沙芭长袜"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_a",
+      "label": "光之奴·夜魔"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_b",
+      "label": "光之奴·人鱼"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_c",
+      "label": "光之奴·幽鬼"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_d",
+      "label": "光之奴·细菌"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_e",
+      "label": "光之奴·龙人"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_f",
+      "label": "光之奴·宇宙"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_g",
+      "label": "光之奴·王族"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_h",
+      "label": "光之奴·混沌"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_EyeCover_i",
+      "label": "光之奴·兽人"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Item_a",
+      "label": "肖像种：重设计数据 A"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Item_b",
+      "label": "肖像种：重设计数据 B"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Item_c",
+      "label": "肖像种：重设计数据 C"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Item_d",
+      "label": "肖像种：重设计数据 D"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Item_e",
+      "label": "肖像种：重设计数据 E"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Material_a",
+      "label": "伊娃莉特血晶矿"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_a",
+      "label": "美亚"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_b",
+      "label": "露卡"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_c",
+      "label": "琪拉"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_d",
+      "label": "索尔"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_e",
+      "label": "悠"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Monster_f",
+      "label": "露娜"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Spawn_a",
+      "label": "伊娃莉特封装胶囊"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Spawn_b",
+      "label": "封有■■■■■的休眠仓"
+    },
+    {
+      "modId": "3153539856",
+      "defName": "HAR_EL_Weapon_a",
+      "label": "绝罚之恨"
+    },
+    {
+      "modId": "3505571618",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "3505571618",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "3505571618",
+      "defName": "HTBench_HAR",
+      "label": "异种族缝纫台"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_AH_a",
+      "label": "艾提翁头盔 A"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_AH_b",
+      "label": "艾提翁头盔 B"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Armor_a",
+      "label": "艾提翁护甲"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Armor_b",
+      "label": "奥尔芬礼装"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Filth_FireFoam_a",
+      "label": "绯红权能"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Filth_FireFoam_b",
+      "label": "苍蓝权能"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_ArcheCartridge",
+      "label": "本源药盒"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_a",
+      "label": "法则数据胞"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_b",
+      "label": "工艺遗物"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_c",
+      "label": "伊迪安传感器"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_d",
+      "label": "创世反应堆"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Charmides_a",
+      "label": "伊迪安·卡尔米德 A型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Charmides_b",
+      "label": "伊迪安·卡尔米德 B型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Critias",
+      "label": "伊迪安·克里提亚斯（焚书模型）"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Laches_a",
+      "label": "伊迪安·拉刻斯"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Menexenus_a",
+      "label": "伊迪安·梅涅克赛努 A型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Menexenus_b",
+      "label": "伊迪安·梅涅克赛努 B型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Theaetetus_a",
+      "label": "伊迪安·泰阿泰德 A型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Item_spawn_Theaetetus_b",
+      "label": "伊迪安·泰阿泰德 B型"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_M_Race_a",
+      "label": "自然拟态"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_Things_Mysterion",
+      "label": "秘仪机"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_tops_a",
+      "label": "梅卡涅礼装 A"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_tops_b",
+      "label": "梅卡涅礼装 B"
+    },
+    {
+      "modId": "2871413100",
+      "defName": "HAR_IA_tops_c",
+      "label": "梅卡涅礼装 C"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AO_a",
+      "label": "内衣A款（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AS_a",
+      "label": "幽鬼斗篷（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_a",
+      "label": "幽鬼衬衫（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_b",
+      "label": "牧菌妖姬装束（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_c",
+      "label": "幽鬼礼服（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_d",
+      "label": "幽鬼护士服（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_e",
+      "label": "幽鬼奴隶服（幽灵姬）"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_AT_z",
+      "label": "以太礼装"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_Archotech_a",
+      "label": "天穹之钥"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_Bullet_a",
+      "label": "虚空贯刃"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_Bullet_b",
+      "label": "灾厄爆枪"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_Item_a",
+      "label": "辉耀之石"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_NPC_Race_a",
+      "label": "拉哈特·谢拉哈"
+    },
+    {
+      "modId": "2227425882",
+      "defName": "HAR_IH_NPC_Race_b",
+      "label": "巨型魔像"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_A_a",
+      "label": "禁断之铠"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_a",
+      "label": "混沌圣杯"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_b",
+      "label": "绝望之笛"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_c",
+      "label": "疯狂之钟"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_d",
+      "label": "荣光花冠"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_e",
+      "label": "潘多拉魔匣"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Archotech_f",
+      "label": "思想十字"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_EX_Bullet_b",
+      "label": "灰暗之血"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_EX_Bullet_c",
+      "label": "银色之羽"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_EX_Bullet_d",
+      "label": "神子的哭泣"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Filth_FireFoam_a",
+      "label": "忏悔"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_H_a",
+      "label": "小小发箍"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_H_b",
+      "label": "小小缎带"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_H_c",
+      "label": "小小皇冠"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_H_e",
+      "label": "小小围巾"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_H_f",
+      "label": "禁断头盔"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Hive_Critias",
+      "label": "伪神族蜂巢·克里蒂亚斯"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Hive_Elysium",
+      "label": "伪神族·边缘乐土"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_Item_a",
+      "label": "灵液之石"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_M_LC",
+      "label": "使徒"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_M_a",
+      "label": "空天之海"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_M_z",
+      "label": "伪神族·琉刻"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_O_a",
+      "label": "内衣A（伪神族）"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_S_a",
+      "label": "小小外套"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_S_b",
+      "label": "小小斗篷"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_S_c",
+      "label": "小小披风"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_S_e",
+      "label": "小小长袍"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_T_a",
+      "label": "小小汗衫"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_T_b",
+      "label": "小小衬衫"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_T_c",
+      "label": "小小披巾"
+    },
+    {
+      "modId": "2569091688",
+      "defName": "HAR_LL_T_e",
+      "label": "小小夹克"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_A_a",
+      "label": "终焉之铠"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_H_a",
+      "label": "终焉之盔"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_H_b",
+      "label": "言语眼罩"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_H_c",
+      "label": "言语对讲机"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_NPC_a",
+      "label": "宝冠天使（夜魔）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_NPC_b",
+      "label": "宝冠天使（人鱼）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_NPC_c",
+      "label": "宝冠天使（亚人）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_NPC_d",
+      "label": "宝冠天使（异形）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_NPC_e",
+      "label": "宝冠天使（龙人）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_a",
+      "label": "宝冠天使（夜魔）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_b",
+      "label": "宝冠天使（人鱼）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_c",
+      "label": "宝冠天使（亚人）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_d",
+      "label": "宝冠天使（异形）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_M_Race_e",
+      "label": "宝冠天使（龙人）"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_O_a",
+      "label": "言语礼装 A"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_O_b",
+      "label": "言语礼装 B"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_O_c",
+      "label": "言语礼装 C"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_Projectile_a",
+      "label": "大地之剑"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_S_a",
+      "label": "言语大衣"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_S_b",
+      "label": "言语披风"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_T_a",
+      "label": "言语外套"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_Weapon_a",
+      "label": "大地之剑"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_Weapon_a_Grenade",
+      "label": "大地之剑"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_Weapon_b",
+      "label": "统御之枪"
+    },
+    {
+      "modId": "2763078885",
+      "defName": "HAR_QL_Weapon_b_Bullet",
+      "label": "统御之枪"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Archotech_a",
+      "label": "渡星的心脏"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Bullet_TurretSniper",
+      "label": "审判"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Bullet_TurretSniper_b",
+      "label": "圣约"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Bullet_a",
+      "label": "雏鸟凝望"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Bullet_b",
+      "label": "雏鸟泣血"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Drop_a",
+      "label": "女王种的部件"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Drop_b",
+      "label": "女王种的部件"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Drop_c",
+      "label": "女王种的部件"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Gun_TurretSniper",
+      "label": "审判"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Gun_TurretSniper_b",
+      "label": "圣约"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Requeen",
+      "label": "女王种"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Requeen_Egg",
+      "label": "兵力补充单元"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Requeen_Gone_Error",
+      "label": "远渡星海之鸟"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Requeen_Z",
+      "label": "雏鸟"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Requeen_b",
+      "label": "女王种（要塞）"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Hive_Viceroy_Unit",
+      "label": "运输单元"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Monster_race_Summon_y",
+      "label": "破损的眷属"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Remnant",
+      "label": "女王种的残骸"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Turret_Sniper",
+      "label": "审判"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "BOSS_RQ_Turret_Sniper_b",
+      "label": "圣约"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "HAR_RQ_Item_a",
+      "label": "粒子泡提取核心"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_Bullet_a",
+      "label": "穿刺者"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_Bullet_b",
+      "label": "亡命徒"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_Bullet_c",
+      "label": "屠杀者"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_Bullet_e",
+      "label": "暴风雪"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_Bullet_f",
+      "label": "毁灭者"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_a",
+      "label": "穿刺者"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_b",
+      "label": "亡命徒"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_c",
+      "label": "屠杀者"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_e",
+      "label": "暴风雪"
+    },
+    {
+      "modId": "2504657401",
+      "defName": "Weapon_Requeen_f",
+      "label": "毁灭者"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Bed",
+      "label": "飞蛾丝绸床"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Cushion",
+      "label": "飞蛾丝绸坐垫"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_DoubleBed",
+      "label": "飞蛾丝绸双人床"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Heads_a",
+      "label": "飞蛾发带"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Heads_b",
+      "label": "飞蛾眼罩"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Heads_c",
+      "label": "飞蛾面罩"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Medicine_a",
+      "label": "飞蛾恢复凝胶"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_O_a",
+      "label": "内衣A款（飞蛾姬）"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Shell_a",
+      "label": "飞蛾斗篷"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Shell_b",
+      "label": "飞蛾披肩"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Shell_c",
+      "label": "飞蛾外套"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Tops_a",
+      "label": "飞蛾姬礼装 A"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Tops_b",
+      "label": "飞蛾姬礼装 B"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Tops_c",
+      "label": "飞蛾姬礼装 C"
+    },
+    {
+      "modId": "2676302514",
+      "defName": "HAR_SL_Wool",
+      "label": "单纤维长丝"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Archotech_a",
+      "label": "反物质收容装置"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Armor_a",
+      "label": "龙之盔甲"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Heads_a",
+      "label": "龙之发箍"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Heads_b",
+      "label": "龙之头饰"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Heads_c",
+      "label": "龙之面罩"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Heads_d",
+      "label": "龙之头盔"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Shell_a",
+      "label": "龙之披风"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Shell_b",
+      "label": "龙之外套"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Shell_c",
+      "label": "龙之护盾"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Tops_a",
+      "label": "龙之内衣A"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Tops_b",
+      "label": "龙之内衣B"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Tops_c",
+      "label": "龙之内衣C"
+    },
+    {
+      "modId": "2608237489",
+      "defName": "HAR_SA_Tops_d",
+      "label": "谢梅斯连衣裙"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Aya_Race_Ap_XO_C_T_a",
+      "label": "儿童异度礼装"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Gun_AssaultRifle_XO",
+      "label": "OC 式突击步枪"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Gun_ChargeRifle_XO",
+      "label": "OC 式冲锋枪"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Gun_PumpShotgun_XO",
+      "label": "OC 式霰弹枪"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Gun_SniperRifle_XO",
+      "label": "OC 式狙击步枪"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_a",
+      "label": "皇冠头饰（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_b",
+      "label": "发箍（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_c",
+      "label": "女仆发箍（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_d",
+      "label": "花环（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_e",
+      "label": "缎带（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_f",
+      "label": "奥尔基努斯头盔"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_g",
+      "label": "虎鲸头盔"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AH_h",
+      "label": "帝国之盔"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AM_a",
+      "label": "奥尔基努斯装甲"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AM_b",
+      "label": "虎鲸甲"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AM_c",
+      "label": "帝国之铠"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AS_a",
+      "label": "大衣（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AS_b",
+      "label": "防尘大衣（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AS_c",
+      "label": "弹药带（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_a",
+      "label": "异度礼装 A（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_b",
+      "label": "异度礼装 B（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_c",
+      "label": "异度礼装 C（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_d",
+      "label": "女仆装（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_e",
+      "label": "巫女服（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_f",
+      "label": "旗袍（人鱼姬）"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_AT_x",
+      "label": "深渊之翼"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "HAR_XO_Weapon_a",
+      "label": "深渊之噬"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "MeleeWeapon_Trident_XO",
+      "label": "虎鲸三叉戟"
+    },
+    {
+      "modId": "2216916011",
+      "defName": "Weapon_GrenadeFrag_XO",
+      "label": "OC 式手榴弹"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Artifact_a",
+      "label": "生命圣餐药"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Artifact_b",
+      "label": "淬体圣餐药"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Artifact_c",
+      "label": "通心圣餐药"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Artifact_x",
+      "label": "威能圣餐药"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Book_a",
+      "label": "迦南创世记"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Bullet_Phobia_a",
+      "label": "墓地恐惧"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Bullet_a",
+      "label": "慈悲一击"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Material_a",
+      "label": "生物灵油"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Material_b",
+      "label": "植物灵油"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Material_c",
+      "label": "矿物灵油"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_a",
+      "label": "始原之淀：混沌跃迁"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_b",
+      "label": "始原之淀：反物质新星"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_c",
+      "label": "始原之淀：烈焰爆炎"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_d",
+      "label": "始原之淀：脑部骇入"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_e",
+      "label": "始原之淀：残酷之刃"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_f",
+      "label": "始原之淀：墓地恐惧"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_g",
+      "label": "始原之淀：相位薄膜"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_h",
+      "label": "始原之淀：慈悲一击"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_i",
+      "label": "始原之淀：再见了，痛苦！"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Skill_Gain_j",
+      "label": "始原之淀：君主恩典"
+    },
+    {
+      "modId": "3750626266",
+      "defName": "Aya_CI_Thing_Creator_a",
+      "label": "隐退者的工坊"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "BOSS_EF_Hive_Enforcer",
+      "label": "蜂巢陨星"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "BOSS_EF_Item_a",
+      "label": "耀斑甘油"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "BOSS_EF_Item_b",
+      "label": "星陨铁"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "Weapon_Enforcer_Bullet_a",
+      "label": "耀斑飞弹"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "Weapon_Enforcer_Bullet_z",
+      "label": "彗星脉冲"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "Weapon_Enforcer_a",
+      "label": "耀斑飞弹"
+    },
+    {
+      "modId": "2729712799",
+      "defName": "Weapon_Enforcer_z",
+      "label": "彗星脉冲"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_a",
+      "label": "极恶帽子(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_b",
+      "label": "极恶面具(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_c",
+      "label": "极恶围巾(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_d",
+      "label": "极恶耳机(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_e",
+      "label": "极恶装备(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_H_z",
+      "label": "腐灭头盔(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_O_a",
+      "label": "极恶内衣A(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_O_b",
+      "label": "极恶内衣B(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_O_c",
+      "label": "极恶内衣C(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_S_a",
+      "label": "极恶外套A(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_S_b",
+      "label": "极恶外套B(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_S_c",
+      "label": "极恶外套C(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_S_d",
+      "label": "极恶外套D(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_S_e",
+      "label": "极恶外套E(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_Armor_a",
+      "label": "腐灭盔甲(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_Suit_a",
+      "label": "极恶西装(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_a",
+      "label": "极恶装束A(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_b",
+      "label": "极恶装束B(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_c",
+      "label": "极恶装束C(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_d",
+      "label": "极恶装束D(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Apparel_T_e",
+      "label": "极恶装束E(奥特姆)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Bullet_AssaultRifle_a",
+      "label": "推罗火枪(子弹)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Bullet_AssaultRifle_b",
+      "label": "推罗火炮(子弹)"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Drag_a",
+      "label": "天使隐剂"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Gas_ToxicCustom",
+      "label": "朱红之毒"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Material_a",
+      "label": "神赐辉金"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Monster_Race_a",
+      "label": "美伯拉"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Proj_GrenadeFrag",
+      "label": "朱红爆弹"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Thing_Container_a",
+      "label": "货物货柜"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Thing_Idea_a",
+      "label": "圣像"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Thing_Shuttle_a",
+      "label": "破损的大型穿梭艇"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Thing_XSE_a",
+      "label": "伽蓝洞之骸"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_GrenadeFrag",
+      "label": "朱红爆弹"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_Gun_a",
+      "label": "推罗火枪"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_Gun_b",
+      "label": "推罗火炮"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_Idea",
+      "label": "噬魂邪枪"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_a",
+      "label": "幻影短剑"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_b",
+      "label": "幻影战斧"
+    },
+    {
+      "modId": "3675887482",
+      "defName": "HAR_OT_Weapon_c",
+      "label": "幻影战镰"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "Aya_Race_Ap_C_T_a",
+      "label": "儿童衬衫"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "Aya_Race_Ap_C_T_b",
+      "label": "儿童罩衫"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_BMOT_Building_Incubator",
+      "label": "地之佛拉斯"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Bullet_a",
+      "label": "冰冷之炎"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Food_a",
+      "label": "员工餐的松饼"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Food_b",
+      "label": "地狱浓汤"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Heads_a",
+      "label": "看守者帽子"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Heads_b",
+      "label": "看守者围巾"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Heads_c",
+      "label": "看守者箍冠"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Heads_d",
+      "label": "地狱头盔"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Heads_e",
+      "label": "混沌面具"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Item_a",
+      "label": "碎裂的苍阳果"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Item_b",
+      "label": "残缺的苍阳果"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Item_c",
+      "label": "完整的苍阳果"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Onskin_a",
+      "label": "看守者内衣"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_a",
+      "label": "看守者斗篷A"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_b",
+      "label": "看守者斗篷B"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_c",
+      "label": "看守者斗篷C"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_d",
+      "label": "看守者外套"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_e",
+      "label": "地狱斗篷"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Shell_f",
+      "label": "混沌斗篷"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Tops_a",
+      "label": "看守者连衣裙A"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Tops_b",
+      "label": "看守者连衣裙B"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Tops_c",
+      "label": "看守者连衣裙C"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Tops_d",
+      "label": "地狱盔甲"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Tops_e",
+      "label": "混沌连衣裙"
+    },
+    {
+      "modId": "3477749439",
+      "defName": "HAR_ZC_Weapon_a",
+      "label": "阿拉斯托耳"
     }
   ]
 }

@@ -10,9 +10,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 77,
-    "operationsBefore": 77,
-    "operationsAfter": 77,
+    "runtimeTargets": 165,
+    "operationsBefore": 165,
+    "operationsAfter": 165,
     "coveragePreserved": true
   },
   {
@@ -23,9 +23,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 16,
-    "operationsBefore": 16,
-    "operationsAfter": 16,
+    "runtimeTargets": 45,
+    "operationsBefore": 45,
+    "operationsAfter": 45,
     "coveragePreserved": true
   },
   {
@@ -35,9 +35,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 21,
-    "operationsBefore": 21,
-    "operationsAfter": 21,
+    "runtimeTargets": 37,
+    "operationsBefore": 37,
+    "operationsAfter": 37,
     "coveragePreserved": true
   },
   {
@@ -51,9 +51,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 44,
-    "operationsBefore": 44,
-    "operationsAfter": 44,
+    "runtimeTargets": 90,
+    "operationsBefore": 90,
+    "operationsAfter": 90,
     "coveragePreserved": true
   },
   {
@@ -65,9 +65,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 45,
-    "operationsBefore": 45,
-    "operationsAfter": 45,
+    "runtimeTargets": 65,
+    "operationsBefore": 65,
+    "operationsAfter": 65,
     "coveragePreserved": true
   },
   {
@@ -79,9 +79,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 32,
-    "operationsBefore": 32,
-    "operationsAfter": 32,
+    "runtimeTargets": 63,
+    "operationsBefore": 63,
+    "operationsAfter": 63,
     "coveragePreserved": true
   },
   {
@@ -93,9 +93,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 33,
-    "operationsBefore": 33,
-    "operationsAfter": 33,
+    "runtimeTargets": 66,
+    "operationsBefore": 66,
+    "operationsAfter": 66,
     "coveragePreserved": true
   },
   {
@@ -106,9 +106,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 18,
-    "operationsBefore": 18,
-    "operationsAfter": 18,
+    "runtimeTargets": 31,
+    "operationsBefore": 31,
+    "operationsAfter": 31,
     "coveragePreserved": true
   },
   {
@@ -119,9 +119,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 3,
-    "operationsBefore": 3,
-    "operationsAfter": 3,
+    "runtimeTargets": 20,
+    "operationsBefore": 20,
+    "operationsAfter": 20,
     "coveragePreserved": true
   },
   {
@@ -143,9 +143,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 10,
-    "operationsBefore": 10,
-    "operationsAfter": 10,
+    "runtimeTargets": 17,
+    "operationsBefore": 17,
+    "operationsAfter": 17,
     "coveragePreserved": true
   },
   {
@@ -156,9 +156,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 19,
-    "operationsBefore": 19,
-    "operationsAfter": 19,
+    "runtimeTargets": 46,
+    "operationsBefore": 46,
+    "operationsAfter": 46,
     "coveragePreserved": true
   },
   {
@@ -171,9 +171,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 75,
-    "operationsBefore": 75,
-    "operationsAfter": 75,
+    "runtimeTargets": 99,
+    "operationsBefore": 99,
+    "operationsAfter": 99,
     "coveragePreserved": true
   },
   {
@@ -185,9 +185,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 37,
-    "operationsBefore": 37,
-    "operationsAfter": 37,
+    "runtimeTargets": 52,
+    "operationsBefore": 52,
+    "operationsAfter": 52,
     "coveragePreserved": true
   },
   {
@@ -209,9 +209,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 23,
-    "operationsBefore": 23,
-    "operationsAfter": 23,
+    "runtimeTargets": 62,
+    "operationsBefore": 62,
+    "operationsAfter": 62,
     "coveragePreserved": true
   },
   {
@@ -224,9 +224,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 27,
-    "operationsBefore": 27,
-    "operationsAfter": 27,
+    "runtimeTargets": 54,
+    "operationsBefore": 54,
+    "operationsAfter": 54,
     "coveragePreserved": true
   },
   {
@@ -244,9 +244,9 @@
     "package": "3505571618 - Aya Premise Core Chinese",
     "supplementalFilesSynced": [],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 0,
-    "operationsBefore": 0,
-    "operationsAfter": 0,
+    "runtimeTargets": 3,
+    "operationsBefore": 3,
+    "operationsAfter": 3,
     "coveragePreserved": true
   },
   {
@@ -257,9 +257,9 @@
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 27,
-    "operationsBefore": 27,
-    "operationsAfter": 27,
+    "runtimeTargets": 66,
+    "operationsBefore": 66,
+    "operationsAfter": 66,
     "coveragePreserved": true
   },
   {
@@ -269,9 +269,9 @@
       "Aya_ResearchTab_Tooltip_Enhancement.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 35,
-    "operationsBefore": 35,
-    "operationsAfter": 35,
+    "runtimeTargets": 56,
+    "operationsBefore": 56,
+    "operationsAfter": 56,
     "coveragePreserved": true
   }
 ]
