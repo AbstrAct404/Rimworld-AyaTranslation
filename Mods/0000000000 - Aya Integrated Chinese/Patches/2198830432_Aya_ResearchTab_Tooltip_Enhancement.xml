@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="HAR_NM_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="HAR_NM_ResearchTab"]</xpath><value><generalTitle>魅魔研究项目</generalTitle><generalDescription>研究魅魔的幻觉兵器，解锁并强化相应武器制造技术。</generalDescription></value></match></Operation></Patch>
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ResearchTabDef[defName="HAR_NM_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchTabDef[defName="HAR_NM_ResearchTab"]</xpath>
+      <value>
+        <generalTitle>魅魔研究项目</generalTitle>
+        <generalDescription>研究魅魔的幻觉兵器，解锁并强化相应武器制造技术。</generalDescription>
+      </value>
+    </match>
+  </Operation>
+</Patch>

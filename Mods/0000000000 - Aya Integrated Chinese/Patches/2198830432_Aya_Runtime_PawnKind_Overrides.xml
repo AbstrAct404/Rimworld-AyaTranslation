@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Patch>
-  <!-- 某些角色信息界面会在语言注入完成前缓存 PawnKind 标签。 -->
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
     <xpath>Defs/PawnKindDef[defName="HAR_Nearmaere_Player"]/label</xpath>

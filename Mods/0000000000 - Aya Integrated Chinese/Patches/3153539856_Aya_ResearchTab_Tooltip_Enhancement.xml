@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="HAR_EL_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="HAR_EL_ResearchTab"]</xpath><value><generalTitle>伊娃莉特研究项目</generalTitle><generalDescription>研究伊娃莉特的传承与影像数据，解锁相关装备、神器及数据复原技术。</generalDescription></value></match></Operation></Patch>
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ResearchTabDef[defName="HAR_EL_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchTabDef[defName="HAR_EL_ResearchTab"]</xpath>
+      <value>
+        <generalTitle>伊娃莉特研究项目</generalTitle>
+        <generalDescription>研究伊娃莉特的传承与影像数据，解锁相关装备、神器及数据复原技术。</generalDescription>
+      </value>
+    </match>
+  </Operation>
+</Patch>

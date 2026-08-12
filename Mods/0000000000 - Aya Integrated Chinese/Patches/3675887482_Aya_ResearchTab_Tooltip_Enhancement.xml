@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="HAR_OT_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="HAR_OT_ResearchTab"]</xpath><value><generalTitle>奥特姆研究项目</generalTitle><generalDescription>研究奥特姆的混沌技术，解锁相关麻药与武器。</generalDescription></value></match></Operation></Patch>
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ResearchTabDef[defName="HAR_OT_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchTabDef[defName="HAR_OT_ResearchTab"]</xpath>
+      <value>
+        <generalTitle>奥特姆研究项目</generalTitle>
+        <generalDescription>研究奥特姆的混沌技术，解锁相关麻药与武器。</generalDescription>
+      </value>
+    </match>
+  </Operation>
+</Patch>

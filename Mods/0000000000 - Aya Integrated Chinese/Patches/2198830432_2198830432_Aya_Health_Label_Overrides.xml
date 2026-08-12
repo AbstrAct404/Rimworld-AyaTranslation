@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
     <xpath>Defs/HediffDef[defName="HAR_NM_XXX_Hediff"]/label</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/HediffDef[defName="HAR_NM_XXX_Hediff"]/label</xpath>
-      <value><label>救度</label></value>
+      <value>
+        <label>救度</label>
+      </value>
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -13,7 +15,9 @@
     <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_a"]/label</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_a"]/label</xpath>
-      <value><label>液态药材</label></value>
+      <value>
+        <label>液态药材</label>
+      </value>
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -21,7 +25,9 @@
     <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_b"]/label</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_b"]/label</xpath>
-      <value><label>固态药材</label></value>
+      <value>
+        <label>固态药材</label>
+      </value>
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -29,7 +35,9 @@
     <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_c"]/label</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Drag_c"]/label</xpath>
-      <value><label>粉末药材</label></value>
+      <value>
+        <label>粉末药材</label>
+      </value>
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
@@ -37,7 +45,9 @@
     <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Energy_b"]/label</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/HediffDef[defName="HAR_NM_Hediff_Energy_b"]/label</xpath>
-      <value><label>充能副作用</label></value>
+      <value>
+        <label>充能副作用</label>
+      </value>
     </match>
   </Operation>
 </Patch>

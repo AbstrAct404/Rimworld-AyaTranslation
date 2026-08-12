@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="HAR_ZC_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="HAR_ZC_ResearchTab"]</xpath><value><generalTitle>锢魂魔研究项目</generalTitle><generalDescription>研究锢魂魔与混沌灵相关的苍阳果、冥府武器及深渊契约技术。</generalDescription></value></match></Operation></Patch>

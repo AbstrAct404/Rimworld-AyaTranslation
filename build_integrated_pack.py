@@ -167,6 +167,7 @@ def main() -> None:
     # (section, subtype) -> key -> (value, source ID)
     buckets: dict[tuple[str, str], dict[str, tuple[str, str]]] = defaultdict(dict)
     conflicts: list[dict[str, str]] = []
+    integrated_patch_signatures: set[str] = set()
 
     for package in packages:
         assert_unique_package_patch_targets(package)
@@ -220,8 +221,28 @@ def main() -> None:
                     / "Patches"
                     / f"{original_id}_{relative_patch.name}"
                 )
-                destination_patch.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(patch_file, destination_patch)
+                # Different standalone packs can carry the same fallback
+                # operation for a shared DefName.  Keep one byte-equivalent
+                # operation in the integrated pack instead of executing it
+                # repeatedly; differing values are retained for conflict
+                # review rather than silently changing translation priority.
+                try:
+                    patch_root_xml = ET.parse(patch_file).getroot()
+                    kept_operations = []
+                    for operation in list(patch_root_xml):
+                        signature = ET.tostring(operation, encoding="unicode")
+                        if signature in integrated_patch_signatures:
+                            continue
+                        integrated_patch_signatures.add(signature)
+                        kept_operations.append(operation)
+                    if not kept_operations:
+                        continue
+                    patch_root_xml[:] = kept_operations
+                    destination_patch.parent.mkdir(parents=True, exist_ok=True)
+                    build.xml_write(destination_patch, patch_root_xml)
+                except ET.ParseError:
+                    destination_patch.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(patch_file, destination_patch)
         # A small Harmony shim is required only where an original assembly
         # hard-codes UI text that DefInjected/PatchOperation cannot localize.
         # Keep its filename intact: the CLR uses the assembly metadata name,

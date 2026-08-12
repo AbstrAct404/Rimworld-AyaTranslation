@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="Aya_CI_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="Aya_CI_ResearchTab"]</xpath><value><generalTitle>迦南的睿智研究项目</generalTitle><generalDescription>研究迦南的异能理论，解锁相关讲义与能力运用技术。</generalDescription></value></match></Operation></Patch>
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ResearchTabDef[defName="Aya_CI_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchTabDef[defName="Aya_CI_ResearchTab"]</xpath>
+      <value>
+        <generalTitle>迦南的睿智研究项目</generalTitle>
+        <generalDescription>研究迦南的异能理论，解锁相关讲义与能力运用技术。</generalDescription>
+      </value>
+    </match>
+  </Operation>
+</Patch>

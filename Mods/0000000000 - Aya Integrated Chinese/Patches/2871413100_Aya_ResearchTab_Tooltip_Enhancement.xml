@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Patch><Operation Class="PatchOperationConditional"><success>Always</success><xpath>Defs/ResearchTabDef[defName="HAR_IA_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath><match Class="PatchOperationAdd"><xpath>Defs/ResearchTabDef[defName="HAR_IA_ResearchTab"]</xpath><value><generalTitle>伊迪安研究项目</generalTitle><generalDescription>研究伊迪安的隐匿技术与各项计划，逐步探索彼岸及其相关成果。</generalDescription></value></match></Operation></Patch>
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ResearchTabDef[defName="HAR_IA_ResearchTab" and not(generalTitle) and not(generalDescription)]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ResearchTabDef[defName="HAR_IA_ResearchTab"]</xpath>
+      <value>
+        <generalTitle>伊迪安研究项目</generalTitle>
+        <generalDescription>研究伊迪安的隐匿技术与各项计划，逐步探索彼岸及其相关成果。</generalDescription>
+      </value>
+    </match>
+  </Operation>
+</Patch>

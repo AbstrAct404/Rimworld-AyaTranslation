@@ -2,26 +2,6 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_a"]/label</xpath>
-      <value>
-        <label>儿童衬衫</label>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="Aya_Race_Ap_C_T_b"]/label</xpath>
-      <value>
-        <label>儿童罩衫</label>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
     <xpath>Defs/ThingDef[defName="HTBench_HAR"]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="HTBench_HAR"]/label</xpath>
