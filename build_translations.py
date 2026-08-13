@@ -692,7 +692,7 @@ def write_steam_vdfs(destination: Path, vdf_dir: Path) -> None:
             f'\t"previewfile"\t\t"{vdf_quote(vdf_path(package / "About" / "Preview.png"))}"',
             f'\t"title"\t\t"{vdf_quote(title)}"',
             f'\t"description"\t\t"{vdf_quote(description)}"',
-            '\t"changenote"\t\t"恢复被误删的种族心境译文；补齐近战攻击名、背景故事短标题、身体附加件、购物终端按钮、研究信件等未翻译文本（含运行时补丁）。无加载顺序变化。"',
+            '\t"changenote"\t\t"合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。"',
             '}', '',
         ])
         (vdf_dir / f"{mod_id}-{PUBLISHED_FILE_IDS[mod_id]}.vdf").write_text(content, encoding="utf-8")
@@ -709,7 +709,7 @@ def write_steam_vdfs(destination: Path, vdf_dir: Path) -> None:
             f'\t"previewfile"\t\t"{vdf_quote(vdf_path(package / "About" / "Preview.png"))}"',
             f'\t"title"\t\t"{vdf_quote(title)}"',
             f'\t"description"\t\t"{vdf_quote(description)}"',
-            '\t"changenote"\t\t"恢复被误删的种族心境译文；补齐近战攻击名、背景故事短标题、身体附加件、购物终端按钮、研究信件等未翻译文本（含运行时补丁）。无加载顺序变化。"',
+            '\t"changenote"\t\t"合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。"',
             '}', '',
         ])
         (vdf_dir / f"{mod_id}-{PUBLISHED_FILE_IDS[mod_id]}-schinese.vdf").write_text(

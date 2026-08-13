@@ -408,6 +408,7 @@ def main() -> None:
         "RimWorld 1.5/1.6 如需使用上位种，请安装并启用对应的原 EX；汉化包不能代替原 EX。\n\n"
         "[h2]本次更新[/h2]\n"
         "[list]\n"
+        "[*]合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖。\n"
         "[*]恢复被上一版本误删的种族心境译文（101 条）。\n"
         "[*]补齐近战攻击名、背景故事、身体附加件、终端按钮、研究信件等未翻译文本"
         "（350 余条，含 175 条运行时补丁）。\n"
@@ -510,7 +511,7 @@ def main() -> None:
                 f'\t"previewfile"\t\t"{build.vdf_quote(build.vdf_path(steam_output / "About" / "Preview.png"))}"',
                 f'\t"title"\t\t"{build.vdf_quote(title)}"',
                 f'\t"description"\t\t"{build.vdf_quote(workshop_description)}"',
-                f'\t"changenote"\t\t"{build.vdf_quote("恢复被误删的 101 条种族心境译文；补齐近战攻击名、背景故事短标题、身体附加件、购物终端按钮、研究信件等 350 余条未翻译文本（含 175 条运行时补丁）。无加载顺序变化。")}"',
+                f'\t"changenote"\t\t"{build.vdf_quote("合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。")}"',
                 "}", "",
             ])
             (
