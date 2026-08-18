@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Chaoura UB and Outerm both used -459 in the source mods.  Keep the
+       Chaoura UB category adjacent but unique so DefDatabase's ordering check
+       does not report a duplicate priority. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GeneCategoryDef[defName="Aya_Race_GeneCategory_ChaouraUB"]/displayPriorityInXenotype</xpath>
+    <value>
+      <displayPriorityInXenotype>-460</displayPriorityInXenotype>
+    </value>
+  </Operation>
+</Patch>

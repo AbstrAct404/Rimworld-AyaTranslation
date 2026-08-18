@@ -180,14 +180,15 @@
     "modId": "2946679071",
     "package": "2946679071 - Chaoura Race Chinese",
     "supplementalFilesSynced": [
+      "2946679071_Aya_GeneCategory_Priority_Fix.xml",
       "2946679071_Aya_Health_Label_Overrides.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 52,
-    "operationsBefore": 52,
-    "operationsAfter": 52,
+    "runtimeTargets": 53,
+    "operationsBefore": 53,
+    "operationsAfter": 53,
     "coveragePreserved": true
   },
   {
