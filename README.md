@@ -43,3 +43,7 @@
 
 重新构建翻译包后运行 `python3 apply_race_names.py`，可按
 `terminology.json` 的规则同步游戏文本、About 元数据与全部模组 README。
+
+## RimWorld 1.7 兼容性
+
+已为全部 22 个汉化包（含整合包）声明支持 1.6 / 1.7。检查说明见 [COMPATIBILITY-1.7.md](COMPATIBILITY-1.7.md)。本次仅本地元数据更新，不改写 Steam 上手动维护的简介和必需物品。

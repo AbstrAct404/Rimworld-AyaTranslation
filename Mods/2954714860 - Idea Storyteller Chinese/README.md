@@ -1,4 +1,4 @@
-# [Aya] Idea Storyteller_zh 人工种族汉化 v1.6
+# [Aya] Idea Storyteller_zh 人工种族汉化 v1.6/1.7
 
 本 MOD 新增故事讲述者“伊迪亚·C·克洛克斯”。
 
@@ -16,14 +16,14 @@
 适合希望维持较大殖民地、并体验高事件密度与持续作战节奏的玩家。
 
 ——
-兼容版本：RimWorld 1.6
+兼容版本：RimWorld 1.6 / 1.7
 前置：原模组（请置于本汉化之前加载）
 本模组仅含翻译文件，不包含原模组资源。
 
 ---
 - 原模组创意工坊 ID：2954714860
 - 本汉化创意工坊 ID：3769644933
-- 兼容版本：RimWorld 1.6
+- 兼容版本：RimWorld 1.6 / 1.7
 - packageId：`abstract404.aya.2954714860.zh`
 - 前置 packageId：`Ayameduki.IdeaStoryteller`
 - 加载顺序：原模组在前，本汉化在后。

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ModMetaData>
-  <name>[Aya]人工种族简体中文整合汉化包 v1.6</name>
+  <name>[Aya]人工种族简体中文整合汉化包 v1.6/1.7</name>
   <author>AbstrAct404 / Chinese localization</author>
   <packageId>abstract404.aya.integrated.zh</packageId>
   <description>Aya 人工种族系列简体中文整合汉化包。
@@ -17,58 +17,59 @@ Idhale EX、Littluna EX、Nearmare EX、Neclose EX、Silkiera EX、Solark EX、X
 
 【收录内容】
 【核心与叙事】
-01｜[Aya] Aya Premise Core_zh 人工种族汉化 v1.6
+01｜[Aya] Aya Premise Core_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Aya Premise Core
-02｜[Aya] Idea Storyteller_zh 人工种族汉化 v1.6
+02｜[Aya] Idea Storyteller_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Idea Storyteller
-03｜[Aya] Canaan Intellect_zh 人工种族汉化 v1.6
+03｜[Aya] Canaan Intellect_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Canaan Intellect
 
 【人工种族】
-04｜[Aya] Chaoura Race_zh 人工种族汉化 v1.6
+04｜[Aya] Chaoura Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Chaoura Race
-05｜[Aya] Eveliet Race_zh 人工种族汉化 v1.6
+05｜[Aya] Eveliet Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Eveliet Race
-06｜[Aya] Idearn Race_zh 人工种族汉化 v1.6
+06｜[Aya] Idearn Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Idearn Race
-07｜[Aya] Idhale Race_zh 人工种族汉化 v1.6
+07｜[Aya] Idhale Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Idhale Race
-08｜[Aya] Littluna Race_zh 人工种族汉化 v1.6
+08｜[Aya] Littluna Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Littluna Race
-09｜[Aya] Nearmare Race_zh 人工种族汉化 v1.6
+09｜[Aya] Nearmare Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Nearmare Race
-10｜[Aya] Neclose Race_zh 人工种族汉化 v1.6
+10｜[Aya] Neclose Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Neclose Race
-11｜[Aya] Nexaga Race_zh 人工种族汉化 v1.6
+11｜[Aya] Nexaga Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Nexaga Race
-12｜[Aya] Outerm Race_zh 人工种族汉化 v1.6
+12｜[Aya] Outerm Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Outerm Race
-13｜[Aya] Qualeela Race_zh 人工种族汉化 v1.6
+13｜[Aya] Qualeela Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Qualeela Race
-14｜[Aya] Saclean Race_zh 人工种族汉化 v1.6
+14｜[Aya] Saclean Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Saclean Race
-15｜[Aya] Silkiera Race_zh 人工种族汉化 v1.6
+15｜[Aya] Silkiera Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Silkiera Race
-16｜[Aya] Solark Race_zh 人工种族汉化 v1.6
+16｜[Aya] Solark Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Solark Race
-17｜[Aya] Xenoorca Race_zh 人工种族汉化 v1.6
+17｜[Aya] Xenoorca Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Xenoorca Race
-18｜[Aya] Zoichor Race_zh 人工种族汉化 v1.6
+18｜[Aya] Zoichor Race_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Zoichor Race
 
 【高难度与首领】
-19｜[Aya] Requeen Boss_zh 人工种族汉化 v1.6
+19｜[Aya] Requeen Boss_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Requeen Boss
-20｜[Aya] Enforcer Boss_zh 人工种族汉化 v1.6
+20｜[Aya] Enforcer Boss_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Enforcer Boss
-21｜[Aya] Chaoura UB_zh 人工种族汉化 v1.6
+21｜[Aya] Chaoura UB_zh 人工种族汉化 v1.6/1.7
     原模组：[Aya]Chaoura UB
 
 ——
-兼容版本：RimWorld 1.6
+兼容版本：RimWorld 1.6 / 1.7
 本模组仅含翻译文件，不包含任何原模组资源。</description>
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <loadAfter>
     <li>Ayameduki.AyaRacePremise</li>

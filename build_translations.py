@@ -766,7 +766,7 @@ def build_one(mod_id: str, fallback_name: str, destination: Path, translate_goog
             chinese_description = chinese_description.replace(old_text, new_text)
         for old_text, new_text in WORKSHOP_DESCRIPTION_REPLACEMENTS.get(mod_id, {}).items():
             chinese_description = chinese_description.replace(old_text, new_text)
-    out_name = f"[Aya] {fallback_name}_zh 人工种族汉化 v1.6"
+    out_name = f"[Aya] {fallback_name}_zh 人工种族汉化 v1.6/1.7"
     out = destination / f"{mod_id} - {fallback_name} Chinese"
     if out.exists():
         shutil.rmtree(out)
@@ -775,11 +775,12 @@ def build_one(mod_id: str, fallback_name: str, destination: Path, translate_goog
     for tag, value in [
         ("name", out_name), ("author", "AbstrAct404 / Chinese localization"),
         ("packageId", f"abstract404.aya.{mod_id}.zh"),
-        ("description", f"{chinese_description}\n\n——\n兼容版本：RimWorld 1.6\n前置：原模组（请置于本汉化之前加载）\n本模组仅含翻译文件，不包含原模组资源。"),
+        ("description", f"{chinese_description}\n\n——\n兼容版本：RimWorld 1.6 / 1.7\n前置：原模组（请置于本汉化之前加载）\n本模组仅含翻译文件，不包含原模组资源。"),
     ]:
         ET.SubElement(about, tag).text = value
     supported = ET.SubElement(about, "supportedVersions")
     ET.SubElement(supported, "li").text = "1.6"
+    ET.SubElement(supported, "li").text = "1.7"
     add_workshop_dependency(about, original_id, fallback_name, mod_id)
     load_after = ET.SubElement(about, "loadAfter")
     ET.SubElement(load_after, "li").text = original_id

@@ -389,7 +389,7 @@ def main() -> None:
         "【收录内容】\n"
         + plain_directory()
         + "\n\n"
-        "——\n兼容版本：RimWorld 1.6\n"
+        "——\n兼容版本：RimWorld 1.6 / 1.7\n"
         "本模组仅含翻译文件，不包含任何原模组资源。"
     )
     workshop_description = (
@@ -415,10 +415,10 @@ def main() -> None:
         "[/list]\n\n"
         + workshop_directory()
         + "\n\n[h2]兼容信息[/h2]\n"
-        "RimWorld 1.6｜本模组仅含翻译文件，不包含任何原模组资源。"
+        "RimWorld 1.6 / 1.7｜本模组仅含翻译文件，不包含任何原模组资源。"
     )
     for tag, value in [
-        ("name", "[Aya]人工种族简体中文整合汉化包 v1.6"),
+        ("name", "[Aya]人工种族简体中文整合汉化包 v1.6/1.7"),
         ("author", "AbstrAct404 / Chinese localization"),
         ("packageId", PACKAGE_ID),
         ("description", description),
@@ -426,6 +426,7 @@ def main() -> None:
         ET.SubElement(about, tag).text = value
     supported = ET.SubElement(about, "supportedVersions")
     ET.SubElement(supported, "li").text = "1.6"
+    ET.SubElement(supported, "li").text = "1.7"
     load_after_node = ET.SubElement(about, "loadAfter")
     for dependency in load_after:
         ET.SubElement(load_after_node, "li").text = dependency
@@ -443,7 +444,7 @@ def main() -> None:
         shutil.copy2(preview_source, output / "About" / "Preview.png")
 
     readme = "\n".join([
-        "# [Aya]人工种族简体中文整合汉化包 v1.6",
+        "# [Aya]人工种族简体中文整合汉化包 v1.6/1.7",
         "",
         f"> 当前收录 **{len(packages)}** 个原模组，共合并 **{written}** 条游戏文本。",
         "",
@@ -462,7 +463,7 @@ def main() -> None:
         markdown_directory(),
         "",
         "## 兼容信息",
-        "- RimWorld 1.6",
+        "- RimWorld 1.6 / 1.7",
         "- 本模组仅含翻译文件，不包含任何原模组资源。",
         "",
     ])

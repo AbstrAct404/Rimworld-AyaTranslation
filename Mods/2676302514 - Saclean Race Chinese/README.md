@@ -1,4 +1,4 @@
-# [Aya] Saclean Race_zh 人工种族汉化 v1.6
+# [Aya] Saclean Race_zh 人工种族汉化 v1.6/1.7
 
 本 MOD 新增飞蛾姬种族及专属装备。
 
@@ -26,14 +26,14 @@
 ・具体机制可能随原模组更新而调整。
 
 ——
-兼容版本：RimWorld 1.6
+兼容版本：RimWorld 1.6 / 1.7
 前置：原模组（请置于本汉化之前加载）
 本模组仅含翻译文件，不包含原模组资源。
 
 ---
 - 原模组创意工坊 ID：2676302514
 - 本汉化创意工坊 ID：3769650099
-- 兼容版本：RimWorld 1.6
+- 兼容版本：RimWorld 1.6 / 1.7
 - packageId：`abstract404.aya.2676302514.zh`
 - 前置 packageId：`Ayameduki.HARSaclean`
 - 加载顺序：原模组在前，本汉化在后。

@@ -1,4 +1,4 @@
-# [Aya] Chaoura UB_zh 人工种族汉化 v1.6
+# [Aya] Chaoura UB_zh 人工种族汉化 v1.6/1.7
 
 本 MOD 为混沌灵与锢魂魔追加最高难度的终局挑战内容。
 
@@ -17,14 +17,14 @@
 ・与原版体型服装不兼容，无法穿戴。
 
 ——
-兼容版本：RimWorld 1.6
+兼容版本：RimWorld 1.6 / 1.7
 前置：原模组（请置于本汉化之前加载）
 本模组仅含翻译文件，不包含原模组资源。
 
 ---
 - 原模组创意工坊 ID：3489429571
 - 本汉化创意工坊 ID：3770548439
-- 兼容版本：RimWorld 1.6
+- 兼容版本：RimWorld 1.6 / 1.7
 - packageId：`abstract404.aya.3489429571.zh`
 - 前置 packageId：`Ayameduki.HARChaouraUB`
 - 加载顺序：原模组在前，本汉化在后。
