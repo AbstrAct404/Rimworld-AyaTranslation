@@ -56,8 +56,7 @@ Use `scripts/SteamWorkshopLocalizer` instead. It calls:
 5. `SteamUGC.SubmitItemUpdate`
 6. A localized query with `SteamUGC.SetLanguage` for exact read-back validation
 
-The tool reads `publishedfileid`, `title`, and `description` from existing VDF
-manifests. It does not upload the content folder or preview image.
+By default the tool preserves remote metadata and visibility, even when the VDF contains a title/description. Use `--update-metadata` only with explicit authorization to write them. `--upload-content` uploads shared files and an optional preview; omit that flag for metadata-only updates. Content-only manifests may omit title and description.
 
 ## Select the language keyword
 
@@ -66,7 +65,7 @@ Pass the Steamworks C++ API language code, not a locale or Web API code:
 ```powershell
 dotnet .\SteamWorkshopLocalizer.dll `
   --appid 294100 `
-  --language schinese `
+  --language schinese --update-metadata `
   C:\path\item.vdf
 ```
 
@@ -136,3 +135,10 @@ read-back comparison to pass for both title and full description.
 - Legal agreement required: stop and ask the user to accept it in Steam.
 - HTTP 429 from a public Workshop page: rely on Steamworks localized query
   verification and retry the public page later.
+
+## Repository upload defaults (user-confirmed 2026-10-28)
+
+- Read the current changenote from `workshop_release.json`. State only the user-visible fix/addition in one short sentence. Omit counts, implementation methods, operations and trigger analysis; honor exact user-supplied wording.
+- Preserve remote titles, descriptions, required items and visibility by default. Do not overwrite them with local manifests. `--update-metadata` requires explicit user authorization.
+- Upload shared files and submit both `schinese` and `english` updates; query each language before and after, requiring metadata equality when preserving it.
+- Never change private standalone items to public as a side effect of uploading.

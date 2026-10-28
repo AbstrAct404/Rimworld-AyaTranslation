@@ -4,11 +4,15 @@ using Steamworks;
 uint appId = 294100;
 string language = "schinese";
 bool uploadContent = false;
+bool updateMetadata = false;
 var manifests = new List<string>();
 for (int i = 0; i < args.Length; i++)
 {
     switch (args[i])
     {
+        case "--update-metadata":
+            updateMetadata = true;
+            break;
         case "--upload-content":
             uploadContent = true;
             break;
@@ -28,7 +32,7 @@ if (manifests.Count < 1)
 {
     Console.Error.WriteLine(
         "Usage: SteamWorkshopLocalizer [--appid 294100] " +
-        "[--language schinese] <vdf> [<vdf> ...]"
+        "[--language schinese] [--upload-content] [--update-metadata] <vdf> [<vdf> ...]"
     );
     return 2;
 }
@@ -46,6 +50,10 @@ try
     foreach (string manifestPath in manifests)
     {
         var item = ReadManifest(manifestPath);
+        if (updateMetadata && (string.IsNullOrWhiteSpace(item.Title) || string.IsNullOrWhiteSpace(item.Description)))
+            throw new InvalidDataException("--update-metadata requires a nonempty title and description.");
+        if (item.PublishedFileId == 0 && !updateMetadata)
+            throw new InvalidOperationException("Creating an item requires explicit --update-metadata.");
         if (item.PublishedFileId == 0)
         {
             ulong createdId = CreateWorkshopItem(appId);
@@ -53,6 +61,9 @@ try
             item = item with { PublishedFileId = createdId };
             Console.WriteLine($"CREATED {createdId} manifest={manifestPath}");
         }
+        var before = ReadRemoteMetadata(item, language);
+        if (!updateMetadata)
+            item = item with { Title = before.Title, Description = before.Description };
         Console.WriteLine($"START {item.PublishedFileId} {item.Title}");
 
         UGCUpdateHandle_t handle = SteamUGC.StartItemUpdate(
@@ -69,15 +80,12 @@ try
             Require(SteamUGC.SetItemContent(handle, item.ContentFolder), "SetItemContent");
         }
         Require(SteamUGC.SetItemUpdateLanguage(handle, language), "SetItemUpdateLanguage");
-        Require(SteamUGC.SetItemTitle(handle, item.Title), "SetItemTitle");
-        Require(SteamUGC.SetItemDescription(handle, item.Description), "SetItemDescription");
-        Require(
-            SteamUGC.SetItemVisibility(
-                handle,
-                ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic
-            ),
-            "SetItemVisibility"
-        );
+        if (updateMetadata)
+        {
+            Require(SteamUGC.SetItemTitle(handle, item.Title), "SetItemTitle");
+            Require(SteamUGC.SetItemDescription(handle, item.Description), "SetItemDescription");
+        }
+        // Visibility and required items are deliberately never changed here.
         if (uploadContent && !string.IsNullOrWhiteSpace(item.PreviewFile))
         {
             if (!File.Exists(item.PreviewFile))
@@ -124,6 +132,9 @@ try
             );
 
         VerifyLocalizedMetadata(item, language);
+        var after = ReadRemoteMetadata(item, language);
+        if (after.Visibility != before.Visibility)
+            throw new InvalidOperationException("Remote visibility changed unexpectedly.");
         Console.WriteLine($"OK {item.PublishedFileId} language={language} verified=true");
     }
 }
@@ -144,8 +155,8 @@ static WorkshopItem ReadManifest(string path)
 {
     string value = File.ReadAllText(path);
     ulong id = ulong.Parse(Field(value, "publishedfileid"));
-    string title = Unescape(Field(value, "title"));
-    string description = Unescape(Field(value, "description"));
+    string title = Unescape(OptionalField(value, "title") ?? "");
+    string description = Unescape(OptionalField(value, "description") ?? "");
     string? contentFolder = OptionalField(value, "contentfolder");
     if (contentFolder is not null)
         contentFolder = Unescape(contentFolder);
@@ -241,6 +252,13 @@ static string Unescape(string value) =>
 
 static void VerifyLocalizedMetadata(WorkshopItem expected, string language)
 {
+    var actual = ReadRemoteMetadata(expected, language);
+    if (actual.Title != expected.Title || actual.Description != expected.Description)
+        throw new InvalidOperationException($"Metadata mismatch for {expected.PublishedFileId} language={language}.");
+}
+
+static (string Title, string Description, ERemoteStoragePublishedFileVisibility Visibility) ReadRemoteMetadata(WorkshopItem expected, string language)
+{
     var ids = new[] { new PublishedFileId_t(expected.PublishedFileId) };
     UGCQueryHandle_t query = SteamUGC.CreateQueryUGCDetailsRequest(ids, 1);
     Require(SteamUGC.SetLanguage(query, language), "SetLanguage");
@@ -276,15 +294,7 @@ static void VerifyLocalizedMetadata(WorkshopItem expected, string language)
             throw new InvalidOperationException(
                 $"GetQueryUGCResult failed for {expected.PublishedFileId}."
             );
-        if (details.m_rgchTitle != expected.Title ||
-            details.m_rgchDescription != expected.Description)
-        {
-            throw new InvalidOperationException(
-                $"Simplified Chinese metadata mismatch for {expected.PublishedFileId}: " +
-                $"titleMatch={details.m_rgchTitle == expected.Title}, " +
-                $"descriptionMatch={details.m_rgchDescription == expected.Description}."
-            );
-        }
+        return (details.m_rgchTitle, details.m_rgchDescription, details.m_eVisibility);
     }
     finally
     {

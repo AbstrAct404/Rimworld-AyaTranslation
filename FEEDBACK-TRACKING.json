@@ -32,8 +32,9 @@
       "锢魂魔眼睛变白，移除汉化恢复",
       "其他 Aya 种族也出现白眼"
     ],
-    "status": "local_safety_fix_awaiting_in_game_visual_verification",
+    "status": "user_confirmed_and_published",
     "report": "WHITE-EYE-INVESTIGATION.md",
-    "published": false
+    "published": true,
+    "releaseRecord": "WORKSHOP-LATEST-RELEASE.json"
   }
 }

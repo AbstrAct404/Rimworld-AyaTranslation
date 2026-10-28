@@ -393,9 +393,7 @@ def main() -> None:
         "请同时安装并启用对应的原 EX 模组。只有 About/翻译文件的汉化包不能替代原 EX。\n\n"
         f"当前收录 {len(packages)} 个原模组，共合并 {written} 条游戏文本。\n\n"
         "【本次更新】\n"
-        "适配原模组 1.7 共用技能组件，补齐新版技能说明、Outerm 装备/祭坛/状态及设置文本；"
-        "补齐全系列 964 处身体自定义名称、身体部件和 139 处嵌套攻击/操作文本，"
-        "并汉化共用技能代码中的取消准备、条件不足和资源不足提示。保留 1.6 技能兼容分支。\n\n"
+        f"{build.WORKSHOP_CHANGE_NOTE}\n\n"
         "【收录内容】\n"
         + plain_directory()
         + "\n\n"
@@ -418,9 +416,7 @@ def main() -> None:
         "RimWorld 1.5/1.6 如需使用上位种，请安装并启用对应的原 EX；汉化包不能代替原 EX。\n\n"
         "[h2]本次更新[/h2]\n"
         "[list]\n"
-        "[*]适配 1.7 共用技能组件并更新技能范围、消耗和冷却说明，保留 1.6 兼容分支。\n"
-        "[*]补齐 Outerm 装备、祭坛、状态和设置文本；补齐全系列 964 处身体自定义名称及身体部件。\n"
-        "[*]补齐 139 处嵌套攻击/操作文本，汉化技能取消准备、条件不足和资源不足提示。\n"
+        f"[*]{build.WORKSHOP_CHANGE_NOTE}\n"
         "[/list]\n\n"
         + workshop_directory()
         + "\n\n[h2]兼容信息[/h2]\n"
@@ -471,6 +467,9 @@ def main() -> None:
         "- Idhale EX、Littluna EX、Nearmare EX、Neclose EX、Silkiera EX、Solark EX、Xenoorca EX 等原作者 EX 模组是上位种内容的启用开关。",
         "- 上位种的 Def、代码与资源位于对应种族本体中；未安装或未启用 EX 时，相关条件内容不会载入。",
         "- RimWorld 1.5/1.6 如需使用上位种，请安装并启用对应的原 EX；汉化包不能代替原 EX。",
+        "",
+        "## 本次更新",
+        f"- {build.WORKSHOP_CHANGE_NOTE}",
         "",
         "## 收录内容与链接",
         "",
@@ -524,9 +523,7 @@ def main() -> None:
                 f'\t"publishedfileid"\t\t"{PUBLISHED_FILE_ID}"',
                 f'\t"contentfolder"\t\t"{build.vdf_quote(build.vdf_path(steam_output))}"',
                 f'\t"previewfile"\t\t"{build.vdf_quote(build.vdf_path(steam_output / "About" / "Preview.png"))}"',
-                f'\t"title"\t\t"{build.vdf_quote(title)}"',
-                f'\t"description"\t\t"{build.vdf_quote(workshop_description)}"',
-                f'\t"changenote"\t\t"{build.vdf_quote("适配 1.7 共用技能组件并更新技能范围、消耗及冷却说明；补齐 Outerm 装备、祭坛、状态和设置；补齐 964 处身体自定义名称及 139 处嵌套攻击/操作文本；汉化技能取消准备、条件不足和资源不足提示；保留 1.6 兼容分支。")}"',
+                f'\t"changenote"\t\t"{build.vdf_quote(build.WORKSHOP_CHANGE_NOTE)}"',
                 "}", "",
             ])
             (

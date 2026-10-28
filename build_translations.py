@@ -23,6 +23,7 @@ from workshop_descriptions_zh import WORKSHOP_DESCRIPTION_OVERRIDES
 LOCAL_WORKSHOP = Path("original_mods/steamapps/workshop/content/294100")
 WINDOWS_WORKSHOP = Path(r"D:\SteamLibrary\steamapps\workshop\content\294100")
 WORKSHOP = Path(os.environ['AYA_WORKSHOP_ROOT']) if os.environ.get('AYA_WORKSHOP_ROOT') else (LOCAL_WORKSHOP if LOCAL_WORKSHOP.is_dir() else WINDOWS_WORKSHOP)
+WORKSHOP_CHANGE_NOTE = json.loads(Path(__file__).with_name('workshop_release.json').read_text(encoding='utf-8'))['changeNote']
 
 MODS = [
     ("2946679071", "Chaoura Race"), ("3505571618", "Aya Premise Core"),
@@ -679,7 +680,7 @@ def write_readme(package: Path, mod_id: str, about: ET.Element) -> None:
 
 
 def write_steam_vdfs(destination: Path, vdf_dir: Path) -> None:
-    """Generate explicit SteamCMD update manifests for every maintained item."""
+    """Generate content-only manifests, preserving user-maintained remote metadata."""
     vdf_dir.mkdir(parents=True, exist_ok=True)
     for mod_id, fallback_name in MODS:
         package = destination / f"{mod_id} - {fallback_name} Chinese"
@@ -692,16 +693,13 @@ def write_steam_vdfs(destination: Path, vdf_dir: Path) -> None:
             f'\t"publishedfileid"\t\t"{PUBLISHED_FILE_IDS[mod_id]}"',
             f'\t"contentfolder"\t\t"{vdf_quote(vdf_path(package))}"',
             f'\t"previewfile"\t\t"{vdf_quote(vdf_path(package / "About" / "Preview.png"))}"',
-            f'\t"title"\t\t"{vdf_quote(title)}"',
-            f'\t"description"\t\t"{vdf_quote(description)}"',
-            '\t"changenote"\t\t"合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。"',
+            f'\t"changenote"\t\t"{vdf_quote(WORKSHOP_CHANGE_NOTE)}"',
             '}', '',
         ])
         (vdf_dir / f"{mod_id}-{PUBLISHED_FILE_IDS[mod_id]}.vdf").write_text(content, encoding="utf-8")
-        # Steam assumes English when no update language is supplied. Keep the
-        # default manifest above, and generate a separate Simplified Chinese
-        # metadata manifest so the localized Workshop branch can be synced
-        # without changing the default-language maintenance workflow.
+        # SteamCMD cannot reliably select a metadata language. Both manifests
+        # intentionally omit remote title/description; use SteamWorkshopLocalizer
+        # with explicit --language and the default metadata-preservation mode.
         schinese_content = "\n".join([
             '"workshopitem"', '{',
             '\t"appid"\t\t"294100"',
@@ -709,9 +707,7 @@ def write_steam_vdfs(destination: Path, vdf_dir: Path) -> None:
             '\t"language"\t\t"schinese"',
             f'\t"contentfolder"\t\t"{vdf_quote(vdf_path(package))}"',
             f'\t"previewfile"\t\t"{vdf_quote(vdf_path(package / "About" / "Preview.png"))}"',
-            f'\t"title"\t\t"{vdf_quote(title)}"',
-            f'\t"description"\t\t"{vdf_quote(description)}"',
-            '\t"changenote"\t\t"合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。"',
+            f'\t"changenote"\t\t"{vdf_quote(WORKSHOP_CHANGE_NOTE)}"',
             '}', '',
         ])
         (vdf_dir / f"{mod_id}-{PUBLISHED_FILE_IDS[mod_id]}-schinese.vdf").write_text(

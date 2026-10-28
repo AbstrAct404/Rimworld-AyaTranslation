@@ -1,0 +1,231 @@
+{
+  "publishedAt": "2026-10-28T17:14:23.680575+00:00",
+  "fixCommit": "2d5022a",
+  "changeNote": "修复人工种族眼睛显示异常的问题。",
+  "contentUploaded": true,
+  "metadataPreserved": true,
+  "visibilityPreservedAndVerified": true,
+  "requiredItemsUntouched": true,
+  "results": [
+    {
+      "publishedFileId": "3770548798",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646709",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645281",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645740",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769650937",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646881",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769649735",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646243",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769651652",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769650099",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548562",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548499",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769649414",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645094",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644534",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644933",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644777",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548688",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548439",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644292",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548625",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548028",
+      "language": "schinese",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548798",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646709",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645281",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645740",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769650937",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646881",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769649735",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769646243",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769651652",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769650099",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548562",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548499",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769649414",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769645094",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644534",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644933",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644777",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548688",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548439",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3769644292",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548625",
+      "language": "english",
+      "verified": true
+    },
+    {
+      "publishedFileId": "3770548028",
+      "language": "english",
+      "verified": true
+    }
+  ]
+}

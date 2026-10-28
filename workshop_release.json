@@ -1,0 +1,10 @@
+{
+  "changeNote": "修复人工种族眼睛显示异常的问题。",
+  "defaultRules": {
+    "style": "只简要说明本次修复或新增的用户可见内容，不写数据数量、实现方式、具体操作或触发原因。用户指定原文时使用用户原文。",
+    "preserveRemoteMetadata": true,
+    "preserveRequiredItems": true,
+    "preserveVisibility": true,
+    "languages": ["schinese", "english"]
+  }
+}
