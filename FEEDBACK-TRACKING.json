@@ -1,7 +1,7 @@
 {
   "workshopId": "3770548798",
-  "checkedDate": "2026-10-27",
-  "commentCount": 49,
+  "checkedDate": "2026-10-28",
+  "commentCount": 52,
   "scheduleTimezone": "America/New_York",
   "schedule": "09:30 daily",
   "automationId": "aya",
@@ -24,5 +24,16 @@
     }
   ],
   "publishedAt": "2026-10-28T03:42:48.766649+00:00",
-  "publishedSourceCommit": "b48b658"
+  "publishedSourceCommit": "b48b658",
+  "whiteEyeInvestigation": {
+    "sourceBaseline": "d8e32ec",
+    "author": "MIKU",
+    "feedback": [
+      "锢魂魔眼睛变白，移除汉化恢复",
+      "其他 Aya 种族也出现白眼"
+    ],
+    "status": "local_safety_fix_awaiting_in_game_visual_verification",
+    "report": "WHITE-EYE-INVESTIGATION.md",
+    "published": false
+  }
 }

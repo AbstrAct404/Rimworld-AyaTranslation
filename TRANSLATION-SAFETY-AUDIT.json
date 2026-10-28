@@ -1,0 +1,161 @@
+{
+  "packages": 22,
+  "violations": 0,
+  "results": [
+    {
+      "package": "0000000000 - Aya Integrated Chinese",
+      "patchModifiers": 777,
+      "bodyDisplayTranslations": 964,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2198830432 - Nearmare Race Chinese",
+      "patchModifiers": 126,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2216916011 - Xenoorca Race Chinese",
+      "patchModifiers": 28,
+      "bodyDisplayTranslations": 50,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2227425882 - Idhale Race Chinese",
+      "patchModifiers": 25,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2233666290 - Silkiera Race Chinese",
+      "patchModifiers": 66,
+      "bodyDisplayTranslations": 74,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2394460334 - Neclose Race Chinese",
+      "patchModifiers": 63,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2504657401 - Requeen Boss Chinese",
+      "patchModifiers": 34,
+      "bodyDisplayTranslations": 24,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2569091688 - Littluna Race Chinese",
+      "patchModifiers": 41,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2608237489 - Solark Race Chinese",
+      "patchModifiers": 24,
+      "bodyDisplayTranslations": 50,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2676302514 - Saclean Race Chinese",
+      "patchModifiers": 3,
+      "bodyDisplayTranslations": 50,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2706009136 - Nexaga Race Chinese",
+      "patchModifiers": 12,
+      "bodyDisplayTranslations": 48,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2729712799 - Enforcer Boss Chinese",
+      "patchModifiers": 10,
+      "bodyDisplayTranslations": 24,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2763078885 - Qualeela Race Chinese",
+      "patchModifiers": 21,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2871413100 - Idearn Race Chinese",
+      "patchModifiers": 103,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2946679071 - Chaoura Race Chinese",
+      "patchModifiers": 58,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "2954714860 - Idea Storyteller Chinese",
+      "patchModifiers": 0,
+      "bodyDisplayTranslations": 0,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3153539856 - Eveliet Race Chinese",
+      "patchModifiers": 34,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3477749439 - Zoichor Race Chinese",
+      "patchModifiers": 41,
+      "bodyDisplayTranslations": 50,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3489429571 - Chaoura UB Chinese",
+      "patchModifiers": 0,
+      "bodyDisplayTranslations": 0,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3505571618 - Aya Premise Core Chinese",
+      "patchModifiers": 0,
+      "bodyDisplayTranslations": 0,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3675887482 - Outerm Race Chinese",
+      "patchModifiers": 54,
+      "bodyDisplayTranslations": 66,
+      "previewImages": 1,
+      "violations": []
+    },
+    {
+      "package": "3750626266 - Canaan Intellect Chinese",
+      "patchModifiers": 35,
+      "bodyDisplayTranslations": 0,
+      "previewImages": 1,
+      "violations": []
+    }
+  ],
+  "scope": "XML and packaged assets; runtime DLL source requires separate review; not an in-game rendering test"
+}

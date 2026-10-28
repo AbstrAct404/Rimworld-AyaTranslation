@@ -193,3 +193,7 @@ C:\Users\AA\Documents\AyaRaceZH\tools\steamcmd\steamcmd.exe +login <Steam用户�
 - 本地游戏实际加载的是 `D:\SteamLibrary\steamapps\common\RimWorld\Mods\0000000000 - Aya Integrated Chinese`，而不是工坊订阅目录。2026-07-25 已用镜像同步清除旧的嵌套 `2946679071/Chaoura_Apparel_Label_Fix.xml`，并同步到发布目录、实际加载目录和本地工坊订阅目录。必须完整退出并重启 RimWorld 才会应用。
 - 2026-07-25 15:02 已将本轮装备标签与 EX 说明更新上传至整合包工坊物品 `3770548798`。SteamCMD 内容上传记录：Manifest ID `4319540497122148672`，`Upload finished ... : OK`。Steamworks 元数据回读：`OK 3770548798 language=english verified=true`、`OK 3770548798 language=schinese verified=true`。
 - 2026-07-25 15:09 已将运行时装备/武器标签兜底同步到 4 个受影响的独立汉化包：Nearmare `3769646709`（Manifest `3089701596063208146`）、Neclose `3769646881`（Manifest `578580139998864478`）、Chaoura `3769644534`（Manifest `5677180429817240535`）、Eveliet `3769644777`（Manifest `6449624692633167330`）。四项 SteamCMD 日志均为 `Upload finished ... : OK`，且 `english`、`schinese` 两个语言分支均逐项回读为 `verified=true`。
+
+## 2026-10-28 白眼反馈与安全边界
+
+见 `WHITE-EYE-INVESTIGATION.md`。身体 customLabel 必须用 DefInjected，禁止在 PostLoad 前直接补丁替换，否则污染 untranslatedCustomLabel。HAR bodyAddons/name 保留原标识；只允许显示字段白名单。发布前运行 `python audit_translation_safety.py` 和 `python -m unittest test_translation_safety`；本轮为静态修复，尚待游戏画面验证，未上传工坊。

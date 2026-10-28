@@ -22,7 +22,7 @@ from workshop_descriptions_zh import WORKSHOP_DESCRIPTION_OVERRIDES
 
 LOCAL_WORKSHOP = Path("original_mods/steamapps/workshop/content/294100")
 WINDOWS_WORKSHOP = Path(r"D:\SteamLibrary\steamapps\workshop\content\294100")
-WORKSHOP = LOCAL_WORKSHOP if LOCAL_WORKSHOP.is_dir() else WINDOWS_WORKSHOP
+WORKSHOP = Path(os.environ['AYA_WORKSHOP_ROOT']) if os.environ.get('AYA_WORKSHOP_ROOT') else (LOCAL_WORKSHOP if LOCAL_WORKSHOP.is_dir() else WINDOWS_WORKSHOP)
 
 MODS = [
     ("2946679071", "Chaoura Race"), ("3505571618", "Aya Premise Core"),

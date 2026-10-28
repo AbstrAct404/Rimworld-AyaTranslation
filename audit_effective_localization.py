@@ -43,6 +43,10 @@ def main():
                     if node.tag not in {'customLabel'} and not re.search(r'[A-Za-z\u3040-\u30ff\u4e00-\u9fff]', value):
                         continue
                     relative = document.getpath(node)[len(document.getpath(definition))+1:]
+                    # HAR body-addon names are identity/configuration fields,
+                    # not safe translation targets. Preserve the original.
+                    if relative.startswith('alienRace/') and '/bodyAddons/' in relative and node.tag == 'name':
+                        continue
                     rows.append(dict(modId=mod_id, type=definition.tag, name=name,
                                      path=document.getpath(node), relative=relative, source=value))
     counts = {'replaced': 0, 'added': 0, 'skippedConditions': 0}

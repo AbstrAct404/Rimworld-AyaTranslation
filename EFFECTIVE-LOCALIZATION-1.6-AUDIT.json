@@ -1,7 +1,7 @@
 {
-  "checked": 5605,
+  "checked": 5529,
   "patchExecution": {
-    "replaced": 1645,
+    "replaced": 605,
     "added": 9,
     "skippedConditions": 172
   },

@@ -171,6 +171,10 @@ def main() -> None:
     integrated_patch_signatures: set[str] = set()
 
     for package in packages:
+        from audit_translation_safety import inspect_package
+        safety = inspect_package(package)
+        if safety['violations']:
+            raise RuntimeError('Unsafe translation package: ' + '\n'.join(safety['violations']))
         assert_unique_package_patch_targets(package)
         original_id, dependency, translation_title = read_about(package)
         if dependency and dependency not in load_after:

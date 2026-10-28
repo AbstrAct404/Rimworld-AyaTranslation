@@ -132,6 +132,8 @@ def main() -> None:
                     continue
                 for path, value in walk_leaves(definition, ""):
                     leaf = path.rsplit("/", 1)[-1]
+                    if 'alienRace/' in path and '/bodyAddons/' in path and leaf == 'name':
+                        continue  # HAR addon identity must remain original.
                     if leaf not in FIELDS:
                         continue
                     if not JAPANESE.search(value):

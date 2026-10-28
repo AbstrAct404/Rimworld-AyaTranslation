@@ -22,6 +22,10 @@ def main():
                 if not name:
                     continue
                 for node in definition.iterdescendants():
+                    # Never infer translatability from text alone: a texture
+                    # path, addon identifier or mechanic may equal a UI word.
+                    if node.tag not in {'label', 'ingestCommandString', 'ingestReportString'}:
+                        continue
                     source = (node.text or '').strip()
                     if len(node) or source not in translations or node.getparent() is definition:
                         continue

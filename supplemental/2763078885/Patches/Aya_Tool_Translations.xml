@@ -2,46 +2,6 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/name[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/name[1]</xpath>
-      <value>
-        <name>羽翼</name>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/name[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/name[1]</xpath>
-      <value>
-        <name>角</name>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/name[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/name[1]</xpath>
-      <value>
-        <name>羽翼</name>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/name[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/name[1]</xpath>
-      <value>
-        <name>角</name>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
     <xpath>Defs/ThingDef[@Name="HAR_QL_M_Race_Base"]/tools/li[1]/label[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[@Name="HAR_QL_M_Race_Base"]/tools/li[1]/label[1]</xpath>

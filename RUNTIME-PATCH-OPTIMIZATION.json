@@ -5,16 +5,15 @@
     "supplementalFilesSynced": [
       "2198830432_Aya_Health_Label_Overrides.xml",
       "2198830432_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Runtime_PawnKind_Overrides.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 201,
-    "operationsBefore": 201,
-    "operationsAfter": 201,
+    "runtimeTargets": 126,
+    "operationsBefore": 126,
+    "operationsAfter": 126,
     "coveragePreserved": true
   },
   {
@@ -22,28 +21,26 @@
     "package": "2216916011 - Xenoorca Race Chinese",
     "supplementalFilesSynced": [
       "2216916011_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 82,
-    "operationsBefore": 82,
-    "operationsAfter": 82,
+    "runtimeTargets": 28,
+    "operationsBefore": 28,
+    "operationsAfter": 28,
     "coveragePreserved": true
   },
   {
     "modId": "2227425882",
     "package": "2227425882 - Idhale Race Chinese",
     "supplementalFilesSynced": [
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 99,
-    "operationsBefore": 99,
-    "operationsAfter": 99,
+    "runtimeTargets": 25,
+    "operationsBefore": 25,
+    "operationsAfter": 25,
     "coveragePreserved": true
   },
   {
@@ -53,15 +50,14 @@
       "2233666290_Aya_Furniture_Label_Overrides.xml",
       "2233666290_Aya_Health_Label_Overrides.xml",
       "2233666290_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 146,
-    "operationsBefore": 146,
-    "operationsAfter": 146,
+    "runtimeTargets": 66,
+    "operationsBefore": 66,
+    "operationsAfter": 66,
     "coveragePreserved": true
   },
   {
@@ -70,14 +66,13 @@
     "supplementalFilesSynced": [
       "2394460334_Aya_Health_Label_Overrides.xml",
       "2394460334_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 133,
-    "operationsBefore": 133,
-    "operationsAfter": 133,
+    "runtimeTargets": 63,
+    "operationsBefore": 63,
+    "operationsAfter": 63,
     "coveragePreserved": true
   },
   {
@@ -86,81 +81,7 @@
     "supplementalFilesSynced": [
       "2504657401_Aya_Health_Label_Overrides.xml",
       "2504657401_Aya_Placeable_Label_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
-      "Aya_Tool_Translations.xml"
-    ],
-    "legacyBundleRemoved": false,
-    "runtimeTargets": 58,
-    "operationsBefore": 58,
-    "operationsAfter": 58,
-    "coveragePreserved": true
-  },
-  {
-    "modId": "2569091688",
-    "package": "2569091688 - Littluna Race Chinese",
-    "supplementalFilesSynced": [
-      "2569091688_Aya_Health_Label_Overrides.xml",
-      "2569091688_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
-      "Aya_Nested_Text.xml",
-      "Aya_Tool_Translations.xml"
-    ],
-    "legacyBundleRemoved": false,
-    "runtimeTargets": 115,
-    "operationsBefore": 115,
-    "operationsAfter": 115,
-    "coveragePreserved": true
-  },
-  {
-    "modId": "2608237489",
-    "package": "2608237489 - Solark Race Chinese",
-    "supplementalFilesSynced": [
-      "2608237489_Aya_Health_Label_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
-      "Aya_Nested_Text.xml",
-      "Aya_Tool_Translations.xml"
-    ],
-    "legacyBundleRemoved": false,
-    "runtimeTargets": 79,
-    "operationsBefore": 79,
-    "operationsAfter": 79,
-    "coveragePreserved": true
-  },
-  {
-    "modId": "2676302514",
-    "package": "2676302514 - Saclean Race Chinese",
-    "supplementalFilesSynced": [
-      "Aya_Body_CustomLabels.xml",
-      "Aya_Nested_Text.xml",
-      "Aya_ResearchTab_Tooltip_Enhancement.xml",
-      "Aya_Tool_Translations.xml"
-    ],
-    "legacyBundleRemoved": false,
-    "runtimeTargets": 55,
-    "operationsBefore": 55,
-    "operationsAfter": 55,
-    "coveragePreserved": true
-  },
-  {
-    "modId": "2706009136",
-    "package": "2706009136 - Nexaga Race Chinese",
-    "supplementalFilesSynced": [
-      "2706009136_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
-      "Aya_Nested_Text.xml"
-    ],
-    "legacyBundleRemoved": false,
-    "runtimeTargets": 60,
-    "operationsBefore": 60,
-    "operationsAfter": 60,
-    "coveragePreserved": true
-  },
-  {
-    "modId": "2729712799",
-    "package": "2729712799 - Enforcer Boss Chinese",
-    "supplementalFilesSynced": [
-      "Aya_Body_CustomLabels.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
@@ -170,18 +91,85 @@
     "coveragePreserved": true
   },
   {
-    "modId": "2763078885",
-    "package": "2763078885 - Qualeela Race Chinese",
+    "modId": "2569091688",
+    "package": "2569091688 - Littluna Race Chinese",
     "supplementalFilesSynced": [
-      "2763078885_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
+      "2569091688_Aya_Health_Label_Overrides.xml",
+      "2569091688_Aya_Health_Stage_Overrides.xml",
       "Aya_Nested_Text.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 91,
-    "operationsBefore": 91,
-    "operationsAfter": 91,
+    "runtimeTargets": 41,
+    "operationsBefore": 41,
+    "operationsAfter": 41,
+    "coveragePreserved": true
+  },
+  {
+    "modId": "2608237489",
+    "package": "2608237489 - Solark Race Chinese",
+    "supplementalFilesSynced": [
+      "2608237489_Aya_Health_Label_Overrides.xml",
+      "Aya_Nested_Text.xml",
+      "Aya_Tool_Translations.xml"
+    ],
+    "legacyBundleRemoved": false,
+    "runtimeTargets": 24,
+    "operationsBefore": 24,
+    "operationsAfter": 24,
+    "coveragePreserved": true
+  },
+  {
+    "modId": "2676302514",
+    "package": "2676302514 - Saclean Race Chinese",
+    "supplementalFilesSynced": [
+      "Aya_Nested_Text.xml",
+      "Aya_ResearchTab_Tooltip_Enhancement.xml",
+      "Aya_Tool_Translations.xml"
+    ],
+    "legacyBundleRemoved": false,
+    "runtimeTargets": 3,
+    "operationsBefore": 3,
+    "operationsAfter": 3,
+    "coveragePreserved": true
+  },
+  {
+    "modId": "2706009136",
+    "package": "2706009136 - Nexaga Race Chinese",
+    "supplementalFilesSynced": [
+      "2706009136_Aya_Health_Stage_Overrides.xml",
+      "Aya_Nested_Text.xml"
+    ],
+    "legacyBundleRemoved": false,
+    "runtimeTargets": 12,
+    "operationsBefore": 12,
+    "operationsAfter": 12,
+    "coveragePreserved": true
+  },
+  {
+    "modId": "2729712799",
+    "package": "2729712799 - Enforcer Boss Chinese",
+    "supplementalFilesSynced": [
+      "Aya_Tool_Translations.xml"
+    ],
+    "legacyBundleRemoved": false,
+    "runtimeTargets": 10,
+    "operationsBefore": 10,
+    "operationsAfter": 10,
+    "coveragePreserved": true
+  },
+  {
+    "modId": "2763078885",
+    "package": "2763078885 - Qualeela Race Chinese",
+    "supplementalFilesSynced": [
+      "2763078885_Aya_Health_Stage_Overrides.xml",
+      "Aya_Nested_Text.xml",
+      "Aya_Tool_Translations.xml"
+    ],
+    "legacyBundleRemoved": false,
+    "runtimeTargets": 21,
+    "operationsBefore": 21,
+    "operationsAfter": 21,
     "coveragePreserved": true
   },
   {
@@ -190,15 +178,14 @@
     "supplementalFilesSynced": [
       "2871413100_Aya_Health_Label_Overrides.xml",
       "2871413100_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 185,
-    "operationsBefore": 185,
-    "operationsAfter": 185,
+    "runtimeTargets": 103,
+    "operationsBefore": 103,
+    "operationsAfter": 103,
     "coveragePreserved": true
   },
   {
@@ -207,15 +194,14 @@
     "supplementalFilesSynced": [
       "2946679071_Aya_GeneCategory_Priority_Fix.xml",
       "2946679071_Aya_Health_Label_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 128,
-    "operationsBefore": 128,
-    "operationsAfter": 128,
+    "runtimeTargets": 58,
+    "operationsBefore": 58,
+    "operationsAfter": 58,
     "coveragePreserved": true
   },
   {
@@ -233,15 +219,14 @@
     "package": "3153539856 - Eveliet Race Chinese",
     "supplementalFilesSynced": [
       "3153539856_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 102,
-    "operationsBefore": 102,
-    "operationsAfter": 102,
+    "runtimeTargets": 34,
+    "operationsBefore": 34,
+    "operationsAfter": 34,
     "coveragePreserved": true
   },
   {
@@ -250,15 +235,14 @@
     "supplementalFilesSynced": [
       "3477749439_Aya_Health_Gene_Label_Overrides.xml",
       "3477749439_Aya_Health_Stage_Overrides.xml",
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 93,
-    "operationsBefore": 93,
-    "operationsAfter": 93,
+    "runtimeTargets": 41,
+    "operationsBefore": 41,
+    "operationsAfter": 41,
     "coveragePreserved": true
   },
   {
@@ -285,15 +269,14 @@
     "modId": "3675887482",
     "package": "3675887482 - Outerm Race Chinese",
     "supplementalFilesSynced": [
-      "Aya_Body_CustomLabels.xml",
       "Aya_Nested_Text.xml",
       "Aya_ResearchTab_Tooltip_Enhancement.xml",
       "Aya_Tool_Translations.xml"
     ],
     "legacyBundleRemoved": false,
-    "runtimeTargets": 122,
-    "operationsBefore": 122,
-    "operationsAfter": 122,
+    "runtimeTargets": 54,
+    "operationsBefore": 54,
+    "operationsAfter": 54,
     "coveragePreserved": true
   },
   {
