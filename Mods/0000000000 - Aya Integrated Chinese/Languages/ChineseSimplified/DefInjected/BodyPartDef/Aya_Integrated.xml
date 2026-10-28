@@ -1,9 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
+  <Chaoura_Horn.label>角</Chaoura_Horn.label>
+  <Chaoura_Wing.label>翅膀</Chaoura_Wing.label>
+  <Eveliet_Horn.label>角</Eveliet_Horn.label>
+  <Eveliet_Wing.label>甲壳</Eveliet_Wing.label>
+  <Idearn_Parts_B.label>翅膀</Idearn_Parts_B.label>
+  <Idearn_Parts_F.label>角</Idearn_Parts_F.label>
+  <Idhale_DevilFire_B.label>鳃</Idhale_DevilFire_B.label>
+  <Idhale_DevilFire_F.label>鳍</Idhale_DevilFire_F.label>
+  <Littluna_Horn.label>角</Littluna_Horn.label>
+  <Littluna_Wing.label>翅膀</Littluna_Wing.label>
+  <Nearmaere_Horn.label>角</Nearmaere_Horn.label>
+  <Nearmaere_Wing.label>翅膀</Nearmaere_Wing.label>
+  <Neclose_Horn.label>角</Neclose_Horn.label>
+  <Neclose_Wing.label>翅膀</Neclose_Wing.label>
   <Outerm_Horn.label>光晕</Outerm_Horn.label>
   <Outerm_Wing.label>翅膀</Outerm_Wing.label>
   <Qualeela_Horn.label>角</Qualeela_Horn.label>
   <Qualeela_Wing.label>翅膀</Qualeela_Wing.label>
+  <Saclean_Horn.label>角</Saclean_Horn.label>
+  <Saclean_Wing.label>翅膀</Saclean_Wing.label>
+  <Silkiera_Ear.label>耳朵</Silkiera_Ear.label>
+  <Silkiera_Tail.label>尾巴</Silkiera_Tail.label>
+  <Solark_Horn.label>角</Solark_Horn.label>
+  <Solark_Wing.label>翅膀</Solark_Wing.label>
+  <Xenoorca_Fillet.label>鳍</Xenoorca_Fillet.label>
+  <Xenoorca_Gills.label>鳃</Xenoorca_Gills.label>
   <Zoichor_Horn.label>角</Zoichor_Horn.label>
   <Zoichor_Wing.label>翅膀</Zoichor_Wing.label>
 </LanguageData>

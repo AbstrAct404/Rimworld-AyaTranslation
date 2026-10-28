@@ -99,13 +99,13 @@
     "HAR_IA_M_Kind_Base.labelFemale": "自然拟态",
     "HAR_IA_M_Race_Base.label": "自然拟态",
     "HAR_IA_M_Race_Base.description": "伊迪安·泰阿泰德 A型制造的子机，杀伤力、机动性与耐久性都十分出色，能够执行集团军事行动。\n召唤出的自然拟态会在三天后消失。",
-    "HAR_IA_Item_spawn_Laches_a.label": "伊迪安·拉刻斯",
-    "HAR_IA_Item_spawn_Charmides_a.label": "伊迪安·卡尔米德 A型",
-    "HAR_IA_Item_spawn_Charmides_b.label": "伊迪安·卡尔米德 B型",
-    "HAR_IA_Item_spawn_Menexenus_a.label": "伊迪安·梅涅克赛努 A型",
-    "HAR_IA_Item_spawn_Menexenus_b.label": "伊迪安·梅涅克赛努 B型",
-    "HAR_IA_Item_spawn_Theaetetus_a.label": "伊迪安·泰阿泰德 A型",
-    "HAR_IA_Item_spawn_Theaetetus_b.label": "伊迪安·泰阿泰德 B型",
+    "HAR_IA_Item_spawn_Laches_a.label": "【伊迪安·拉刻斯】封装舱",
+    "HAR_IA_Item_spawn_Charmides_a.label": "【伊迪安·卡尔米德 A型】封装舱",
+    "HAR_IA_Item_spawn_Charmides_b.label": "【伊迪安·卡尔米德 B型】封装舱",
+    "HAR_IA_Item_spawn_Menexenus_a.label": "【伊迪安·梅涅克赛努 A型】封装舱",
+    "HAR_IA_Item_spawn_Menexenus_b.label": "【伊迪安·梅涅克赛努 B型】封装舱",
+    "HAR_IA_Item_spawn_Theaetetus_a.label": "【伊迪安·泰阿泰德 A型】封装舱",
+    "HAR_IA_Item_spawn_Theaetetus_b.label": "【伊迪安·泰阿泰德 B型】封装舱",
     "HAR_IA_Item_spawn_Laches_a.description": "制造生体模型“伊迪安·拉刻斯”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。",
     "HAR_IA_Item_spawn_Charmides_a.description": "制造生体模型“伊迪安·卡尔米德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。\n\n【个体能力】防御性能。",
     "HAR_IA_Item_spawn_Charmides_b.description": "制造生体模型“伊迪安·卡尔米德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。\n\n【个体能力】移动性能。",
@@ -114,7 +114,9 @@
     "HAR_IA_Item_spawn_Theaetetus_a.description": "制造生体模型“伊迪安·泰阿泰德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。\n\n【个体能力】\n技能：伤害阻断屏障\n技能：召唤眷属\n技能：强化友军",
     "HAR_IA_Item_spawn_Theaetetus_b.description": "制造生体模型“伊迪安·泰阿泰德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。\n\n【个体能力】\n技能：伤害阻断屏障\n技能：展开伤害领域\n技能：展开死亡宣告领域",
     "HAR_IA_Filth_FireFoam_a.description": "伊迪安·泰阿泰德 B型散布的纳米机械充斥着这片领域。进入其中的敌对目标会受伤并大量出血。\n摧毁中央核心，或等待半天后，领域便会自然消失。",
-    "HAR_IA_Filth_FireFoam_b.description": "伊迪安·泰阿泰德 B型散布的纳米机械充斥着这片领域。进入其中的敌对目标会受伤并大量出血。\n摧毁中央核心，或等待半天后，领域便会自然消失。"
+    "HAR_IA_Filth_FireFoam_b.description": "伊迪安·泰阿泰德 B型散布的纳米机械充斥着这片领域。进入其中的敌对目标会受伤并大量出血。\n摧毁中央核心，或等待半天后，领域便会自然消失。",
+    "HAR_IA_Critias_Hediff_Flag.label": "复苏的灾厄",
+    "HAR_IA_Item_spawn_Critias.label": "【伊迪安·克里提亚斯（焚书模型）】封装舱"
   },
   "2227425882": {
     "HAR_IH_AT_z.label": "以太礼装",
@@ -127,7 +129,9 @@
     "HAR_IH_Hediff_ZZZ.description": "幽灵姬·罪孽灵发动“万军之主”时释放的波动。受到影响者会被压倒在地，暂时无法行动。该状态会在一天后解除。",
     "HAR_Idhale_Base.description": "幽灵姬是某个宙族派系在创造人工种族魅魔的过程中偶然诞生的人工种族。她们崇尚博爱、厌恶战斗，并具有顺从的精神倾向。幽灵姬基本处于灵体状态，不受物理干涉，在极端环境中也能生存，个体能力十分强大；但她们同样很难对现实产生物理影响，不仅无法完成需要精度的攻击，就连日常生活也相当困难，因此被判定不适合作为生物兵器投入使用。\n\n离开创造者以前，她们主要负责杂务与警戒；此后各自分散，在各地漂泊。据说其中一小部分聚集在奴隶商人身边，等待新的主人。\n\n由于源自魅魔，她们可以穿戴魅魔的服装。",
     "Aya_Race_Gene_a.description": "从人工种族创造者在某颗星球发现的超存在遗骸中提取出的基因。据说女王种以此为基础创造，其后裔人工种族也继承了这一基因。它会提高新陈代谢效率，但结构极其复杂。",
-    "Aya_Race_Xenotype.description": "“人工种族”是这类生命的统称。为避免种群失控扩张，她们经基因改造后只能诞下女性。由于无法独立构成完整物种，灭绝风险很高，因此以更强的繁殖力和战斗力加以补偿；同时，她们也具有寻求精神伴侣的倾向，以免凭借力量支配他人。"
+    "Aya_Race_Xenotype.description": "“人工种族”是这类生命的统称。为避免种群失控扩张，她们经基因改造后只能诞下女性。由于无法独立构成完整物种，灭绝风险很高，因此以更强的繁殖力和战斗力加以补偿；同时，她们也具有寻求精神伴侣的倾向，以免凭借力量支配他人。",
+    "Idhale_DevilFire_B.label": "后部鬼火",
+    "Idhale_DevilFire_F.label": "前部鬼火"
   },
   "2569091688": {
     "Aya_Race_Ap_C_T_d.label": "儿童学生服",
@@ -223,7 +227,8 @@
     "HAR_NC_Hediff_a.label": "狂化病菌",
     "HAR_NC_Damage_a.label": "狂化病菌",
     "HAR_NC_Hediff_b.label": "狂化病菌毒素",
-    "HAR_NC_Damage_b.label": "狂化病菌毒素"
+    "HAR_NC_Damage_b.label": "狂化病菌毒素",
+    "HAR_NC_Skill_Damage_c.label": "克雷阿斯之影"
   },
   "2763078885": {
     "HAR_QL_M_Race_Base.description": "通过库莉菈的王权机能之一“王权召唤”召来的眷属。它拥有远胜下位魅魔所役使眷属的坚固肉体，以及能够轻易击碎护甲的力量。\n\n受王权影响，它对“本来并不属于这个世界的攻击”具有很强抗性，使用此类武器很难将其击败。"
@@ -319,6 +324,30 @@
     "Aya_CI_Artifact_x.description": "由灵油创造而成的璀璨药剂。\n使用后，使用者造成的伤害将获得提升。\n增益存在等级，最大等级为50。\n\n效果为造成的伤害依照等级提升约1.2倍（等级50时为10倍）。\n\n相传远古时代，人工种族的造物主将此圣水赐予居住于迦南的人类，作为祝福。\n那是仅凭知识与技术便能行使、堪称权能的伟业，能够提升种族本身的阶位。\n人类借由使用此物，即便仍是人类之身，也能发挥与人工种族不相逊色的战斗能力。\n\n\n它原本是创造迦南灵长「伊什穆提特」过程中所诞生的副产物。\n如今在迦南已无法制造，记录上仅留有造物主与神子能够创造此物。"
   },
   "3675887482": {
-    "HAR_OT_Material_a.label": "神赐辉金"
+    "HAR_OT_Material_a.label": "神赐辉金",
+    "HAR_OT_Apparel_H_lvx.label": "阿波里亚黑曜饰",
+    "HAR_OT_Apparel_H_lvx.description": "仅有混沌中受选中的奥特姆才获准佩戴的发饰。\\n这块奇异的黑曜石象征着弑杀高位者，拥有不受任何事物侵蚀的美丽。",
+    "HAR_OT_Apparel_T_Armor_lvx.label": "阿波里亚礼服",
+    "HAR_OT_Apparel_T_Armor_lvx.description": "仅有混沌中受选中的奥特姆才获准穿着的礼服。\\n这身以纯净的白色与蓝色为主调、与她们气质迥异的衣装，让人确信她们也有虔诚的一面。",
+    "HAR_OT_Hediff_Apollyon.label": "黄金之冠",
+    "HAR_OT_Hediff_Apollyon.description": "混沌中杀戮无数的奥特姆才能抵达的境界。据说这也是她们信仰的“虚空的■■■”赐予的称号或祝福。\n\n其能力远超其他奥特姆，因此被恩特莱切亚列为需要严加警惕的对象。\n\n特殊效果：处于此状态时，“高位使徒”最多可以使其复活5次。\n\n\n由无底虚空赐下的黄金王冠。\n受选之王率领无数大军，如雪崩般降下灾祸。\n只为将一切生灵化为祭品。",
+    "HAR_OT_Thing_Altar_a.label": "虚空祭坛",
+    "HAR_OT_Thing_Altar_a.description": "供奉混沌所信仰的“虚空的■■■”的祭坛。\n即使是享乐主义的奥特姆，似乎也不敢轻率建造，只有混沌的领袖才有资格承担此事。\n\n祭坛或许连接着某个未知的维度，已确认会发生不可思议的现象：每3小时生成10名奥特姆。\n\n摧毁祭坛可以获得少量神赐辉金。",
+    "HAR_OT_Weapon_Apollyon.label": "阿波利翁",
+    "HAR_OT_Weapon_Apollyon.description": "用于举行崇拜“虚空的■■■”仪式的虚空之剑。此剑由混沌所信仰的神明赐下，无法由人手制造。\n\n它蕴含虚空之力，可同时斩击周围2格内的敌人。若受击目标具有饥饿需求，还会夺取其部分饱食度。每杀死一个生物，剑刃都会进一步变得锋利，永无止境。\n\n\n即使放眼整个星球，持有阿波利翁的奥特姆也寥寥无几，且大多为领袖。因此，混沌的敌对派系将这些持剑者特别称为“奥特姆·阿波利翁”。\n\n这是混沌的奥特姆梦寐以求的神器。幸运获赐者据说会沉浸于狂喜之中，投身无尽的杀戮。",
+    "Outerm.DisableNpcSkillA": "禁止 NPC 使用“吸血鬼之吻”",
+    "Outerm.DisableNpcSkillA_Desc": "启用后，NPC 奥特姆将不再使用“吸血鬼之吻”（啃咬技能）。",
+    "Outerm.DisableNpcSkillB": "禁止 NPC 使用“渡鸦侍从”",
+    "Outerm.DisableNpcSkillB_Desc": "启用后，NPC 奥特姆将不再使用“渡鸦侍从”（召唤技能）。",
+    "Outerm.DisableNpcSkillC": "禁止 NPC 使用“空明”",
+    "Outerm.DisableNpcSkillC_Desc": "启用后，NPC 奥特姆将不再使用“空明”（闪避技能）。",
+    "Outerm.DisableNpcSkillD": "禁止 NPC 使用“机能瓦解”",
+    "Outerm.DisableNpcSkillD_Desc": "启用后，NPC 奥特姆将不再使用“机能瓦解”（削弱攻击技能）。",
+    "Outerm.DisableNpcSkillE": "禁止 NPC 使用“高位使徒”",
+    "Outerm.DisableNpcSkillE_Desc": "启用后，NPC 奥特姆将不再使用“高位使徒”（强化技能）。",
+    "Outerm.DisableNpcAltar": "禁止生成虚空祭坛",
+    "Outerm.DisableNpcAltar_Desc": "禁止生成等级10的混沌领袖原本会生成的虚空祭坛。",
+    "HAR_OT_WorkGiver_Devote.verb": "献上",
+    "HAR_OT_WorkGiver_Devote.gerund": "正在献上"
   }
 }

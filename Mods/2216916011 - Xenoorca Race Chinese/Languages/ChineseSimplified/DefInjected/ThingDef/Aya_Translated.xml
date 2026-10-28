@@ -52,14 +52,19 @@
   <HAR_XO_AT_x.label>深渊之翼</HAR_XO_AT_x.label>
   <Gun_AssaultRifle_XO.label>OC 式突击步枪</Gun_AssaultRifle_XO.label>
   <Gun_AssaultRifle_XO.description>经由人鱼姬们魔改的军用步枪（虎鲸定制），射程和威力得到提升，代价则是变得更难操控。</Gun_AssaultRifle_XO.description>
+  <Bullet_AssaultRifle_XO.label>突击步枪子弹</Bullet_AssaultRifle_XO.label>
   <Gun_SniperRifle_XO.label>OC 式狙击步枪</Gun_SniperRifle_XO.label>
   <Gun_SniperRifle_XO.description>经由人鱼姬们魔改的狙击步枪（虎鲸定制），射程和威力得到提升，代价则是变得更难操控。</Gun_SniperRifle_XO.description>
+  <Bullet_SniperRifle_XO.label>狙击步枪子弹</Bullet_SniperRifle_XO.label>
   <Gun_ChargeRifle_XO.label>OC 式冲锋枪</Gun_ChargeRifle_XO.label>
   <Gun_ChargeRifle_XO.description>经由人鱼姬们魔改的冲锋枪（虎鲸定制），射程和威力得到提升，代价则是变得更难操控。</Gun_ChargeRifle_XO.description>
+  <Bullet_ChargeRifle_XO.label>电荷弹</Bullet_ChargeRifle_XO.label>
   <Gun_PumpShotgun_XO.label>OC 式霰弹枪</Gun_PumpShotgun_XO.label>
   <Gun_PumpShotgun_XO.description>经由人鱼姬们魔改的霰弹枪（虎鲸定制），射程和威力得到提升，代价则是变得更难操控。</Gun_PumpShotgun_XO.description>
+  <Bullet_Shotgun_XO.label>霰弹枪子弹</Bullet_Shotgun_XO.label>
   <Weapon_GrenadeFrag_XO.label>OC 式手榴弹</Weapon_GrenadeFrag_XO.label>
   <Weapon_GrenadeFrag_XO.description>经由人鱼姬们魔改的手榴弹（虎鲸定制），虽然缩小了爆炸范围并提高了操作难度，但现在可以从更远处的地方投掷它了。</Weapon_GrenadeFrag_XO.description>
+  <Proj_GrenadeFrag_XO.label>破片手榴弹</Proj_GrenadeFrag_XO.label>
   <MeleeWeapon_Trident_XO.label>虎鲸三叉戟</MeleeWeapon_Trident_XO.label>
   <MeleeWeapon_Trident_XO.description>人鱼姬们喜欢用的三叉戟，也能用于狩猎和捕鱼。普通人难以挥舞这种巨大的兵器，但其杀伤力毋庸置疑。</MeleeWeapon_Trident_XO.description>
   <HAR_XO_Weapon_a.label>深渊之噬</HAR_XO_Weapon_a.label>

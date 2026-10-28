@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import json
+import os
 import re
 import shutil
 import time
@@ -55,7 +56,7 @@ FIELDS = {
     "gerundLabel", "pawnSingular", "pawnPlural", "pawnsPlural", "customLabel", "letterLabel",
     "letterText", "deathMessage", "beginLetter", "endLetter", "reportString",
     "ingestCommandString", "ingestReportString", "gerundLabel", "labelShort",
-    "title", "titleShort", "fixedName",
+    "title", "titleShort", "fixedName", "gerund", "verb",
 }
 
 # Proper nouns used consistently across this family.  General Japanese text is
@@ -462,14 +463,15 @@ def package_id(mod: Path) -> str:
 
 
 def versions(mod: Path) -> list[str]:
-    return sorted(p.name for p in mod.iterdir() if p.is_dir() and re.fullmatch(r"1\.\d+", p.name))
+    return sorted((p.name for p in mod.iterdir() if p.is_dir() and re.fullmatch(r"1\.\d+", p.name)), key=lambda v: tuple(map(int, v.split('.'))))
 
 
 def active_defs(mod: Path) -> Path | None:
     available = versions(mod)
     if not available:
         return mod / "Defs" if (mod / "Defs").is_dir() else None
-    latest = "1.6" if "1.6" in available else available[-1]
+    requested = os.environ.get("AYA_SOURCE_VERSION", "1.7")
+    latest = requested if requested in available else available[-1]
     folder = mod / latest / "Defs"
     return folder if folder.is_dir() else None
 

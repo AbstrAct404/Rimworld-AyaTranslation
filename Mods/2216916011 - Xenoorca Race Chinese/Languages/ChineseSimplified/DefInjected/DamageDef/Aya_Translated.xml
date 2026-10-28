@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_XO_Damage_a.label>深渊重压</HAR_XO_Damage_a.label>
+  <HAR_XO_Damage_a.deathMessage>{0}被压死了。</HAR_XO_Damage_a.deathMessage>
   <HAR_XO_Damage_b.label>虎鲸突袭</HAR_XO_Damage_b.label>
+  <HAR_XO_Damage_b.deathMessage>{0}被压死了。</HAR_XO_Damage_b.deathMessage>
   <HAR_XO_Damage_c.label>深渊贯穿</HAR_XO_Damage_c.label>
+  <HAR_XO_Damage_c.deathMessage>{0}被射死了</HAR_XO_Damage_c.deathMessage>
 </LanguageData>

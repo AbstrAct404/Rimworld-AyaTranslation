@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_EL_Damage_a.label>血噬</HAR_EL_Damage_a.label>
+  <HAR_EL_Damage_a.deathMessage>{0}被炸死了。</HAR_EL_Damage_a.deathMessage>
   <HAR_EL_Damage_b.label>焚血甲胄</HAR_EL_Damage_b.label>
+  <HAR_EL_Damage_b.deathMessage>{0}被压死了。</HAR_EL_Damage_b.deathMessage>
   <HAR_EL_Damage_c.label>血震</HAR_EL_Damage_c.label>
+  <HAR_EL_Damage_c.deathMessage>{0}被炸死了。</HAR_EL_Damage_c.deathMessage>
   <HAR_EL_Damage_d.label>血戮</HAR_EL_Damage_d.label>
+  <HAR_EL_Damage_d.deathMessage>{0}被炸死了。</HAR_EL_Damage_d.deathMessage>
   <HAR_EL_Damage_e.label>猩红风暴</HAR_EL_Damage_e.label>
+  <HAR_EL_Damage_e.deathMessage>{0}被炸死了。</HAR_EL_Damage_e.deathMessage>
+  <HAR_EL_Damage_EX.deathMessage>{0}被射死了</HAR_EL_Damage_EX.deathMessage>
 </LanguageData>

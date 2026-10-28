@@ -4,5 +4,8 @@
   <HAR_NC_Damage_b.label>狂化病菌毒素</HAR_NC_Damage_b.label>
   <HAR_NC_Damage_Gas.label>狂化病菌</HAR_NC_Damage_Gas.label>
   <HAR_NC_Skill_Damage_a.label>宇宙之声</HAR_NC_Skill_Damage_a.label>
-  <HAR_NC_Skill_Damage_c.label>迦南之影</HAR_NC_Skill_Damage_c.label>
+  <HAR_NC_Skill_Damage_a.deathMessage>{0}被压死了。</HAR_NC_Skill_Damage_a.deathMessage>
+  <HAR_NC_Skill_Damage_b.deathMessage>{0}被压死了。</HAR_NC_Skill_Damage_b.deathMessage>
+  <HAR_NC_Skill_Damage_c.label>克雷阿斯之影</HAR_NC_Skill_Damage_c.label>
+  <HAR_NC_Skill_Damage_c.deathMessage>{0}被压死了。</HAR_NC_Skill_Damage_c.deathMessage>
 </LanguageData>

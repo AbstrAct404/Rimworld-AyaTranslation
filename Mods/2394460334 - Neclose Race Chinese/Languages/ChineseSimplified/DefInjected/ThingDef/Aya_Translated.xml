@@ -76,6 +76,7 @@
   <HAR_NC_M_z_race_Base.description>牧菌妖姬·无人（界外之血）的眷属，由生物尸体重新构成。它理应没有生命活动，目前仍不清楚究竟如何行动。
 
 极其耐打，通常攻击很难将其杀死。</HAR_NC_M_z_race_Base.description>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
   <HAR_NC_M_a_race_Summon.label>戈尔诺伊德</HAR_NC_M_a_race_Summon.label>
   <HAR_NC_M_a_race_Summon.description>牧菌妖姬的眷属。尸体、血肉等组织感染狂化病菌后，会受到念波控制；狂化病菌也潜伏在爪牙中，被其抓伤或咬伤者会遭到感染。它本质上只是肉块，因此惧怕斩击、刺击等会破坏形体的攻击，却极能承受枪击与火焰等较难撕裂形体的伤害。</HAR_NC_M_a_race_Summon.description>

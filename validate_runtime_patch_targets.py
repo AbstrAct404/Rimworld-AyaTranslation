@@ -93,7 +93,7 @@ def main() -> None:
 
     print(
         f"validated {checked} runtime-patch XPath targets; "
-        "all resolve against active 1.6 source defs"
+        "all resolve against selected active source defs"
     )
 
 

@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
+  <DoBillsMakeApparel_HTBench_HAR.label>制作衣物</DoBillsMakeApparel_HTBench_HAR.label>
+  <DoBillsMakeApparel_HTBench_HAR.gerund>正在制作衣物：</DoBillsMakeApparel_HTBench_HAR.gerund>
   <HAR_ZC_Recycle_WorkGiver.label>地之佛拉斯</HAR_ZC_Recycle_WorkGiver.label>
+  <HAR_ZC_Recycle_WorkGiver.gerund>正在制作衣物：</HAR_ZC_Recycle_WorkGiver.gerund>
 </LanguageData>

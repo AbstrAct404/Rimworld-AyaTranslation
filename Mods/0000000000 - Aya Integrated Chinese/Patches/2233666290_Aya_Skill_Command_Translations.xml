@@ -2,6 +2,66 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="陽炎"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="陽炎"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>阳炎</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動します。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動します。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>瞬间移动到射程内任意格。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="狐憑"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="狐憑"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>狐凭</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径4マスの状態異常の攻撃を行います。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径4マスの状態異常の攻撃を行います。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>对射程内指定位置周围4格发动异常状态攻击。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="蠱毒"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="蠱毒"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>蛊毒</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、狂暴化した虫を大量発生させます。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Silkiera_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、狂暴化した虫を大量発生させます。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在射程内指定位置召唤大量狂暴虫群。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[@Name="HAR_SK_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>

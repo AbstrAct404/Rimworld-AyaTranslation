@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <HAR_SA_Damage_a.deathMessage>{0}被压死了。</HAR_SA_Damage_a.deathMessage>
+  <HAR_SA_Damage_b.deathMessage>{0}被压死了。</HAR_SA_Damage_b.deathMessage>
+</LanguageData>

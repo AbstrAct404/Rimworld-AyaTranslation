@@ -29,6 +29,7 @@ PUBLISHED_FILE_ID = "3770548798"
 # otherwise an omitted EX localization folder can silently remove the EX
 # ordering rule and place the integrated pack above that EX in a mod manager.
 INTEGRATED_LOAD_AFTER = (
+    "brrainz.harmony",
     "Ayameduki.AyaRacePremise",
     "Ayameduki.IdeaStoryteller",
     "Ayameduki.AyaCanaanIntellect",
@@ -253,6 +254,11 @@ def main() -> None:
                 destination_assembly = output / "Assemblies" / assembly_file.name
                 destination_assembly.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(assembly_file, destination_assembly)
+        for assembly_file in sorted((package / '1.7' / 'Assemblies').glob('*.dll')):
+            destination_assembly = output / '1.7' / 'Assemblies' / assembly_file.name
+            destination_assembly.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(assembly_file, destination_assembly)
+            shutil.copy2(package / 'LoadFolders.xml', output / 'LoadFolders.xml')
         package_info.append({
             "originalWorkshopId": original_id,
             "originalTitle": ORIGINAL_WORKSHOP_TITLES.get(original_id, dependency),
@@ -383,14 +389,14 @@ def main() -> None:
         "请同时安装并启用对应的原 EX 模组。只有 About/翻译文件的汉化包不能替代原 EX。\n\n"
         f"当前收录 {len(packages)} 个原模组，共合并 {written} 条游戏文本。\n\n"
         "【本次更新】\n"
-        "恢复 10 个种族模组被误删的 101 条心境译文，并补齐此前未翻译的 350 余条文本"
-        "（近战攻击名、背景故事短标题、身体附加件名称、购物终端按钮、研究信件、"
-        "特质与事件标题等）。\n\n"
+        "适配原模组 1.7 共用技能组件，补齐新版技能说明、Outerm 装备/祭坛/状态及设置文本；"
+        "补齐全系列 964 处身体自定义名称、身体部件和 139 处嵌套攻击/操作文本，"
+        "并汉化共用技能代码中的取消准备、条件不足和资源不足提示。保留 1.6 技能兼容分支。\n\n"
         "【收录内容】\n"
         + plain_directory()
         + "\n\n"
         "——\n兼容版本：RimWorld 1.6 / 1.7\n"
-        "本模组仅含翻译文件，不包含任何原模组资源。"
+        "本模组仅含汉化文件和必要的界面文本补丁，不包含任何原模组资源。"
     )
     workshop_description = (
         "[h1]Aya 人工种族简体中文整合汉化包[/h1]\n"
@@ -408,14 +414,13 @@ def main() -> None:
         "RimWorld 1.5/1.6 如需使用上位种，请安装并启用对应的原 EX；汉化包不能代替原 EX。\n\n"
         "[h2]本次更新[/h2]\n"
         "[list]\n"
-        "[*]合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖。\n"
-        "[*]恢复被上一版本误删的种族心境译文（101 条）。\n"
-        "[*]补齐近战攻击名、背景故事、身体附加件、终端按钮、研究信件等未翻译文本"
-        "（350 余条，含 175 条运行时补丁）。\n"
+        "[*]适配 1.7 共用技能组件并更新技能范围、消耗和冷却说明，保留 1.6 兼容分支。\n"
+        "[*]补齐 Outerm 装备、祭坛、状态和设置文本；补齐全系列 964 处身体自定义名称及身体部件。\n"
+        "[*]补齐 139 处嵌套攻击/操作文本，汉化技能取消准备、条件不足和资源不足提示。\n"
         "[/list]\n\n"
         + workshop_directory()
         + "\n\n[h2]兼容信息[/h2]\n"
-        "RimWorld 1.6 / 1.7｜本模组仅含翻译文件，不包含任何原模组资源。"
+        "RimWorld 1.6 / 1.7｜仅含汉化文件和界面文本补丁，不包含原模组资源。"
     )
     for tag, value in [
         ("name", "[Aya]人工种族简体中文整合汉化包 v1.6/1.7"),
@@ -427,6 +432,11 @@ def main() -> None:
     supported = ET.SubElement(about, "supportedVersions")
     ET.SubElement(supported, "li").text = "1.6"
     ET.SubElement(supported, "li").text = "1.7"
+    dependencies = ET.SubElement(about, 'modDependencies')
+    harmony = ET.SubElement(dependencies, 'li')
+    ET.SubElement(harmony, 'packageId').text = 'brrainz.harmony'
+    ET.SubElement(harmony, 'displayName').text = 'Harmony'
+    ET.SubElement(harmony, 'steamWorkshopUrl').text = 'steam://url/CommunityFilePage/2009463077'
     load_after_node = ET.SubElement(about, "loadAfter")
     for dependency in load_after:
         ET.SubElement(load_after_node, "li").text = dependency
@@ -512,7 +522,7 @@ def main() -> None:
                 f'\t"previewfile"\t\t"{build.vdf_quote(build.vdf_path(steam_output / "About" / "Preview.png"))}"',
                 f'\t"title"\t\t"{build.vdf_quote(title)}"',
                 f'\t"description"\t\t"{build.vdf_quote(workshop_description)}"',
-                f'\t"changenote"\t\t"{build.vdf_quote("合并重复的运行时翻译补丁，统一装备、家具与 Character Editor 的标签覆盖；补齐并修复部分游戏文本。")}"',
+                f'\t"changenote"\t\t"{build.vdf_quote("适配 1.7 共用技能组件并更新技能范围、消耗及冷却说明；补齐 Outerm 装备、祭坛、状态和设置；补齐 964 处身体自定义名称及 139 处嵌套攻击/操作文本；汉化技能取消准备、条件不足和资源不足提示；保留 1.6 兼容分支。")}"',
                 "}", "",
             ])
             (

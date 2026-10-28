@@ -31,6 +31,10 @@ namespace AyaRaceZhRuntime
                 if (method != null)
                     harmony.Patch(method, postfix: postfix);
             }
+            var shared = AccessTools.TypeByName("Aya_Common.Aya_Comp_Skill");
+            var sharedGizmos = shared == null ? null : AccessTools.Method(shared, "CompGetGizmosExtra");
+            if (sharedGizmos != null)
+                harmony.Patch(sharedGizmos, postfix: postfix);
         }
 
         public static void FilterReleaseCondition(ref IEnumerable<Gizmo> __result)
@@ -44,6 +48,17 @@ namespace AyaRaceZhRuntime
             foreach (var gizmo in source)
             {
                 var command = gizmo as Command;
+                if (command != null)
+                {
+                    if (command.defaultLabel != null && command.defaultLabel.StartsWith("キャンセル: ", StringComparison.Ordinal))
+                        command.defaultLabel = "取消：" + command.defaultLabel.Substring("キャンセル: ".Length);
+                    if (command.defaultDesc == "スキル発動の準備をキャンセルします。")
+                        command.defaultDesc = "取消技能的施放准备。";
+                    if (command.disabledReason != null)
+                        command.disabledReason = command.disabledReason
+                            .Replace("条件が不足しています: ", "未满足发动条件：")
+                            .Replace("コストが不足しています: ", "所需资源不足：");
+                }
                 if (command != null && command.disabledReason != null &&
                     command.disabledReason.StartsWith("Release Conditions:", StringComparison.Ordinal))
                 {

@@ -16,3 +16,10 @@ steam_localizer/
 
 # IDE-generated knowledge wiki (not part of the project).
 .qoder/
+
+# Local investigation artifacts; reviewed summaries are tracked separately.
+local-tools/
+*.log
+STEAM-REMOTE-DETAILS.json
+VANILLA-EN-ZH.json
+aya-common-skill.cs

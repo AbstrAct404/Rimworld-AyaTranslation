@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
+  <DoBillsMakeApparel_HTBench_HAR.label>制作衣物</DoBillsMakeApparel_HTBench_HAR.label>
+  <DoBillsMakeApparel_HTBench_HAR.gerund>正在制作衣物：</DoBillsMakeApparel_HTBench_HAR.gerund>
   <HAR_Saclean_Milk.label>飞蛾姬产奶中</HAR_Saclean_Milk.label>
   <HAR_Saclean_Shear.label>飞蛾姬吐丝中</HAR_Saclean_Shear.label>
 </LanguageData>

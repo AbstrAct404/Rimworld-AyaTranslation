@@ -1,12 +1,12 @@
 {
-  "checkedValues": 265,
+  "checkedValues": 264,
   "checkedByType": {
-    "CustomCommand.label": 92,
-    "CustomCommand.description": 93,
     "GeneDef.label": 12,
     "GeneDef.description": 12,
     "XenotypeDef.label": 12,
     "XenotypeDef.description": 12,
+    "CustomCommand.label": 93,
+    "CustomCommand.description": 91,
     "CustomSummon.autoLabel": 8,
     "CustomSummon.autoDescription": 8,
     "CustomSummon.manualLabel": 8,

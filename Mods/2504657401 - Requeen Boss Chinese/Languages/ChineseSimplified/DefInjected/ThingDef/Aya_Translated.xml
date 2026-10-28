@@ -34,10 +34,12 @@
   <BOSS_RQ_Turret_Sniper.label>审判</BOSS_RQ_Turret_Sniper.label>
   <BOSS_RQ_Turret_Sniper.description>女王种的防卫功能之一，是快速发射高穿透力子弹的炮塔——但是它的命中率很低。</BOSS_RQ_Turret_Sniper.description>
   <BOSS_RQ_Gun_TurretSniper.label>审判</BOSS_RQ_Gun_TurretSniper.label>
+  <BOSS_RQ_Gun_TurretSniper.description>安装在炮塔上的自动装填铀弹加农炮。</BOSS_RQ_Gun_TurretSniper.description>
   <BOSS_RQ_Bullet_TurretSniper.label>审判</BOSS_RQ_Bullet_TurretSniper.label>
   <BOSS_RQ_Turret_Sniper_b.label>圣约</BOSS_RQ_Turret_Sniper_b.label>
   <BOSS_RQ_Turret_Sniper_b.description>女王种的防卫功能之一，是快速发射爆炸性子弹的炮塔——但是它的命中率很低。</BOSS_RQ_Turret_Sniper_b.description>
   <BOSS_RQ_Gun_TurretSniper_b.label>圣约</BOSS_RQ_Gun_TurretSniper_b.label>
+  <BOSS_RQ_Gun_TurretSniper_b.description>安装在炮塔上的自动装填铀弹加农炮。</BOSS_RQ_Gun_TurretSniper_b.description>
   <BOSS_RQ_Bullet_TurretSniper_b.label>圣约</BOSS_RQ_Bullet_TurretSniper_b.label>
   <BOSS_RQ_Hive_Requeen_Gone_Error.label>远渡星海之鸟</BOSS_RQ_Hive_Requeen_Gone_Error.label>
   <BOSS_RQ_Hive_Requeen_Gone_Error.description>伊迪亚「哎呀、是出于兴趣把我召唤出来的吗？还是说由于环境所造成的偶然呢…不管怎么样这都是件令人高兴的事呢。
@@ -57,8 +59,6 @@
 如果有缘的话，我们还会再见吧……不过呢，说不定我已经作为故事的叙述者，陪伴在你的身边了哦？」</BOSS_RQ_Hive_Requeen_Gone_Error.description>
   <BOSS_RQ_Hive_Requeen.label>女王种</BOSS_RQ_Hive_Requeen.label>
   <BOSS_RQ_Hive_Requeen.description>女王种是某个外星文明创造的机械生命体，孕育了魅魔及其亚种们的始祖，\n也许因为是最初建造的生命体，基本没有自我意识，在外星文明灭亡后也忠实地遵循输入的指令，一直处于“生产兵力”和“排除外敌”的暴走状态。\n\n她们不具备战斗能力，但有着极强的装甲和再生能力，能够源源不断地生产机械生命体。\n即使自身能量耗尽，她们也能迅速从周围汲取能量；只有外力才能真正杀死她们。\n\n\n现如今，“击败还在苦苦侍奉那已灭亡的创造者的女王们、让她们陷入永眠”成为了以魅魔为首的女儿们的夙愿。</BOSS_RQ_Hive_Requeen.description>
-  <BOSS_RQ_Hive_Requeen_Egg.label>兵力补充单元</BOSS_RQ_Hive_Requeen_Egg.label>
-  <BOSS_RQ_Hive_Requeen_Egg.description>一种暂时存储和培养由女王种生产的生命体的单元。如果有必要，可以将每个单元中存储的生命体都投入到战场上。</BOSS_RQ_Hive_Requeen_Egg.description>
   <BOSS_RQ_Hive_Requeen_Z.label>雏鸟</BOSS_RQ_Hive_Requeen_Z.label>
   <BOSS_RQ_Hive_Requeen_Z.description>它是威胁着刚诞生不久的生命及文明的远渡星海之鸟，也是人工种族们必须打败的仇敌。
 过去，毁灭了人工种族们的创造者的神秘存在临死前，将自己的心脏植入了【女王种】体内。这颗心脏逐渐侵蚀了女王种，最终接管了她的生产能力，诞下了这只雏鸟。这解决了困扰母鸟许久的能量问题，因此未来的危险性肯定会远超母鸟。

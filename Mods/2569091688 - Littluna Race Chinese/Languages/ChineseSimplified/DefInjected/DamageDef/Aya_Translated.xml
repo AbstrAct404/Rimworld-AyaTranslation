@@ -1,11 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_LL_EX_Damage_a.label>灰暗之血</HAR_LL_EX_Damage_a.label>
+  <HAR_LL_EX_Damage_a.deathMessage>{0}被炸死了。</HAR_LL_EX_Damage_a.deathMessage>
   <HAR_LL_EX_Damage_b.label>圣母之血</HAR_LL_EX_Damage_b.label>
+  <HAR_LL_EX_Damage_b.deathMessage>{0}被炸死了。</HAR_LL_EX_Damage_b.deathMessage>
   <HAR_LL_Damage_Attack.label>狂乱降生</HAR_LL_Damage_Attack.label>
+  <HAR_LL_Damage_Attack.deathMessage>{0}被压死了。</HAR_LL_Damage_Attack.deathMessage>
   <HAR_LL_LC_Damage_a.label>银色之羽</HAR_LL_LC_Damage_a.label>
+  <HAR_LL_LC_Damage_a.deathMessage>{0}被炸死了。</HAR_LL_LC_Damage_a.deathMessage>
   <HAR_LL_LC_Damage_b.label>忏悔</HAR_LL_LC_Damage_b.label>
+  <HAR_LL_LC_Damage_b.deathMessage>{0}被炸死了。</HAR_LL_LC_Damage_b.deathMessage>
   <HAR_LL_LC_Damage_c.label>神子的哭泣</HAR_LL_LC_Damage_c.label>
+  <HAR_LL_LC_Damage_c.deathMessage>{0}被炸死了。</HAR_LL_LC_Damage_c.deathMessage>
   <HAR_LL_Skill_MIKO_Damage_a.label>你好，朋友！</HAR_LL_Skill_MIKO_Damage_a.label>
+  <HAR_LL_Skill_MIKO_Damage_a.deathMessage>{0}被压死了。</HAR_LL_Skill_MIKO_Damage_a.deathMessage>
+  <HAR_LL_Skill_MIKO_Damage_b.deathMessage>{0}被压死了。</HAR_LL_Skill_MIKO_Damage_b.deathMessage>
   <HAR_LL_Skill_MIKO_Damage_c.label>神子天眼</HAR_LL_Skill_MIKO_Damage_c.label>
+  <HAR_LL_Skill_MIKO_Damage_c.deathMessage>{0}被压死了。</HAR_LL_Skill_MIKO_Damage_c.deathMessage>
 </LanguageData>

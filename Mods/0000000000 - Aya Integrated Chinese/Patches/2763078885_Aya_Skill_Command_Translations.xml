@@ -42,6 +42,46 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>王权之威</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身と周囲の味方に身体強化を施します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身と周囲の味方に身体強化を施します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化自身及周围友军的身体机能。冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="レガリアブレス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="レガリアブレス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>王权庇佑</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身と周囲の味方に防御強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身と周囲の味方に防御強化を施します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化自身及周围友军的防御。冷却时间为3天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Qualeela_b"]/comps[1]/li[@Class="Qualeela_Dll.Qualeela_CompProperties_CommandExplosive"][commandLabel="レガリアオウス"]/commandLabel[1]</xpath>

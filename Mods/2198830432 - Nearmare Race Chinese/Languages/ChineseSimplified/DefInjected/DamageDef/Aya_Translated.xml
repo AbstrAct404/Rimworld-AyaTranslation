@@ -5,15 +5,27 @@
   <Damage_Larva.label>虫噬</Damage_Larva.label>
   <Damage_Genocide.label>毁灭</Damage_Genocide.label>
   <Damage_Genocide_Bomb.label>毁灭</Damage_Genocide_Bomb.label>
+  <Damage_Genocide_Bomb.deathMessage>{0}被烧死了。</Damage_Genocide_Bomb.deathMessage>
   <HAR_NM_Damage_Bullet.label>福音弹</HAR_NM_Damage_Bullet.label>
+  <HAR_NM_Damage_Bullet.deathMessage>{0}被射死了</HAR_NM_Damage_Bullet.deathMessage>
   <HAR_NM_Skill_Damage_a.label>终劫之裁</HAR_NM_Skill_Damage_a.label>
+  <HAR_NM_Skill_Damage_a.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_a.deathMessage>
   <HAR_NM_Skill_Damage_b.label>灼燃之怒</HAR_NM_Skill_Damage_b.label>
+  <HAR_NM_Skill_Damage_b.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b.deathMessage>
   <HAR_NM_Skill_Damage_c.label>溃烂颓败</HAR_NM_Skill_Damage_c.label>
+  <HAR_NM_Skill_Damage_c.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_c.deathMessage>
   <HAR_NM_Skill_Damage_d.label>蔓延严寒（散布）</HAR_NM_Skill_Damage_d.label>
   <HAR_NM_Skill_Damage_e.label>浸染晦暗</HAR_NM_Skill_Damage_e.label>
+  <HAR_NM_Skill_Damage_e.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_e.deathMessage>
+  <HAR_NM_Skill_Damage_b_a.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_a.deathMessage>
   <HAR_NM_Skill_Damage_b_b.label>古法疗愈</HAR_NM_Skill_Damage_b_b.label>
+  <HAR_NM_Skill_Damage_b_b.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_b.deathMessage>
   <HAR_NM_Skill_Damage_b_c.label>强攻灵药</HAR_NM_Skill_Damage_b_c.label>
+  <HAR_NM_Skill_Damage_b_c.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_c.deathMessage>
   <HAR_NM_Skill_Damage_b_d.label>铁壁魔药</HAR_NM_Skill_Damage_b_d.label>
+  <HAR_NM_Skill_Damage_b_d.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_d.deathMessage>
   <HAR_NM_Skill_Damage_b_e.label>复生秘药</HAR_NM_Skill_Damage_b_e.label>
+  <HAR_NM_Skill_Damage_b_e.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_e.deathMessage>
   <HAR_NM_Skill_Damage_b_z.label>傀儡化死药</HAR_NM_Skill_Damage_b_z.label>
+  <HAR_NM_Skill_Damage_b_z.deathMessage>{0}被压死了。</HAR_NM_Skill_Damage_b_z.deathMessage>
 </LanguageData>

@@ -18,6 +18,8 @@
   <HAR_OT_Apparel_H_e.label>极恶装备(奥特姆)</HAR_OT_Apparel_H_e.label>
   <HAR_OT_Apparel_H_z.description>奥特姆专用的头盔。透过内建的自动校正功能，得以实现精密的动作。</HAR_OT_Apparel_H_z.description>
   <HAR_OT_Apparel_H_z.label>腐灭头盔(奥特姆)</HAR_OT_Apparel_H_z.label>
+  <HAR_OT_Apparel_H_lvx.description>仅有混沌中受选中的奥特姆才获准佩戴的发饰。\n这块奇异的黑曜石象征着弑杀高位者，拥有不受任何事物侵蚀的美丽。</HAR_OT_Apparel_H_lvx.description>
+  <HAR_OT_Apparel_H_lvx.label>阿波里亚黑曜饰</HAR_OT_Apparel_H_lvx.label>
   <HAR_OT_Apparel_S_a.description>奥特姆们喜欢穿着的外套。为了能承受攻击，具有相应的耐久性。</HAR_OT_Apparel_S_a.description>
   <HAR_OT_Apparel_S_a.label>极恶外套A(奥特姆)</HAR_OT_Apparel_S_a.label>
   <HAR_OT_Apparel_S_b.description>奥特姆们喜欢穿着的外套。为了能承受攻击，具有相应的耐久性。</HAR_OT_Apparel_S_b.description>
@@ -42,8 +44,17 @@
   <HAR_OT_Apparel_T_Suit_a.label>极恶西装(奥特姆)</HAR_OT_Apparel_T_Suit_a.label>
   <HAR_OT_Apparel_T_Armor_a.label>腐灭盔甲(奥特姆)</HAR_OT_Apparel_T_Armor_a.label>
   <HAR_OT_Apparel_T_Armor_a.description>奥特姆专用的盔甲。透过内建的自动校正功能，得以实现精密的动作。</HAR_OT_Apparel_T_Armor_a.description>
+  <HAR_OT_Apparel_T_Armor_lvx.label>阿波里亚礼服</HAR_OT_Apparel_T_Armor_lvx.label>
+  <HAR_OT_Apparel_T_Armor_lvx.description>仅有混沌中受选中的奥特姆才获准穿着的礼服。\n这身以纯净的白色与蓝色为主调、与她们气质迥异的衣装，让人确信她们也有虔诚的一面。</HAR_OT_Apparel_T_Armor_lvx.description>
   <HAR_OT_Monster_Race_a.label>美伯拉</HAR_OT_Monster_Race_a.label>
   <HAR_OT_Monster_Race_a.description>奥特姆的眷属。战斗力不高，但机动性相当出色。更大的问题在于它们会无差别地胡闹，甚至会把召唤它们的奥特姆视为攻击对象。</HAR_OT_Monster_Race_a.description>
+  <HAR_OT_Thing_Altar_a.label>虚空祭坛</HAR_OT_Thing_Altar_a.label>
+  <HAR_OT_Thing_Altar_a.description>供奉混沌所信仰的“虚空的■■■”的祭坛。
+即使是享乐主义的奥特姆，似乎也不敢轻率建造，只有混沌的领袖才有资格承担此事。
+
+祭坛或许连接着某个未知的维度，已确认会发生不可思议的现象：每3小时生成10名奥特姆。
+
+摧毁祭坛可以获得少量神赐辉金。</HAR_OT_Thing_Altar_a.description>
   <HAR_OT_Thing_Container_a.label>货物货柜</HAR_OT_Thing_Container_a.label>
   <HAR_OT_Thing_Container_a.description>地下社会辛迪加「混沌」的货物货柜。\n摧毁后即可回收其中的物品。</HAR_OT_Thing_Container_a.description>
   <HAR_OT_Drag_a.label>天使隐剂</HAR_OT_Drag_a.label>
@@ -71,6 +82,15 @@
   <HAR_OT_Weapon_a.label>幻影短剑</HAR_OT_Weapon_a.label>
   <HAR_OT_Weapon_b.label>幻影战斧</HAR_OT_Weapon_b.label>
   <HAR_OT_Weapon_c.label>幻影战镰</HAR_OT_Weapon_c.label>
+  <HAR_OT_Weapon_Apollyon.label>阿波利翁</HAR_OT_Weapon_Apollyon.label>
+  <HAR_OT_Weapon_Apollyon.description>用于举行崇拜“虚空的■■■”仪式的虚天之剑。此剑由混沌所信仰的神明赐下，无法由人手制造。
+
+它蕴含虚空之力，可同时斩击周围2格内的敌人。若受击目标具有饥饿需求，还会夺取其部分饱食度。每杀死一个生物，剑刃都会进一步变得锋利，永无止境。
+
+
+即使放眼整个星球，持有阿波利翁的奥特姆也寥寥无几，且大多为领袖。因此，混沌的敌对派系将这些持剑者特别称为“奥特姆·阿波利翁”。
+
+这是混沌的奥特姆梦寐以求的神器。幸运获赐者据说会沉浸于狂喜之中，投身无尽的杀戮。</HAR_OT_Weapon_Apollyon.description>
   <HAR_OT_Weapon_Idea.label>噬魂邪枪</HAR_OT_Weapon_Idea.label>
   <HAR_OT_Weapon_Idea.description>由“虚空■■■”赐予的邪异长枪。它蕴含虚空之力，每次挥动都能攻击周围 5 格内的所有敌人；杀死的生物越多，其锋利程度便越会无止境地增长。
 

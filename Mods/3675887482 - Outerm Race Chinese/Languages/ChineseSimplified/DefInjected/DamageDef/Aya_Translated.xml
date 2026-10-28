@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_OT_Damage_null.label>伤害(无)</HAR_OT_Damage_null.label>
-  <HAR_OT_Damage_null.deathMessage>{0} 死于一场爆炸。</HAR_OT_Damage_null.deathMessage>
+  <HAR_OT_Damage_null.deathMessage>{0}被炸死了。</HAR_OT_Damage_null.deathMessage>
   <HAR_OT_Damage_Smoke.label>朱红之毒</HAR_OT_Damage_Smoke.label>
   <HAR_OT_Damage_a.label>吸血鬼之吻</HAR_OT_Damage_a.label>
-  <HAR_OT_Damage_a.deathMessage>{0} 死于一场爆炸。</HAR_OT_Damage_a.deathMessage>
+  <HAR_OT_Damage_a.deathMessage>{0}被炸死了。</HAR_OT_Damage_a.deathMessage>
   <HAR_OT_Damage_d.label>机能瓦解</HAR_OT_Damage_d.label>
-  <HAR_OT_Damage_d.deathMessage>{0} 死于一场爆炸。</HAR_OT_Damage_d.deathMessage>
+  <HAR_OT_Damage_d.deathMessage>{0}被炸死了。</HAR_OT_Damage_d.deathMessage>
   <HAR_OT_Damage_g.label>血潮冲击</HAR_OT_Damage_g.label>
-  <HAR_OT_Damage_g.deathMessage>{0} 被射杀了。</HAR_OT_Damage_g.deathMessage>
+  <HAR_OT_Damage_g.deathMessage>{0}被炸死了。</HAR_OT_Damage_g.deathMessage>
   <HAR_OT_Damage_Weapon_a.label>悲惨之刃</HAR_OT_Damage_Weapon_a.label>
-  <HAR_OT_Damage_Weapon_a.deathMessage>{0} 被射杀了。</HAR_OT_Damage_Weapon_a.deathMessage>
+  <HAR_OT_Damage_Weapon_a.deathMessage>{0}被射死了</HAR_OT_Damage_Weapon_a.deathMessage>
   <HAR_OT_Damage_Bullet_a.label>子弹</HAR_OT_Damage_Bullet_a.label>
-  <HAR_OT_Damage_Bullet_a.deathMessage>{0} 被射杀了。</HAR_OT_Damage_Bullet_a.deathMessage>
+  <HAR_OT_Damage_Bullet_a.deathMessage>{0}被射死了</HAR_OT_Damage_Bullet_a.deathMessage>
 </LanguageData>

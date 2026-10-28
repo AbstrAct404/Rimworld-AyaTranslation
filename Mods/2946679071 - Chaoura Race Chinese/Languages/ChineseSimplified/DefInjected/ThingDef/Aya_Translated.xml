@@ -51,6 +51,7 @@
   <HAR_CO_UB_Archotech_b.label>盟约灵晶</HAR_CO_UB_Archotech_b.label>
   <HAR_CO_UB_Archotech_b.description>蕴含着生命的神圣结晶。
 使用之后，能够让那个存在作为同伴加入。</HAR_CO_UB_Archotech_b.description>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
   <HAR_CO_Weapon_a.label>幽冥的祭礼刀</HAR_CO_Weapon_a.label>
   <HAR_CO_Weapon_a.description>混沌灵专用的神器，不仅用于战斗，也用于仪式。\n杀伤力虽然很低，但因为可以穿透铠甲的缝隙、向其中刺入暗影，所以基本无视对方的护甲。\n砍向敌人时会人为引发深渊腐败。</HAR_CO_Weapon_a.description>

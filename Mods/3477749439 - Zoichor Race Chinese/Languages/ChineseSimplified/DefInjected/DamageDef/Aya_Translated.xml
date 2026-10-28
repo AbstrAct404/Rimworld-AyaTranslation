@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_ZC_Damage_a.label>冻炎</HAR_ZC_Damage_a.label>
-  <HAR_ZC_Damage_a.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_a.deathMessage>
+  <HAR_ZC_Damage_a.deathMessage>{0}被炸死了。</HAR_ZC_Damage_a.deathMessage>
   <HAR_ZC_Damage_b.label>暗狱咆哮</HAR_ZC_Damage_b.label>
-  <HAR_ZC_Damage_b.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_b.deathMessage>
+  <HAR_ZC_Damage_b.deathMessage>{0}被炸死了。</HAR_ZC_Damage_b.deathMessage>
   <HAR_ZC_Damage_c.label>恶魔的一击</HAR_ZC_Damage_c.label>
-  <HAR_ZC_Damage_c.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_c.deathMessage>
+  <HAR_ZC_Damage_c.deathMessage>{0}被炸死了。</HAR_ZC_Damage_c.deathMessage>
   <HAR_ZC_Damage_d.label>地狱之钉</HAR_ZC_Damage_d.label>
-  <HAR_ZC_Damage_d.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_d.deathMessage>
-  <HAR_ZC_Damage_e.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_e.deathMessage>
-  <HAR_ZC_Damage_f.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_f.deathMessage>
+  <HAR_ZC_Damage_d.deathMessage>{0}被炸死了。</HAR_ZC_Damage_d.deathMessage>
+  <HAR_ZC_Damage_e.deathMessage>{0}被炸死了。</HAR_ZC_Damage_e.deathMessage>
+  <HAR_ZC_Damage_f.deathMessage>{0}被炸死了。</HAR_ZC_Damage_f.deathMessage>
   <HAR_ZC_Damage_y.label>送往冥界</HAR_ZC_Damage_y.label>
-  <HAR_ZC_Damage_y.deathMessage>{0} 死于一场爆炸。</HAR_ZC_Damage_y.deathMessage>
-  <HAR_ZC_Damage_EX.deathMessage>{0} 被射杀了。</HAR_ZC_Damage_EX.deathMessage>
+  <HAR_ZC_Damage_y.deathMessage>{0}被炸死了。</HAR_ZC_Damage_y.deathMessage>
+  <HAR_ZC_Damage_EX.deathMessage>{0}被射死了</HAR_ZC_Damage_EX.deathMessage>
 </LanguageData>

@@ -24,37 +24,37 @@
   <HAR_IA_Item_c.description>制造机械生命体伊迪安必须的高性能传感器。\n用于提供五感与能量检测的能力。</HAR_IA_Item_c.description>
   <HAR_IA_Item_d.label>创世反应堆</HAR_IA_Item_d.label>
   <HAR_IA_Item_d.description>制造机械生命体伊迪安必须的高性能反应器。\n搭载了这一装置的个体能够完整地发挥出彼岸的能力。</HAR_IA_Item_d.description>
-  <HAR_IA_Item_spawn_Laches_a.label>伊迪安·拉刻斯</HAR_IA_Item_spawn_Laches_a.label>
+  <HAR_IA_Item_spawn_Laches_a.label>【伊迪安·拉刻斯】封装舱</HAR_IA_Item_spawn_Laches_a.label>
   <HAR_IA_Item_spawn_Laches_a.description>制造生体模型“伊迪安·拉刻斯”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。</HAR_IA_Item_spawn_Laches_a.description>
-  <HAR_IA_Item_spawn_Charmides_a.label>伊迪安·卡尔米德 A型</HAR_IA_Item_spawn_Charmides_a.label>
+  <HAR_IA_Item_spawn_Charmides_a.label>【伊迪安·卡尔米德 A型】封装舱</HAR_IA_Item_spawn_Charmides_a.label>
   <HAR_IA_Item_spawn_Charmides_a.description>制造生体模型“伊迪安·卡尔米德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】防御性能。</HAR_IA_Item_spawn_Charmides_a.description>
-  <HAR_IA_Item_spawn_Charmides_b.label>伊迪安·卡尔米德 B型</HAR_IA_Item_spawn_Charmides_b.label>
+  <HAR_IA_Item_spawn_Charmides_b.label>【伊迪安·卡尔米德 B型】封装舱</HAR_IA_Item_spawn_Charmides_b.label>
   <HAR_IA_Item_spawn_Charmides_b.description>制造生体模型“伊迪安·卡尔米德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】移动性能。</HAR_IA_Item_spawn_Charmides_b.description>
-  <HAR_IA_Item_spawn_Menexenus_a.label>伊迪安·梅涅克赛努 A型</HAR_IA_Item_spawn_Menexenus_a.label>
+  <HAR_IA_Item_spawn_Menexenus_a.label>【伊迪安·梅涅克赛努 A型】封装舱</HAR_IA_Item_spawn_Menexenus_a.label>
   <HAR_IA_Item_spawn_Menexenus_a.description>制造生体模型“伊迪安·梅涅克赛努 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害减免屏障
 技能：削弱敌对目标</HAR_IA_Item_spawn_Menexenus_a.description>
-  <HAR_IA_Item_spawn_Menexenus_b.label>伊迪安·梅涅克赛努 B型</HAR_IA_Item_spawn_Menexenus_b.label>
+  <HAR_IA_Item_spawn_Menexenus_b.label>【伊迪安·梅涅克赛努 B型】封装舱</HAR_IA_Item_spawn_Menexenus_b.label>
   <HAR_IA_Item_spawn_Menexenus_b.description>制造生体模型“伊迪安·梅涅克赛努 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害减免屏障
 技能：燃烧爆炸
 技能：电磁脉冲爆炸</HAR_IA_Item_spawn_Menexenus_b.description>
-  <HAR_IA_Item_spawn_Theaetetus_a.label>伊迪安·泰阿泰德 A型</HAR_IA_Item_spawn_Theaetetus_a.label>
+  <HAR_IA_Item_spawn_Theaetetus_a.label>【伊迪安·泰阿泰德 A型】封装舱</HAR_IA_Item_spawn_Theaetetus_a.label>
   <HAR_IA_Item_spawn_Theaetetus_a.description>制造生体模型“伊迪安·泰阿泰德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害阻断屏障
 技能：召唤眷属
 技能：强化友军</HAR_IA_Item_spawn_Theaetetus_a.description>
-  <HAR_IA_Item_spawn_Theaetetus_b.label>伊迪安·泰阿泰德 B型</HAR_IA_Item_spawn_Theaetetus_b.label>
+  <HAR_IA_Item_spawn_Theaetetus_b.label>【伊迪安·泰阿泰德 B型】封装舱</HAR_IA_Item_spawn_Theaetetus_b.label>
   <HAR_IA_Item_spawn_Theaetetus_b.description>制造生体模型“伊迪安·泰阿泰德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
@@ -67,6 +67,7 @@
   <HAR_IA_M_Race_Base.description>伊迪安·泰阿泰德 A型制造的子机，杀伤力、机动性与耐久性都十分出色，能够执行集团军事行动。
 召唤出的自然拟态会在三天后消失。</HAR_IA_M_Race_Base.description>
   <HAR_IA_M_Race_a.label>自然拟态</HAR_IA_M_Race_a.label>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
   <HAR_IA_Things_Mysterion.label>秘仪机</HAR_IA_Things_Mysterion.label>
   <HAR_IA_Things_Mysterion.description>通过研究再现出的创造伊迪安的机器。传说中曾在被造物主失去后引发了灾厄。</HAR_IA_Things_Mysterion.description>

@@ -2,6 +2,206 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ヴリコラカス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ヴリコラカス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>吸血鬼之吻</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手に噛みついて吸血する。\n発動条件　：人工種族Lv1\n再使用　　：30分"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手に噛みついて吸血する。\n発動条件　：人工種族Lv1\n再使用　　：30分"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>啃咬目标并吸血。\n发动条件：人工种族等级1\n冷却时间：30分钟</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ウペレテス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ウペレテス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>渡鸦侍从</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手一体に噛みついて吸血する。\n発動条件　：人工種族Lv1\n再使用　　：30分"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手一体に噛みついて吸血する。\n発動条件　：人工種族Lv1\n再使用　　：30分"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>啃咬一个目标并吸血。\n发动条件：人工种族等级1\n冷却时间：30分钟</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アキノイア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アキノイア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>空明</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="確率回避状態となる。\n発動条件　：人工種族Lv3\n再使用　　：1日"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="確率回避状態となる。\n発動条件　：人工種族Lv3\n再使用　　：1日"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>进入概率闪避状态。\n发动条件：人工种族等级3\n冷却时间：1天</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カタリュシス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カタリュシス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>机能瓦解</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手の一部機能を一時的に麻痺させる。\n発動条件　：人工種族Lv4\n再使用　　：1時間"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="相手の一部機能を一時的に麻痺させる。\n発動条件　：人工種族Lv4\n再使用　　：1時間"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>暂时麻痹目标的部分身体机能。\n发动条件：人工种族等级4\n冷却时间：1小时</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アポストロス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アポストロス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>高位使徒</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="高次から力を受けて強化状態となる。\n発動条件　：人工種族Lv5\n再使用　　：3日"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="高次から力を受けて強化状態となる。\n発動条件　：人工種族Lv5\n再使用　　：3日"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>接受高位存在的力量并进入强化状态。\n发动条件：人工种族等级5\n冷却时间：3天</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ティフォナス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ティフォナス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>飓风飞跃</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定したマスに向かって飛翔する。\n発動条件　：人工種族Lv6\n再使用　　：30分"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定したマスに向かって飛翔する。\n発動条件　：人工種族Lv6\n再使用　　：30分"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>飞向指定位置。\n发动条件：人工种族等级6\n冷却时间：30分钟</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エモラギア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エモラギア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血潮冲击</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスまでノックバックを発生させる扇状の衝撃波を放つ。\n発動条件　：人工種族Lv7\n再使用　　：30分"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスまでノックバックを発生させる扇状の衝撃波を放つ。\n発動条件　：人工種族Lv7\n再使用　　：30分"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>释放扇形冲击波，将目标击退至指定位置。\n发动条件：人工种族等级7\n冷却时间：30分钟</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ティシフォネ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ティシフォネ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>复仇女神</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="反撃状態となる。\n発動条件　：人工種族Lv8\n再使用　　：1日"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="反撃状態となる。\n発動条件　：人工種族Lv8\n再使用　　：1日"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>进入反击状态。\n发动条件：人工种族等级8\n冷却时间：1天</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アルパクティコ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アルパクティコ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>尸骸捕食</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="死体を捕食して強化する。\n発動条件　：人工種族Lv9\n再使用　　：30分"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="死体を捕食して強化する。\n発動条件　：人工種族Lv9\n再使用　　：30分"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>吞噬尸体并强化自身。\n发动条件：人工种族等级9\n冷却时间：30分钟</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ケリュフォス"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ケリュフォス"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>完全觉醒</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="覚醒状態となる。\n発動条件　：人工種族Lv10\n再使用　　：1日"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="覚醒状態となる。\n発動条件　：人工種族Lv10\n再使用　　：1日"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>进入觉醒状态。\n发动条件：人工种族等级10\n冷却时间：1天</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Outerm"]/comps[1]/li[@Class="Outerm.HAR_OT_CompProperties_Skill_a"]/commandLabel[1]</xpath>

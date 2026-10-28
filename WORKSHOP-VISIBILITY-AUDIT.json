@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-27",
+  "appId": 294100,
+  "contentUploaded": false,
+  "standaloneVisibility": "private",
+  "before": [
+    {
+      "id": 3769646709,
+      "title": "[Aya] Nearmare Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769645281,
+      "title": "[Aya] Xenoorca Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769645740,
+      "title": "[Aya] Idhale Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769650937,
+      "title": "[Aya] Silkiera Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769646881,
+      "title": "[Aya] Neclose Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769649735,
+      "title": "[Aya] Requeen Boss_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769646243,
+      "title": "[Aya] Littluna Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769651652,
+      "title": "[Aya] Solark Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769650099,
+      "title": "[Aya] Saclean Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548562,
+      "title": "[Aya] Nexaga Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548499,
+      "title": "[Aya] Enforcer Boss_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769649414,
+      "title": "[Aya] Qualeela Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769645094,
+      "title": "[Aya] Idearn Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769644534,
+      "title": "[Aya] Chaoura Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769644933,
+      "title": "[Aya] Idea Storyteller_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769644777,
+      "title": "[Aya] Eveliet Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548688,
+      "title": "[Aya] Zoichor Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548439,
+      "title": "[Aya] Chaoura UB_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3769644292,
+      "title": "[Aya] Aya Premise Core_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548625,
+      "title": "[Aya] Outerm Race_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548028,
+      "title": "[Aya] Canaan Intellect_zh 人工种族汉化 v1.6",
+      "visibility": 0,
+      "owned": true
+    },
+    {
+      "id": 3770548798,
+      "title": "[Aya]人工种族简体中文整合汉化包 v1.7",
+      "visibility": 0,
+      "owned": true
+    }
+  ],
+  "after": [
+    {
+      "id": 3769646709,
+      "title": "[Aya] Nearmare Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769645281,
+      "title": "[Aya] Xenoorca Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769645740,
+      "title": "[Aya] Idhale Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769650937,
+      "title": "[Aya] Silkiera Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769646881,
+      "title": "[Aya] Neclose Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769649735,
+      "title": "[Aya] Requeen Boss_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769646243,
+      "title": "[Aya] Littluna Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769651652,
+      "title": "[Aya] Solark Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769650099,
+      "title": "[Aya] Saclean Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548562,
+      "title": "[Aya] Nexaga Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548499,
+      "title": "[Aya] Enforcer Boss_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769649414,
+      "title": "[Aya] Qualeela Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769645094,
+      "title": "[Aya] Idearn Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769644534,
+      "title": "[Aya] Chaoura Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769644933,
+      "title": "[Aya] Idea Storyteller_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769644777,
+      "title": "[Aya] Eveliet Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548688,
+      "title": "[Aya] Zoichor Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548439,
+      "title": "[Aya] Chaoura UB_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3769644292,
+      "title": "[Aya] Aya Premise Core_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548625,
+      "title": "[Aya] Outerm Race_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548028,
+      "title": "[Aya] Canaan Intellect_zh 人工种族汉化 v1.6",
+      "visibility": 2,
+      "owned": true
+    },
+    {
+      "id": 3770548798,
+      "title": "[Aya]人工种族简体中文整合汉化包 v1.7",
+      "visibility": 0,
+      "owned": true
+    }
+  ]
+}

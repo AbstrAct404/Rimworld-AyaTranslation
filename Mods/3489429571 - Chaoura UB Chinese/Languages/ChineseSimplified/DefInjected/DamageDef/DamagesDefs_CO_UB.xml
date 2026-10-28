@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_CO_UB_Damage_a.label>天之剑</HAR_CO_UB_Damage_a.label>
-  <HAR_CO_UB_Damage_a.deathMessage>{0} 死于一场爆炸。</HAR_CO_UB_Damage_a.deathMessage>
+  <HAR_CO_UB_Damage_a.deathMessage>{0}被炸死了。</HAR_CO_UB_Damage_a.deathMessage>
   <HAR_CO_UB_Damage_b.label>白垩之光</HAR_CO_UB_Damage_b.label>
-  <HAR_CO_UB_Damage_b.deathMessage>{0} 死于一场爆炸。</HAR_CO_UB_Damage_b.deathMessage>
+  <HAR_CO_UB_Damage_b.deathMessage>{0}被炸死了。</HAR_CO_UB_Damage_b.deathMessage>
   <HAR_CO_UB_Damage_c.label>灾厄彗星</HAR_CO_UB_Damage_c.label>
-  <HAR_CO_UB_Damage_c.deathMessage>{0} 死于一场爆炸。</HAR_CO_UB_Damage_c.deathMessage>
+  <HAR_CO_UB_Damage_c.deathMessage>{0}被炸死了。</HAR_CO_UB_Damage_c.deathMessage>
   <HAR_CO_UB_Damage_EX.label>无边光</HAR_CO_UB_Damage_EX.label>
-  <HAR_CO_UB_Damage_EX.deathMessage>{0} 被射杀了。</HAR_CO_UB_Damage_EX.deathMessage>
+  <HAR_CO_UB_Damage_EX.deathMessage>{0}被射死了</HAR_CO_UB_Damage_EX.deathMessage>
   <HAR_CO_UB_Damage_EX_b.label>黎明之女．晨星</HAR_CO_UB_Damage_EX_b.label>
-  <HAR_CO_UB_Damage_EX_b.deathMessage>{0} 死于一场爆炸。</HAR_CO_UB_Damage_EX_b.deathMessage>
+  <HAR_CO_UB_Damage_EX_b.deathMessage>{0}被炸死了。</HAR_CO_UB_Damage_EX_b.deathMessage>
   <HAR_CO_UB_Damage_Reflection.label>反射</HAR_CO_UB_Damage_Reflection.label>
-  <HAR_CO_UB_Damage_Reflection.deathMessage>{0} 死于一场爆炸。</HAR_CO_UB_Damage_Reflection.deathMessage>
+  <HAR_CO_UB_Damage_Reflection.deathMessage>{0}被炸死了。</HAR_CO_UB_Damage_Reflection.deathMessage>
 </LanguageData>

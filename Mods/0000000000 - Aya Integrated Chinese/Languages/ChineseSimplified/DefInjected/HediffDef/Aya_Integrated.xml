@@ -154,6 +154,7 @@
 出血会逐渐严重，伤口也会越来越难以愈合。
 这种状态在半天之后就会解除。</HAR_EL_Hediff_d.description>
   <HAR_EL_Hediff_d.label>猩红风暴</HAR_EL_Hediff_d.label>
+  <HAR_IA_Critias_Hediff_Flag.label>复苏的灾厄</HAR_IA_Critias_Hediff_Flag.label>
   <HAR_IA_Gunshot.description>天国之倾造成的空间压缩超过洛希极限所造成的伤害。</HAR_IA_Gunshot.description>
   <HAR_IA_Gunshot.label>空迹</HAR_IA_Gunshot.label>
   <HAR_IA_Gunshot.labelNoun>空迹</HAR_IA_Gunshot.labelNoun>
@@ -339,6 +340,17 @@
 
 创造者啊，创造者。请不要把我逐出乐园。</HAR_NM_XXX_Hediff.description>
   <HAR_NM_XXX_Hediff.label>救度</HAR_NM_XXX_Hediff.label>
+  <HAR_OT_Hediff_Apollyon.description>混沌中杀戮无数的奥特姆才能抵达的境界。据说这也是她们信仰的“虚空的■■■”赐予的称号或祝福。
+
+其能力远超其他奥特姆，因此被恩特莱切亚列为需要严加警惕的对象。
+
+特殊效果：处于此状态时，“高位使徒”最多可以使其复活5次。
+
+
+由无底虚空赐下的黄金王冠。
+受选之王率领无数大军，如雪崩般降下灾祸。
+只为将一切生灵化为祭品。</HAR_OT_Hediff_Apollyon.description>
+  <HAR_OT_Hediff_Apollyon.label>黄金之冠</HAR_OT_Hediff_Apollyon.label>
   <HAR_OT_Hediff_Bed_a.description>奥特姆陷入肉欲后的状态。肉体得到激活，身体能力暂时提升。
 
 奥特姆在遗传层面有着强烈性欲，一两次远远无法满足。她们如吞食猎物的肉食兽般贪婪，只会不断追求欢愉。

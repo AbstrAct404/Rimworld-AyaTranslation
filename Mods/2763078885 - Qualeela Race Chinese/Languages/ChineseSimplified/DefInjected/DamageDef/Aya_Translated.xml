@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_QL_Damage_a.label>王权之威</HAR_QL_Damage_a.label>
-  <HAR_QL_Damage_a.deathMessage>{0} 被压死了。</HAR_QL_Damage_a.deathMessage>
+  <HAR_QL_Damage_a.deathMessage>{0}被压死了。</HAR_QL_Damage_a.deathMessage>
   <HAR_QL_Damage_b.label>王权庇佑</HAR_QL_Damage_b.label>
-  <HAR_QL_Damage_b.deathMessage>{0} 被压死了。</HAR_QL_Damage_b.deathMessage>
+  <HAR_QL_Damage_b.deathMessage>{0}被压死了。</HAR_QL_Damage_b.deathMessage>
   <HAR_QL_Damage_c.label>大地之剑</HAR_QL_Damage_c.label>
-  <HAR_QL_Damage_c.deathMessage>{0} 被射杀了。</HAR_QL_Damage_c.deathMessage>
+  <HAR_QL_Damage_c.deathMessage>{0}被射死了</HAR_QL_Damage_c.deathMessage>
 </LanguageData>

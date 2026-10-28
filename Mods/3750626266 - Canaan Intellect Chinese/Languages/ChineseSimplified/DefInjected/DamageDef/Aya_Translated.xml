@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <Aya_CI_Damage_Phobia_a.label>墓地恐惧</Aya_CI_Damage_Phobia_a.label>
-  <Aya_CI_Damage_Phobia_a.deathMessage>{0} 死于一场爆炸。</Aya_CI_Damage_Phobia_a.deathMessage>
+  <Aya_CI_Damage_Phobia_a.deathMessage>{0}被炸死了。</Aya_CI_Damage_Phobia_a.deathMessage>
   <Aya_CI_Damage_Bullet_Merciful.label>慈悲一击</Aya_CI_Damage_Bullet_Merciful.label>
-  <Aya_CI_Damage_Bullet_Merciful.deathMessage>{0} 被射杀了。</Aya_CI_Damage_Bullet_Merciful.deathMessage>
+  <Aya_CI_Damage_Bullet_Merciful.deathMessage>{0}被射死了</Aya_CI_Damage_Bullet_Merciful.deathMessage>
 </LanguageData>

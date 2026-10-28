@@ -148,6 +148,8 @@ def main() -> None:
                             "__AYA_FIELD_ID__",
                             f"[{node.tag}={xpath_literal(original)}]",
                         )
+                    if any(op[5] == xpath and op[6] == translated for op in operations):
+                        continue
                     operations.append(
                         (
                             definition.tag,
@@ -159,6 +161,15 @@ def main() -> None:
                             translated,
                         )
                     )
+
+        # Retain reviewed 1.6 targets as conditional fallbacks. The 1.7 shared
+        # component class is different, so these do not overwrite 1.7 values.
+        legacy = Path('legacy_skill_command_translations.json')
+        if legacy.exists():
+            for entry in json.loads(legacy.read_text(encoding='utf-8')):
+                if entry['modId'] != mod_id or any(op[5] == entry['xpath'] for op in operations):
+                    continue
+                operations.append((entry['defType'], entry['defName'], '', entry['field'], entry['source'], entry['xpath'], entry['translation']))
 
         patch_path = package / "Patches" / OUTPUT_NAME
         if not operations:

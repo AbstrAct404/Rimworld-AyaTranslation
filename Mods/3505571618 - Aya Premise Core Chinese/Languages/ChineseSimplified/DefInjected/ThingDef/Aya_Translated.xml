@@ -9,5 +9,6 @@
   <Aya_Race_Ap_C_T_c.description>人工种族儿童使用的裹身布。由于面向儿童设计，性能较为有限。</Aya_Race_Ap_C_T_c.description>
   <Aya_Race_Ap_C_T_d.description>人工种族儿童穿着的学生服。由于面向儿童设计，性能较为有限。</Aya_Race_Ap_C_T_d.description>
   <Aya_Race_Ap_C_T_d.label>儿童学生服</Aya_Race_Ap_C_T_d.label>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
 </LanguageData>

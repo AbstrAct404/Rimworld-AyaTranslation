@@ -1,4 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
+  <HAR_SK_Recycle_WorkGiver.gerund>正在制作衣物：</HAR_SK_Recycle_WorkGiver.gerund>
   <HAR_SK_Refinery_WorkGiver.label>炼油</HAR_SK_Refinery_WorkGiver.label>
+  <HAR_SK_Refinery_WorkGiver.verb>提炼化学品：</HAR_SK_Refinery_WorkGiver.verb>
+  <HAR_SK_Refinery_WorkGiver.gerund>正在提炼化学品：</HAR_SK_Refinery_WorkGiver.gerund>
 </LanguageData>

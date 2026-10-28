@@ -2,6 +2,96 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェオルフレア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェオルフレア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>炼狱爆炎</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>【大范围】以自身为中心释放体内积蓄的反物质。冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェメシュネッサ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェメシュネッサ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>日轮龙化</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="ヘレルレーヴの力を解放し竜体へと転身します、再使用には1日の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="ヘレルレーヴの力を解放し竜体へと転身します、再使用には1日の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>释放赫勒尔列夫的力量并化身为龙。冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ラアムフレア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ラアムフレア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>雷霆爆炎</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:小規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:小規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>【小范围】以自身为中心释放体内积蓄的反物质。冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェオルフレア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シェオルフレア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>炼狱爆炎</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には3日間の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>【大范围】以自身为中心释放体内积蓄的反物质。冷却时间为3天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_SA_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_SA_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Solark_Dll.Solark_CompProperties_CommandExplosive"][commandLabel="ラアムフレア"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn"]/comps[1]/li[@Class="Solark_Dll.Solark_CompProperties_CommandExplosive"][commandLabel="ラアムフレア"]/commandLabel[1]</xpath>
@@ -77,16 +167,6 @@
       <xpath>Defs/ThingDef[@Name="HAR_Solark_BaseNRPawn_b"]/comps[1]/li[@Class="Solark_Dll.Solark_CompProperties_CommandExplosive_b"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>释放赫勒尔列夫的力量并化身为龙。冷却时间为1天。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_SA_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_SA_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

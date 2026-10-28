@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 
-from build_translations import MODS, WORKSHOP
+from build_translations import MODS, WORKSHOP, active_defs
 
 
 MODS_ROOT = Path("Mods")
@@ -34,23 +34,6 @@ FIELDS = {
     "CommandLabel", "CommandDesc", "useLabel", "summary", "name",
     "commandName",
 }
-
-
-def active_defs(mod: Path) -> Path | None:
-    """Best available Defs folder, falling back to older versions when the
-    1.6 folder has no Defs (e.g. thin extension mods)."""
-    versions = sorted(
-        p.name for p in mod.iterdir()
-        if p.is_dir() and re.fullmatch(r"1\.\d+", p.name)
-    )
-    if not versions:
-        return None
-    candidates = ["1.6"] + [v for v in reversed(versions) if v != "1.6"]
-    for latest in candidates:
-        folder = mod / latest / "Defs"
-        if folder.is_dir():
-            return folder
-    return None
 
 
 def load_definjected(pkg: Path) -> dict[str, str]:
@@ -91,7 +74,7 @@ def patch_targets(pkg: Path) -> list[tuple[str, str, list[str]]]:
                 r'\[(?:defName|@Name)\s*=\s*"([^"]+)"\]', xpath
             )
             parts = [
-                re.sub(r"\[\d+\]$", "", part)
+                re.sub(r"\[.*?\]", "", part)
                 for part in xpath.split("/")[2:]
             ] if xpath.startswith("Defs/") else []
             def_type = (

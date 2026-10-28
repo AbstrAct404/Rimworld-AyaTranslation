@@ -1,0 +1,193 @@
+{
+  "skills": [
+    {
+      "modId": "2946679071",
+      "mod": "Chaoura Race",
+      "defName": "HAR_CO_Race_Chaoura_z",
+      "field": "commandLabel",
+      "source": "エヴェドラヴァン",
+      "translation": "埃维德拉万"
+    },
+    {
+      "modId": "3153539856",
+      "mod": "Eveliet Race",
+      "defName": "HAR_EL_Race_Eveliet_a",
+      "field": "commandDesc",
+      "source": "イヴリートの強化外殻を解放します。\\n発動コスト：[イシャの血杯]　5",
+      "translation": "解放伊娃莉特的强化外壳。\n消耗：[救济的血杯]5"
+    },
+    {
+      "modId": "3153539856",
+      "mod": "Eveliet Race",
+      "defName": "HAR_EL_Race_Eveliet_a",
+      "field": "commandDesc",
+      "source": "対象から半径3マスの衝撃波を発生させます。\\n発動コスト：[イシャの血杯]　3",
+      "translation": "以目标为中心释放半径3格的冲击波。\n消耗：[救济的血杯]3"
+    },
+    {
+      "modId": "3153539856",
+      "mod": "Eveliet Race",
+      "defName": "HAR_EL_Race_Eveliet_a",
+      "field": "commandDesc",
+      "source": "対象1マスに強力な一撃を与えます。\\n発動コスト：[イシャの血杯]　5",
+      "translation": "对目标所在格发动强力一击。\n消耗：[救济的血杯]5"
+    },
+    {
+      "modId": "3153539856",
+      "mod": "Eveliet Race",
+      "defName": "HAR_EL_Race_Eveliet_a",
+      "field": "commandDesc",
+      "source": "対象から半径8マスの出血を強いる衝撃波を発生させます。\\n発動コスト：[イシャの血杯]　10",
+      "translation": "以目标为中心释放半径8格的冲击波，迫使范围内目标出血。\n消耗：[救济的血杯]10"
+    },
+    {
+      "modId": "3153539856",
+      "mod": "Eveliet Race",
+      "defName": "HAR_EL_Race_Eveliet_a",
+      "field": "commandDesc",
+      "source": "眷属を召喚します。\\n発動コスト：[イシャの血杯]　100",
+      "translation": "召唤眷属。\n消耗：[救济的血杯]100"
+    },
+    {
+      "modId": "2871413100",
+      "mod": "Idearn Race",
+      "defName": "HAR_Idearn_Critias",
+      "field": "commandDesc",
+      "source": "射程内任意のマスに、半径30マスの衝撃波を発生させます。クリティアス以外の存在は消滅します(例外あり)。",
+      "translation": "在射程内指定位置释放半径30格的冲击波。除克里提亚斯外的存在都会被消灭（部分目标例外）。"
+    },
+    {
+      "modId": "2871413100",
+      "mod": "Idearn Race",
+      "defName": "HAR_Idearn_Menexenus_b",
+      "field": "commandDesc",
+      "source": "自身を中心として半径5マスに炎をまき散らします、再使用には3日間の時間が必要となります。",
+      "translation": "以自身为中心向半径5格内散布火焰。冷却时间为3天。"
+    },
+    {
+      "modId": "2871413100",
+      "mod": "Idearn Race",
+      "defName": "HAR_Idearn_Menexenus_b",
+      "field": "commandDesc",
+      "source": "自身を中心として半径5マスにEMPをまき散らします、再使用には3日間の時間が必要となります。",
+      "translation": "以自身为中心向半径5格内释放电磁脉冲。冷却时间为3天。"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_c",
+      "field": "commandDesc",
+      "source": "射程内任意のマスに、半径3マスの鈍重化させる精神波を発生させます。",
+      "translation": "在射程内指定位置释放半径3格的精神波，使目标行动迟缓。"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_c",
+      "field": "commandDesc",
+      "source": "射程内任意のマスに、半径3マスの鈍重化させる精神波を発生させます。",
+      "translation": "在射程内指定位置释放半径3格的精神波，使目标行动迟缓。"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_d",
+      "field": "commandDesc",
+      "source": "射程内任意のマスから半径２マスにいる死体を解剖し薬材を採取します。",
+      "translation": "解剖射程内指定位置周围2格内的尸体，采集药材。"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_d",
+      "field": "commandDesc",
+      "source": "対象を強化します。\\n発動コスト　：固形薬材：　30",
+      "translation": "强化目标。\n消耗：固态药材30"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_d",
+      "field": "commandDesc",
+      "source": "対象を強化します。\\n発動コスト　：粉末薬材：　30",
+      "translation": "强化目标。\n消耗：粉末药材30"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_d",
+      "field": "commandDesc",
+      "source": "対象を強化します。\\n発動コスト　：粉末薬材：　200",
+      "translation": "强化目标。\n消耗：粉末药材200"
+    },
+    {
+      "modId": "2198830432",
+      "mod": "Nearmare Race",
+      "defName": "HAR_Nearmaere_d",
+      "field": "commandDesc",
+      "source": "対象を強化します。\\n発動コスト　：固形薬材：　280",
+      "translation": "强化目标。\n消耗：固态药材280"
+    },
+    {
+      "modId": "2763078885",
+      "mod": "Qualeela Race",
+      "defName": "HAR_Qualeela_b",
+      "field": "commandDesc",
+      "source": "自身と周囲の味方に身体強化を施します、再使用には1日間の時間が必要となります。",
+      "translation": "强化自身及周围友军的身体机能。冷却时间为1天。"
+    },
+    {
+      "modId": "2608237489",
+      "mod": "Solark Race",
+      "defName": "HAR_Solark_BaseNRPawn_b",
+      "field": "commandDesc",
+      "source": "【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。",
+      "translation": "【大范围】以自身为中心释放体内积蓄的反物质。冷却时间为1天。"
+    },
+    {
+      "modId": "2608237489",
+      "mod": "Solark Race",
+      "defName": "HAR_Solark_BaseNRPawn",
+      "field": "commandDesc",
+      "source": "【範囲:小規模】自身を中心として体内に蓄えた反物質を解放します、再使用には1日間の時間が必要となります。",
+      "translation": "【小范围】以自身为中心释放体内积蓄的反物质。冷却时间为1天。"
+    },
+    {
+      "modId": "2608237489",
+      "mod": "Solark Race",
+      "defName": "HAR_Solark_BaseNRPawn",
+      "field": "commandDesc",
+      "source": "【範囲:大規模】自身を中心として体内に蓄えた反物質を解放します、再使用には3日間の時間が必要となります。",
+      "translation": "【大范围】以自身为中心释放体内积蓄的反物质。冷却时间为3天。"
+    },
+    {
+      "modId": "3675887482",
+      "mod": "Outerm Race",
+      "defName": "HAR_Outerm",
+      "field": "commandDesc",
+      "source": "相手に噛みついて吸血する。\\n発動条件　：人工種族Lv1\\n再使用　　：30分",
+      "translation": "啃咬目标并吸血。\n发动条件：人工种族等级1\n冷却时间：30分钟"
+    },
+    {
+      "modId": "3675887482",
+      "mod": "Outerm Race",
+      "defName": "HAR_Outerm",
+      "field": "commandDesc",
+      "source": "相手の一部機能を一時的に麻痺させる。\\n発動条件　：人工種族Lv4\\n再使用　　：1時間",
+      "translation": "暂时麻痹目标的部分身体机能。\n发动条件：人工种族等级4\n冷却时间：1小时"
+    }
+  ],
+  "newOverrides": {
+    "HAR_OT_Material_a.label": "神赐辉金",
+    "HAR_OT_Apparel_H_lvx.label": "阿波里亚黑曜饰",
+    "HAR_OT_Apparel_H_lvx.description": "仅有混沌中受选中的奥特姆才获准佩戴的发饰。\\n这块奇异的黑曜石象征着弑杀高位者，拥有不受任何事物侵蚀的美丽。",
+    "HAR_OT_Apparel_T_Armor_lvx.label": "阿波里亚礼服",
+    "HAR_OT_Apparel_T_Armor_lvx.description": "仅有混沌中受选中的奥特姆才获准穿着的礼服。\\n这身以纯净的白色与蓝色为主调、与她们气质迥异的衣装，让人确信她们也有虔诚的一面。",
+    "HAR_OT_Hediff_Apollyon.label": "黄金之冠",
+    "HAR_OT_Hediff_Apollyon.description": "混沌中杀戮无数的奥特姆才能抵达的境界。据说这也是她们信仰的“虚空的■■■”赐予的称号或祝福。\n\n其能力远超其他奥特姆，因此被恩特莱切亚列为需要严加警惕的对象。\n\n特殊效果：处于此状态时，“高位使徒”最多可以使其复活5次。\n\n\n由无底虚空赐下的黄金王冠。\n受选之王率领无数大军，如雪崩般降下灾祸。\n只为将一切生灵化为祭品。",
+    "HAR_OT_Thing_Altar_a.label": "虚空祭坛",
+    "HAR_OT_Thing_Altar_a.description": "供奉混沌所信仰的“虚空的■■■”的祭坛。\n即使是享乐主义的奥特姆，似乎也不敢轻率建造，只有混沌的领袖才有资格承担此事。\n\n祭坛或许连接着某个未知的维度，已确认会发生不可思议的现象：每3小时生成10名奥特姆。\n\n摧毁祭坛可以获得少量神赐辉金。",
+    "HAR_OT_Weapon_Apollyon.label": "阿波利翁",
+    "HAR_OT_Weapon_Apollyon.description": "用于举行崇拜“虚空的■■■”仪式的虚空之剑。此剑由混沌所信仰的神明赐下，无法由人手制造。\n\n它蕴含虚空之力，可同时斩击周围2格内的敌人。若受击目标具有饥饿需求，还会夺取其部分饱食度。每杀死一个生物，剑刃都会进一步变得锋利，永无止境。\n\n\n即使放眼整个星球，持有阿波利翁的奥特姆也寥寥无几，且大多为领袖。因此，混沌的敌对派系将这些持剑者特别称为“奥特姆·阿波利翁”。\n\n这是混沌的奥特姆梦寐以求的神器。幸运获赐者据说会沉浸于狂喜之中，投身无尽的杀戮。"
+  }
+}

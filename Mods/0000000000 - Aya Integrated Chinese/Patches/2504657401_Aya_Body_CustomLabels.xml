@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左视觉传感器</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[3]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[3]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右视觉传感器</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[4]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[4]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左听觉传感器</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[5]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[1]/parts[1]/li[1]/parts[1]/li[5]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右听觉传感器</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左肩</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左臂</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左刃</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左手</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左尾指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左中指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[3]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[3]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左食指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[4]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[2]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[4]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左拇指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右肩</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右臂</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右刃</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右手</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右尾指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[2]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[2]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右中指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[3]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[3]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右食指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[4]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[3]/parts[1]/li[1]/parts[1]/li[2]/parts[1]/li[4]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右拇指</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[4]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[4]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左腿</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[4]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[4]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>左足</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[5]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[5]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右腿</customLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[5]/parts[1]/li[1]/customLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/BodyDef[defName="BOSS_RQ_Monster_Bodies"]/corePart[1]/parts[1]/li[5]/parts[1]/li[1]/customLabel[1]</xpath>
+      <value>
+        <customLabel>右足</customLabel>
+      </value>
+    </match>
+  </Operation>
+</Patch>

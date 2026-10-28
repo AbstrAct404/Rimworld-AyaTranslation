@@ -182,7 +182,9 @@
   <BOSS_RQ_Drop_b.label>女王种的部件</BOSS_RQ_Drop_b.label>
   <BOSS_RQ_Drop_c.description>构成女王种躯体的一部分。摧毁后可以作为材料回收利用，但内部可能混有她的眷属。</BOSS_RQ_Drop_c.description>
   <BOSS_RQ_Drop_c.label>女王种的部件</BOSS_RQ_Drop_c.label>
+  <BOSS_RQ_Gun_TurretSniper.description>安装在炮塔上的自动装填铀弹加农炮。</BOSS_RQ_Gun_TurretSniper.description>
   <BOSS_RQ_Gun_TurretSniper.label>审判</BOSS_RQ_Gun_TurretSniper.label>
+  <BOSS_RQ_Gun_TurretSniper_b.description>安装在炮塔上的自动装填铀弹加农炮。</BOSS_RQ_Gun_TurretSniper_b.description>
   <BOSS_RQ_Gun_TurretSniper_b.label>圣约</BOSS_RQ_Gun_TurretSniper_b.label>
   <BOSS_RQ_Hive_Requeen.description>女王种是某个外星文明创造的机械生命体，孕育了魅魔及其亚种们的始祖，\n也许因为是最初建造的生命体，基本没有自我意识，在外星文明灭亡后也忠实地遵循输入的指令，一直处于“生产兵力”和“排除外敌”的暴走状态。\n\n她们不具备战斗能力，但有着极强的装甲和再生能力，能够源源不断地生产机械生命体。\n即使自身能量耗尽，她们也能迅速从周围汲取能量；只有外力才能真正杀死她们。\n\n\n现如今，“击败还在苦苦侍奉那已灭亡的创造者的女王们、让她们陷入永眠”成为了以魅魔为首的女儿们的夙愿。</BOSS_RQ_Hive_Requeen.description>
   <BOSS_RQ_Hive_Requeen.label>女王种</BOSS_RQ_Hive_Requeen.label>
@@ -249,10 +251,16 @@
   <BOSS_RQ_Turret_Sniper_b.description>女王种的防卫功能之一，是快速发射爆炸性子弹的炮塔——但是它的命中率很低。</BOSS_RQ_Turret_Sniper_b.description>
   <BOSS_RQ_Turret_Sniper_b.label>圣约</BOSS_RQ_Turret_Sniper_b.label>
   <Bullet_AssaultRifle_NM.label>魑枪「郄浍堕狱」</Bullet_AssaultRifle_NM.label>
+  <Bullet_AssaultRifle_NM_a.label>突击步枪子弹</Bullet_AssaultRifle_NM_a.label>
+  <Bullet_AssaultRifle_XO.label>突击步枪子弹</Bullet_AssaultRifle_XO.label>
+  <Bullet_ChargeRifle_XO.label>电荷弹</Bullet_ChargeRifle_XO.label>
   <Bullet_Gun_AssaultRifle_SK.label>炽热之枪</Bullet_Gun_AssaultRifle_SK.label>
   <Bullet_IncendiaryLauncher_SK.label>熔岩发射器</Bullet_IncendiaryLauncher_SK.label>
+  <Bullet_Shotgun_NM.label>霰弹枪子弹</Bullet_Shotgun_NM.label>
+  <Bullet_Shotgun_XO.label>霰弹枪子弹</Bullet_Shotgun_XO.label>
+  <Bullet_SniperRifle_XO.label>狙击步枪子弹</Bullet_SniperRifle_XO.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
-  <CSS_SummonEffect.label>召唤特效</CSS_SummonEffect.label>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <Corpse_HAR_NC_M_a_race_NPC.description>戈尔诺伊德的尸体。</Corpse_HAR_NC_M_a_race_NPC.description>
   <Corpse_HAR_NC_M_a_race_NPC.label>戈尔诺伊德尸体</Corpse_HAR_NC_M_a_race_NPC.label>
   <Corpse_HAR_NC_M_a_race_Summon.description>戈尔诺伊德的尸体。</Corpse_HAR_NC_M_a_race_Summon.description>
@@ -682,42 +690,42 @@
   <HAR_IA_Item_spawn_Charmides_a.description>制造生体模型“伊迪安·卡尔米德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】防御性能。</HAR_IA_Item_spawn_Charmides_a.description>
-  <HAR_IA_Item_spawn_Charmides_a.label>伊迪安·卡尔米德 A型</HAR_IA_Item_spawn_Charmides_a.label>
+  <HAR_IA_Item_spawn_Charmides_a.label>【伊迪安·卡尔米德 A型】封装舱</HAR_IA_Item_spawn_Charmides_a.label>
   <HAR_IA_Item_spawn_Charmides_b.description>制造生体模型“伊迪安·卡尔米德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】移动性能。</HAR_IA_Item_spawn_Charmides_b.description>
-  <HAR_IA_Item_spawn_Charmides_b.label>伊迪安·卡尔米德 B型</HAR_IA_Item_spawn_Charmides_b.label>
+  <HAR_IA_Item_spawn_Charmides_b.label>【伊迪安·卡尔米德 B型】封装舱</HAR_IA_Item_spawn_Charmides_b.label>
   <HAR_IA_Item_spawn_Critias.description>制造被隐匿的生物模型，需要注意的是创造出来的伊迪安每个象限需要更换一次药品「本源药盒」\n\n【个体能力】\n不明，但她的存在使战斗毫无价值。</HAR_IA_Item_spawn_Critias.description>
   <HAR_IA_Item_spawn_Critias.label>伊迪安·克里提亚斯（焚书模型）</HAR_IA_Item_spawn_Critias.label>
   <HAR_IA_Item_spawn_Laches_a.description>制造生体模型“伊迪安·拉刻斯”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。</HAR_IA_Item_spawn_Laches_a.description>
-  <HAR_IA_Item_spawn_Laches_a.label>伊迪安·拉刻斯</HAR_IA_Item_spawn_Laches_a.label>
+  <HAR_IA_Item_spawn_Laches_a.label>【伊迪安·拉刻斯】封装舱</HAR_IA_Item_spawn_Laches_a.label>
   <HAR_IA_Item_spawn_Menexenus_a.description>制造生体模型“伊迪安·梅涅克赛努 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害减免屏障
 技能：削弱敌对目标</HAR_IA_Item_spawn_Menexenus_a.description>
-  <HAR_IA_Item_spawn_Menexenus_a.label>伊迪安·梅涅克赛努 A型</HAR_IA_Item_spawn_Menexenus_a.label>
+  <HAR_IA_Item_spawn_Menexenus_a.label>【伊迪安·梅涅克赛努 A型】封装舱</HAR_IA_Item_spawn_Menexenus_a.label>
   <HAR_IA_Item_spawn_Menexenus_b.description>制造生体模型“伊迪安·梅涅克赛努 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害减免屏障
 技能：燃烧爆炸
 技能：电磁脉冲爆炸</HAR_IA_Item_spawn_Menexenus_b.description>
-  <HAR_IA_Item_spawn_Menexenus_b.label>伊迪安·梅涅克赛努 B型</HAR_IA_Item_spawn_Menexenus_b.label>
+  <HAR_IA_Item_spawn_Menexenus_b.label>【伊迪安·梅涅克赛努 B型】封装舱</HAR_IA_Item_spawn_Menexenus_b.label>
   <HAR_IA_Item_spawn_Theaetetus_a.description>制造生体模型“伊迪安·泰阿泰德 A型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害阻断屏障
 技能：召唤眷属
 技能：强化友军</HAR_IA_Item_spawn_Theaetetus_a.description>
-  <HAR_IA_Item_spawn_Theaetetus_a.label>伊迪安·泰阿泰德 A型</HAR_IA_Item_spawn_Theaetetus_a.label>
+  <HAR_IA_Item_spawn_Theaetetus_a.label>【伊迪安·泰阿泰德 A型】封装舱</HAR_IA_Item_spawn_Theaetetus_a.label>
   <HAR_IA_Item_spawn_Theaetetus_b.description>制造生体模型“伊迪安·泰阿泰德 B型”。请注意，制造出的伊迪安每个象限都需要使用一次药物“本源药盒”。
 
 【个体能力】
 技能：伤害阻断屏障
 技能：展开伤害领域
 技能：展开死亡宣告领域</HAR_IA_Item_spawn_Theaetetus_b.description>
-  <HAR_IA_Item_spawn_Theaetetus_b.label>伊迪安·泰阿泰德 B型</HAR_IA_Item_spawn_Theaetetus_b.label>
+  <HAR_IA_Item_spawn_Theaetetus_b.label>【伊迪安·泰阿泰德 B型】封装舱</HAR_IA_Item_spawn_Theaetetus_b.label>
   <HAR_IA_M_Race_Base.description>伊迪安·泰阿泰德 A型制造的子机，杀伤力、机动性与耐久性都十分出色，能够执行集团军事行动。
 召唤出的自然拟态会在三天后消失。</HAR_IA_M_Race_Base.description>
   <HAR_IA_M_Race_Base.label>自然拟态</HAR_IA_M_Race_Base.label>
@@ -1197,6 +1205,8 @@
   <HAR_OT_Apparel_H_d.label>极恶耳机(奥特姆)</HAR_OT_Apparel_H_d.label>
   <HAR_OT_Apparel_H_e.description>奥特姆们喜欢穿着的头部装备。</HAR_OT_Apparel_H_e.description>
   <HAR_OT_Apparel_H_e.label>极恶装备(奥特姆)</HAR_OT_Apparel_H_e.label>
+  <HAR_OT_Apparel_H_lvx.description>仅有混沌中受选中的奥特姆才获准佩戴的发饰。\n这块奇异的黑曜石象征着弑杀高位者，拥有不受任何事物侵蚀的美丽。</HAR_OT_Apparel_H_lvx.description>
+  <HAR_OT_Apparel_H_lvx.label>阿波里亚黑曜饰</HAR_OT_Apparel_H_lvx.label>
   <HAR_OT_Apparel_H_z.description>奥特姆专用的头盔。透过内建的自动校正功能，得以实现精密的动作。</HAR_OT_Apparel_H_z.description>
   <HAR_OT_Apparel_H_z.label>腐灭头盔(奥特姆)</HAR_OT_Apparel_H_z.label>
   <HAR_OT_Apparel_O_a.description>奥特姆们喜欢穿着的内衣。不用期待其防御力。</HAR_OT_Apparel_O_a.description>
@@ -1217,6 +1227,8 @@
   <HAR_OT_Apparel_S_e.label>极恶外套E(奥特姆)</HAR_OT_Apparel_S_e.label>
   <HAR_OT_Apparel_T_Armor_a.description>奥特姆专用的盔甲。透过内建的自动校正功能，得以实现精密的动作。</HAR_OT_Apparel_T_Armor_a.description>
   <HAR_OT_Apparel_T_Armor_a.label>腐灭盔甲(奥特姆)</HAR_OT_Apparel_T_Armor_a.label>
+  <HAR_OT_Apparel_T_Armor_lvx.description>仅有混沌中受选中的奥特姆才获准穿着的礼服。\n这身以纯净的白色与蓝色为主调、与她们气质迥异的衣装，让人确信她们也有虔诚的一面。</HAR_OT_Apparel_T_Armor_lvx.description>
+  <HAR_OT_Apparel_T_Armor_lvx.label>阿波里亚礼服</HAR_OT_Apparel_T_Armor_lvx.label>
   <HAR_OT_Apparel_T_Suit_a.description>奥特姆们偏好穿着的上衣。即便奥特姆普遍喜欢煽情的服装，但到了干部级别，似乎也会注意自己的仪容。</HAR_OT_Apparel_T_Suit_a.description>
   <HAR_OT_Apparel_T_Suit_a.label>极恶西装(奥特姆)</HAR_OT_Apparel_T_Suit_a.label>
   <HAR_OT_Apparel_T_a.description>奥特姆们偏好穿着的上衣，因其独特的美感而散发出一种颓废气息。</HAR_OT_Apparel_T_a.description>
@@ -1249,6 +1261,13 @@
   <HAR_OT_Monster_Race_a.description>奥特姆的眷属。战斗力不高，但机动性相当出色。更大的问题在于它们会无差别地胡闹，甚至会把召唤它们的奥特姆视为攻击对象。</HAR_OT_Monster_Race_a.description>
   <HAR_OT_Monster_Race_a.label>美伯拉</HAR_OT_Monster_Race_a.label>
   <HAR_OT_Proj_GrenadeFrag.label>朱红爆弹</HAR_OT_Proj_GrenadeFrag.label>
+  <HAR_OT_Thing_Altar_a.description>供奉混沌所信仰的“虚空的■■■”的祭坛。
+即使是享乐主义的奥特姆，似乎也不敢轻率建造，只有混沌的领袖才有资格承担此事。
+
+祭坛或许连接着某个未知的维度，已确认会发生不可思议的现象：每3小时生成10名奥特姆。
+
+摧毁祭坛可以获得少量神赐辉金。</HAR_OT_Thing_Altar_a.description>
+  <HAR_OT_Thing_Altar_a.label>虚空祭坛</HAR_OT_Thing_Altar_a.label>
   <HAR_OT_Thing_Art_z.description>造物主为了对抗据说存在于外宇宙的超存在而试图打造的决战兵器。\n正式名称『对上位者决战自律兵器克里提亚斯』。曾被渴求、却理应已遭封印的存在。\n……以此为蓝本所制作的雕像。\n\n拥有超过12,000公里全长外壳，是迦南引以为傲的最大规模巨型构造物。\n管理庞大数量机能、承担心脏之役的「渡鸟的■■■」。\n依据状况给予精确指示、承担大脑之役的「驭鸟者逻各斯」。\n唯有这两个机械生命体核心同时运作，方能正常启动。\n\n这是为了与可能存在于外宇宙的超存在交战而打造的兵器，\n同时也具备在紧要关头脱离星球、将人民运往下一片新天地的方舟功能。\n然而，因其力量过于强大，加之顾虑被恶用的危险性，制造计划遭到中止。\n用于驱动的机械生命体核心也从未被制造，设计图则保管于「洗礼」之中。\n\n然而，在迦南创世纪后期，部分宙族盯上了这具克里提亚斯，发动了大规模袭击。\n在承受重大打击的同时，他们夺取了「洗礼」，创造出生体核心并启动了克里提亚斯。\n但是，保管于「洗礼」中的设计图仅有「渡鸟的■■■」一份，\n在欠缺一翼的状态下强行启动导致失控，将宙族们尽数灭绝，为迦南带来了黑暗时代。\n\n而在漫长战斗的终结之际，咎灵撕裂了「渡鸟的■■■」的装甲，将其击毙。\n\n时至今日，其骸壳被运回迦南的宙域，作为警示留存至今。\n仅有殖民地功能得以复原，原因不明，但据说伪神族们很喜欢住在其中。\n\n\n\n\n\n就此，迦南创世期的黑暗时代宣告终结。\n而那其中的内容物独自游走一事，始终无人知晓。</HAR_OT_Thing_Art_z.description>
   <HAR_OT_Thing_Art_z.label>灾厄空洞</HAR_OT_Thing_Art_z.label>
   <HAR_OT_Thing_Container_a.description>地下社会辛迪加「混沌」的货物货柜。\n摧毁后即可回收其中的物品。</HAR_OT_Thing_Container_a.description>
@@ -1259,6 +1278,15 @@
   <HAR_OT_Thing_Shuttle_a.label>破损的大型穿梭艇</HAR_OT_Thing_Shuttle_a.label>
   <HAR_OT_Thing_XSE_a.description>突然出现在殖民地附近的巨大构造物。\n乍看之下像是一台巨大的机械，却毫无启动的迹象。\n令人费解的是，其内部已空无一物，连光线都无法穿透。\n\n而从那虚空般的空间彼端，能感受到某道视线。\n\n\n\n\n曾在宇宙中散播灾厄的存在「克里提亚斯」的统括管理单元「渡鸟的■■■」。\n被人工种族之一的咎灵一击彻底摧毁，原本的功能几乎荡然无存。\n大战终结之际，悄然消失无踪的不祥骸壳。\n\n若是了解过去的人工种族，见到此物必会即刻将其摧毁。\n然而，受宇宙所施加的认知阻碍影响，无法正确感知其存在。\n这诡异的现象，是对已沦为异物的■■■所产生的排斥反应吗……</HAR_OT_Thing_XSE_a.description>
   <HAR_OT_Thing_XSE_a.label>伽蓝洞之骸</HAR_OT_Thing_XSE_a.label>
+  <HAR_OT_Weapon_Apollyon.description>用于举行崇拜“虚空的■■■”仪式的虚天之剑。此剑由混沌所信仰的神明赐下，无法由人手制造。
+
+它蕴含虚空之力，可同时斩击周围2格内的敌人。若受击目标具有饥饿需求，还会夺取其部分饱食度。每杀死一个生物，剑刃都会进一步变得锋利，永无止境。
+
+
+即使放眼整个星球，持有阿波利翁的奥特姆也寥寥无几，且大多为领袖。因此，混沌的敌对派系将这些持剑者特别称为“奥特姆·阿波利翁”。
+
+这是混沌的奥特姆梦寐以求的神器。幸运获赐者据说会沉浸于狂喜之中，投身无尽的杀戮。</HAR_OT_Weapon_Apollyon.description>
+  <HAR_OT_Weapon_Apollyon.label>阿波利翁</HAR_OT_Weapon_Apollyon.label>
   <HAR_OT_Weapon_GrenadeFrag.description>奥特姆所使用的毒气手榴弹。\n或许是因为含有奥特姆的血液，她们极少被这种毒气所污染。\n此外具有轻度腐蚀性与爆炸力，对拥有开关机制的建筑物（如门等）有特效。</HAR_OT_Weapon_GrenadeFrag.description>
   <HAR_OT_Weapon_GrenadeFrag.label>朱红爆弹</HAR_OT_Weapon_GrenadeFrag.label>
   <HAR_OT_Weapon_Gun_a.description>奥特姆所使用的突击步枪。\n其特点是拥有极高的贯穿能力，以及含有毒素的子弹。\n在任何距离下均能保持稳定的命中率。\n最大的特征是操控灵活，能够以短暂的间隔持续发动攻击。</HAR_OT_Weapon_Gun_a.description>
@@ -1695,6 +1723,7 @@
   <Nearmaere_WildHunt.description>通过极大加强魅魔的幻觉能力的而生产的装备，拥有超远距离的超大范围的攻击用于对抗军队级别的敌人,被攻击到的人会无法控制自己的无差别狂暴,但本身威力非常低,而且还需要进行非常长的准备发射时间，因此，很难对付高速的成堆敌人。</Nearmaere_WildHunt.description>
   <Nearmaere_WildHunt.label>梦杖「荒猎」</Nearmaere_WildHunt.label>
   <Nearmaere_WildHunt_B.label>梦杖「荒猎」</Nearmaere_WildHunt_B.label>
+  <Proj_GrenadeFrag_XO.label>破片手榴弹</Proj_GrenadeFrag_XO.label>
   <Rugeiyu_Pila.description>一种放大魅魔幻觉能力的投掷武器。直接威力较低，却能造成强烈幻觉，并分裂为五道投影连续攻击目标。</Rugeiyu_Pila.description>
   <Rugeiyu_Pila.label>魔枪「勒盖耶」</Rugeiyu_Pila.label>
   <Rugeiyu_Pilum_Thrown.label>魔枪「勒盖耶」</Rugeiyu_Pilum_Thrown.label>

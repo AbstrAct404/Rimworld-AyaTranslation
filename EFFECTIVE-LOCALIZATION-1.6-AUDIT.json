@@ -1,0 +1,10 @@
+{
+  "checked": 5605,
+  "patchExecution": {
+    "replaced": 1645,
+    "added": 9,
+    "skippedConditions": 172
+  },
+  "missingCount": 0,
+  "missing": []
+}

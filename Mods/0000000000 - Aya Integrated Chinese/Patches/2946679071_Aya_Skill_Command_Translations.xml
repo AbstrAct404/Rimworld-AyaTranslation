@@ -2,6 +2,176 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="影跳び"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="影跳び"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>影跃</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動します。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動します。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>瞬间移动到射程内任意格。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="仇返し"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="仇返し"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>复仇反击</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="暗闇にいる間、射撃してきた敵にワープしダメージを与える。再使用には3日の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="暗闇にいる間、射撃してきた敵にワープしダメージを与える。再使用には3日の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>处于黑暗中时，传送至向自己射击的敌人身边并造成伤害。冷却时间为3天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="血狂い"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="血狂い"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血狂</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="半径3マスに出血を強いる斬撃を放つ、攻撃を受けた敵は暗闇にいると更にダメージを受ける。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="半径3マスに出血を強いる斬撃を放つ、攻撃を受けた敵は暗闇にいると更にダメージを受ける。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>释放覆盖半径3格的斩击并迫使目标出血；受击者处于黑暗中时还会受到额外伤害。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ツェルシャヴィト"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ツェルシャヴィト"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>影之彗星</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動する。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに瞬間移動する。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>瞬间移动到射程内任意格。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シャマイムヘレヴ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シャマイムヘレヴ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>天之剑</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマス付近に爆発弾を5つ発射する。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマス付近に爆発弾を5つ発射する。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>向射程内指定位置附近发射5枚爆裂弹。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エヴェドラヴァン"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エヴェドラヴァン"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>埃维德拉万</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに分裂弾を発射する。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに分裂弾を発射する。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>向射程内指定位置发射分裂弹。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ヘレル・バット・サハル"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ヘレル・バット・サハル"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>黎明之女·晨星</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身を中心に10マスの即死攻撃を行う。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身を中心に10マスの即死攻撃を行う。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>对自身周围10格内的目标发动即死攻击。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ハティクヴァゾハル"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ハティクヴァゾハル"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>光辉之希望</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="顕現臨界を初期化します。クールタイムは1日。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="顕現臨界を初期化します。クールタイムは1日。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>重置显现临界。冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_z"]/comps[1]/li[@Class="Chaoura_UB.HAR_CO_UB_CompProperties_Skill_a"]/commandLabel[1]</xpath>
@@ -157,16 +327,6 @@
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_CO_Race_Chaoura_a"]/comps[1]/li[@Class="Chaoura.Chaoura_CompProperties_CommandExplosive"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>释放覆盖半径3格的斩击并迫使目标出血；受击者处于黑暗中时还会受到额外伤害。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_CO_UB_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

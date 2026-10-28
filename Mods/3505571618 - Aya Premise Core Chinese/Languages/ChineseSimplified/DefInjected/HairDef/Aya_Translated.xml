@@ -1,15 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  <HAR_Aya_Hair_B_1.label>长发（幼年）</HAR_Aya_Hair_B_1.label>
-  <HAR_Aya_Hair_B_2.label>中长发（幼年）</HAR_Aya_Hair_B_2.label>
-  <HAR_Aya_Hair_B_3.label>双马尾（幼年）</HAR_Aya_Hair_B_3.label>
-  <HAR_Aya_Hair_B_4.label>双麻花辫（幼年）</HAR_Aya_Hair_B_4.label>
-  <HAR_Aya_Hair_B_5.label>马尾（幼年）</HAR_Aya_Hair_B_5.label>
-  <HAR_Aya_Hair_B_6.label>长直发（幼年）</HAR_Aya_Hair_B_6.label>
-  <HAR_Aya_Hair_B_7.label>侧马尾（幼年）</HAR_Aya_Hair_B_7.label>
-  <HAR_Aya_Hair_B_8.label>波浪长发（幼年）</HAR_Aya_Hair_B_8.label>
-  <HAR_Aya_Hair_B_9.label>披肩双马尾（幼年）</HAR_Aya_Hair_B_9.label>
-  <HAR_Aya_Hair_B_10.label>进气口发型（幼年）</HAR_Aya_Hair_B_10.label>
   <HAR_Aya_Hair_1.label>长发</HAR_Aya_Hair_1.label>
   <HAR_Aya_Hair_2.label>中长发</HAR_Aya_Hair_2.label>
   <HAR_Aya_Hair_3.label>双马尾</HAR_Aya_Hair_3.label>
@@ -20,6 +10,16 @@
   <HAR_Aya_Hair_8.label>波浪长发</HAR_Aya_Hair_8.label>
   <HAR_Aya_Hair_9.label>披肩双马尾</HAR_Aya_Hair_9.label>
   <HAR_Aya_Hair_10.label>进气口发型</HAR_Aya_Hair_10.label>
+  <HAR_Aya_Hair_B_1.label>长发（幼年）</HAR_Aya_Hair_B_1.label>
+  <HAR_Aya_Hair_B_2.label>中长发（幼年）</HAR_Aya_Hair_B_2.label>
+  <HAR_Aya_Hair_B_3.label>双马尾（幼年）</HAR_Aya_Hair_B_3.label>
+  <HAR_Aya_Hair_B_4.label>双麻花辫（幼年）</HAR_Aya_Hair_B_4.label>
+  <HAR_Aya_Hair_B_5.label>马尾（幼年）</HAR_Aya_Hair_B_5.label>
+  <HAR_Aya_Hair_B_6.label>长直发（幼年）</HAR_Aya_Hair_B_6.label>
+  <HAR_Aya_Hair_B_7.label>侧马尾（幼年）</HAR_Aya_Hair_B_7.label>
+  <HAR_Aya_Hair_B_8.label>波浪长发（幼年）</HAR_Aya_Hair_B_8.label>
+  <HAR_Aya_Hair_B_9.label>披肩双马尾（幼年）</HAR_Aya_Hair_B_9.label>
+  <HAR_Aya_Hair_B_10.label>进气口发型（幼年）</HAR_Aya_Hair_B_10.label>
   <HAR_Aya_Hair_OLD_1.label>长发（旧版）</HAR_Aya_Hair_OLD_1.label>
   <HAR_Aya_Hair_OLD_2.label>中长发（旧版）</HAR_Aya_Hair_OLD_2.label>
   <HAR_Aya_Hair_OLD_3.label>双马尾（旧版）</HAR_Aya_Hair_OLD_3.label>

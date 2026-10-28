@@ -39,7 +39,7 @@
 ---
 - 原模组创意工坊 ID：2233666290
 - 本汉化创意工坊 ID：3769650937
-- 兼容版本：RimWorld 1.6 / 1.7
+- 兼容版本：RimWorld 1.6、RimWorld 1.7
 - packageId：`abstract404.aya.2233666290.zh`
 - 前置 packageId：`Ayameduki.HARSilkiera`
 - 加载顺序：原模组在前，本汉化在后。

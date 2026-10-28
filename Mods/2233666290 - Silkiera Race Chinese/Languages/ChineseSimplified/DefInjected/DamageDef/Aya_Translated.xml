@@ -3,4 +3,7 @@
   <HAR_SK_Flame.label>炽热之枪</HAR_SK_Flame.label>
   <HAR_SK_Flame_b.label>熔岩发射器</HAR_SK_Flame_b.label>
   <HAR_SK_Scratch.label>超振动刀刃</HAR_SK_Scratch.label>
+  <HAR_SK_Damage_a.deathMessage>{0}被压死了。</HAR_SK_Damage_a.deathMessage>
+  <HAR_SK_Skill_Damage_b.deathMessage>{0}被压死了。</HAR_SK_Skill_Damage_b.deathMessage>
+  <HAR_SK_Skill_Damage_c.deathMessage>{0}被压死了。</HAR_SK_Skill_Damage_c.deathMessage>
 </LanguageData>

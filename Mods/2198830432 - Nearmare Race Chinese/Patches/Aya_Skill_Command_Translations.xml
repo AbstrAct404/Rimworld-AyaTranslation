@@ -82,6 +82,376 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="剪ぼす劫末"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="剪ぼす劫末"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>终劫之裁</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径5マスの衝撃波を発生させます。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径5マスの衝撃波を発生させます。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在射程内指定位置释放半径5格的冲击波。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="燬けた瞋恚"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="燬けた瞋恚"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>灼燃之怒</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径2マスの狂暴化させる精神波を発生させます、またこれは友軍に対して敵対行動となりません。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径2マスの狂暴化させる精神波を発生させます、またこれは友軍に対して敵対行動となりません。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在射程内指定位置释放半径2格的精神波，使目标狂暴；该技能不会被友军视为敌对行为。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="爛れし頽廃"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="爛れし頽廃"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>溃烂颓败</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径3マスの鈍重化させる精神波を発生させます。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径3マスの鈍重化させる精神波を発生させます。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在射程内指定位置释放半径3格的精神波，使目标行动迟缓。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="衍がる祁寒"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="衍がる祁寒"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>蔓延严寒</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="沃えた暗澹"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="沃えた暗澹"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>浸染晦暗</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径6マスに身体を脆弱化させる精神波を発生させます。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスに、半径6マスに身体を脆弱化させる精神波を発生させます。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在射程内指定位置释放半径6格的精神波，使目标身体变得脆弱。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
+      <value>
+        <AutoLabel>超存在召唤（自动）</AutoLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
+      <value>
+        <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤超存在。\n【建议提前存档】</AutoDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
+      <value>
+        <CommandLabel>超存在召唤（手动）</CommandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
+      <value>
+        <CommandDesc>手动召唤超存在。\n【建议提前存档】</CommandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="死体解剖"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="死体解剖"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>尸体解剖</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスから半径２マスにいる死体を解剖し薬材を採取します。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="射程内任意のマスから半径２マスにいる死体を解剖し薬材を採取します。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>解剖射程内指定位置周围2格内的尸体，采集药材。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="旧き医療"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="旧き医療"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>古法疗愈</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象の傷を治します。\n発動コスト　：液状薬材：　30"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象の傷を治します。\n発動コスト　：液状薬材：　30"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>治疗目标的伤口。\n消耗：液态药材30</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アルクテラの霊薬"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アルクテラの霊薬"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>强攻灵药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：固形薬材：　30"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：固形薬材：　30"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：固态药材30</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エティーヌの魔薬"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エティーヌの魔薬"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>铁壁魔药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：粉末薬材：　30"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：粉末薬材：　30"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：粉末药材30</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="デュナミスの秘薬"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="デュナミスの秘薬"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>复生秘药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：粉末薬材：　200"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：粉末薬材：　200"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：粉末药材200</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="■■■の死薬"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="■■■の死薬"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>傀儡化死药</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：固形薬材：　280"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象を強化します。\n発動コスト　：固形薬材：　280"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>强化目标。\n消耗：固态药材280</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="急速充電"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="急速充電"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>快速充能</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="ヘスティアファーネスにEN30%の充電を行います\n副作用として餓えやすくなります\n再使用には1日の時間が必要となります。"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="ヘスティアファーネスにEN30%の充電を行います\n副作用として餓えやすくなります\n再使用には1日の時間が必要となります。"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>为赫斯提亚熔炉补充30%能量。\n副作用是更容易饥饿。\n冷却时间为1天。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ノトスグレネード"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="ノトスグレネード"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>能量手雷</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスにグレネードを投擲します\n消費EN　　：　5"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスにグレネードを投擲します\n消費EN　　：　5"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>向指定位置投掷手雷。\n消耗能量：5</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アクリシオスシールド"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アクリシオスシールド"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>低角防护盾</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身を中心に半径2マスの低角低下シールドを展開します\n消費EN　　：　20"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="自身を中心に半径2マスの低角低下シールドを展開します\n消費EN　　：　20"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>以自身为中心展开半径2格的低角度防护盾。\n消耗能量：20</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アンタレスクレイモア"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アンタレスクレイモア"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>阔剑地雷</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスにクレイモアを設置します\n消費EN　　：　10"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定マスにクレイモアを設置します\n消費EN　　：　10"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>在指定位置布设阔剑地雷。\n消耗能量：10</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エウリュトスカノン"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="エウリュトスカノン"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>八联迫击炮</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定したマス付近に8連迫撃砲を放ちます\n消費EN　　：　60"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_e"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="指定したマス付近に8連迫撃砲を放ちます\n消費EN　　：　60"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>向指定位置附近发射八联装迫击炮。\n消耗能量：60</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
+      <value>
+        <useLabel>激活 {0_label}</useLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill"]/commandLabel[1]</xpath>
@@ -177,46 +547,6 @@
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="Nearmaere.CompProperties_HAR_NM_Skill_e"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>在射程内指定位置释放半径6格的精神波，使目标身体变得脆弱。</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoLabel[1]</xpath>
-      <value>
-        <AutoLabel>超存在召唤（自动）</AutoLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/AutoDesc[1]</xpath>
-      <value>
-        <AutoDesc>启用后，角色在被征召且周围存在敌对目标时会自动召唤超存在。\n【建议提前存档】</AutoDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandLabel[1]</xpath>
-      <value>
-        <CommandLabel>超存在召唤（手动）</CommandLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_c"]/comps[1]/li[@Class="CompSummonSlave.CSS_CompProperties_SummonSlave"]/CommandDesc[1]</xpath>
-      <value>
-        <CommandDesc>手动召唤超存在。\n【建议提前存档】</CommandDesc>
       </value>
     </match>
   </Operation>
@@ -437,26 +767,6 @@
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_Nearmaere_d"]/comps[1]/li[@Class="Nearmaere_b.HAR_NM_CompProperties_Skill_z"]/commandDesc[1]</xpath>
       <value>
         <commandDesc>强化目标，但是……\n消耗：液态药材280、固态药材280、粉末药材280</commandDesc>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
-      </value>
-    </match>
-  </Operation>
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-    <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[@Name="HAR_NM_ArtifactBase_b"]/comps[1]/li[@Class="CompProperties_Usable"]/useLabel[1]</xpath>
-      <value>
-        <useLabel>激活 {0_label}</useLabel>
       </value>
     </match>
   </Operation>

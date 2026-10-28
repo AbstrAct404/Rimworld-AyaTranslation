@@ -1,11 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <BOSS_RQ_Scratch.label>超振动刀刃</BOSS_RQ_Scratch.label>
+  <BOSS_RQ_Scratch.deathMessage>{0}被抓死了。</BOSS_RQ_Scratch.deathMessage>
+  <BOSS_RQ_Bullet.deathMessage>{0}被射死了</BOSS_RQ_Bullet.deathMessage>
   <BOSS_RQ_Bullet_b.label>雏鸟泣血</BOSS_RQ_Bullet_b.label>
+  <BOSS_RQ_Bullet_b.deathMessage>{0}被射死了</BOSS_RQ_Bullet_b.deathMessage>
   <BOSS_RQ_Damage_Z_a.label>雏鸟轻啼</BOSS_RQ_Damage_Z_a.label>
+  <BOSS_RQ_Damage_Z_a.deathMessage>{0}被炸死了。</BOSS_RQ_Damage_Z_a.deathMessage>
   <BOSS_RQ_Damage_Z_b.label>雏鸟振翅</BOSS_RQ_Damage_Z_b.label>
+  <BOSS_RQ_Damage_Z_b.deathMessage>{0}被炸死了。</BOSS_RQ_Damage_Z_b.deathMessage>
   <BOSS_RQ_Damage_Z_c.label>雏鸟凝望</BOSS_RQ_Damage_Z_c.label>
+  <BOSS_RQ_Damage_Z_c.deathMessage>{0}被射死了</BOSS_RQ_Damage_Z_c.deathMessage>
   <BOSS_RQ_Damage_Z_d.label>雏鸟泣血</BOSS_RQ_Damage_Z_d.label>
+  <BOSS_RQ_Damage_Z_d.deathMessage>{0}被炸死了。</BOSS_RQ_Damage_Z_d.deathMessage>
   <BOSS_RQ_Damage_Z_e.label>克里提亚斯之星</BOSS_RQ_Damage_Z_e.label>
+  <BOSS_RQ_Damage_Z_e.deathMessage>{0}被炸死了。</BOSS_RQ_Damage_Z_e.deathMessage>
   <BOSS_RQ_Damage_Z_f.label>雏鸟啄食</BOSS_RQ_Damage_Z_f.label>
+  <BOSS_RQ_Damage_Z_f.deathMessage>{0}被炸死了。</BOSS_RQ_Damage_Z_f.deathMessage>
 </LanguageData>

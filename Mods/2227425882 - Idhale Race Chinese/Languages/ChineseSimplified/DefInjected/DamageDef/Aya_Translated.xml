@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <HAR_IH_Damage_Attack.label>炼狱重击</HAR_IH_Damage_Attack.label>
+  <HAR_IH_Damage_Attack.deathMessage>{0}被压死了。</HAR_IH_Damage_Attack.deathMessage>
   <HAR_IH_Damage_a.label>圣械破城</HAR_IH_Damage_a.label>
+  <HAR_IH_Damage_a.deathMessage>{0}被炸死了。</HAR_IH_Damage_a.deathMessage>
   <HAR_IH_Damage_b.label>末日审判</HAR_IH_Damage_b.label>
+  <HAR_IH_Damage_b.deathMessage>{0}被炸死了。</HAR_IH_Damage_b.deathMessage>
   <HAR_IH_Damage_c.label>虚空贯刃</HAR_IH_Damage_c.label>
+  <HAR_IH_Damage_c.deathMessage>{0}被射死了</HAR_IH_Damage_c.deathMessage>
   <HAR_IH_Damage_d.label>灾厄爆枪</HAR_IH_Damage_d.label>
+  <HAR_IH_Damage_d.deathMessage>{0}被炸死了。</HAR_IH_Damage_d.deathMessage>
   <HAR_IH_Damage_e.label>审判镇压</HAR_IH_Damage_e.label>
+  <HAR_IH_Damage_e.deathMessage>{0}被炸死了。</HAR_IH_Damage_e.deathMessage>
 </LanguageData>

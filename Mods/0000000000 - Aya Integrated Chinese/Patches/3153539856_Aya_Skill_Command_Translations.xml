@@ -22,6 +22,126 @@
   </Operation>
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アドムネシカ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アドムネシカ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血噬</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="隣接する対象に噛みつき、吸血を行います。一回に付き[イシャの血杯]に3～6の血を補充します"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="隣接する対象に噛みつき、吸血を行います。一回に付き[イシャの血杯]に3～6の血を補充します"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>啃咬相邻目标并吸取鲜血，每次为[救济的血杯]补充3～6点鲜血。</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="クリファレファイム"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="クリファレファイム"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>焚血甲胄</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="イヴリートの強化外殻を解放します。\n発動コスト：[イシャの血杯]　5"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="イヴリートの強化外殻を解放します。\n発動コスト：[イシャの血杯]　5"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>解放伊娃莉特的强化外壳。\n消耗：[救济的血杯]5</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カズラサーラ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カズラサーラ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血震</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象から半径3マスの衝撃波を発生させます。\n発動コスト：[イシャの血杯]　3"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象から半径3マスの衝撃波を発生させます。\n発動コスト：[イシャの血杯]　3"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>以目标为中心释放半径3格的冲击波。\n消耗：[救济的血杯]3</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シャーバルガナン"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="シャーバルガナン"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>血戮</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象1マスに強力な一撃を与えます。\n発動コスト：[イシャの血杯]　5"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象1マスに強力な一撃を与えます。\n発動コスト：[イシャの血杯]　5"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>对目标所在格发动强力一击。\n消耗：[救济的血杯]5</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アコルミシュテ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="アコルミシュテ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>猩红风暴</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象から半径8マスの出血を強いる衝撃波を発生させます。\n発動コスト：[イシャの血杯]　10"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="対象から半径8マスの出血を強いる衝撃波を発生させます。\n発動コスト：[イシャの血杯]　10"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>以目标为中心释放半径8格的冲击波，迫使范围内目标出血。\n消耗：[救济的血杯]10</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カナンフレンズ"]/commandLabel[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandLabel="カナンフレンズ"]/commandLabel[1]</xpath>
+      <value>
+        <commandLabel>召唤眷属</commandLabel>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="眷属を召喚します。\n発動コスト：[イシャの血杯]　100"]/commandDesc[1]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Aya_Common.Aya_CompProperties_Skill"][commandDesc="眷属を召喚します。\n発動コスト：[イシャの血杯]　100"]/commandDesc[1]</xpath>
+      <value>
+        <commandDesc>召唤眷属。\n消耗：[救济的血杯]100</commandDesc>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandLabel[1]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="HAR_EL_Race_Eveliet_a"]/comps[1]/li[@Class="Eveliet.HAR_EL_CompProperties_Skill"]/commandLabel[1]</xpath>

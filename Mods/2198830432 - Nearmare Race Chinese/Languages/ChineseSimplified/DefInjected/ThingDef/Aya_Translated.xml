@@ -169,8 +169,10 @@
   <Bullet_AssaultRifle_NM.label>魑枪「郄浍堕狱」</Bullet_AssaultRifle_NM.label>
   <HAR_NM_Weapon_Gun_a.label>卡兰德星步枪</HAR_NM_Weapon_Gun_a.label>
   <HAR_NM_Weapon_Gun_a.description>人工种族起源的故乡卡兰德星所使用的步枪。\n有极高的穿透性和稳定的输出火力。\n缺陷是它的制作难度和成本。\n\n卡兰德星步枪的连射、射程都极其出色，无论在哪个距离都有很高的命中精度。\n附带着刺剑，紧急情况下也可以拔出进行近战。</HAR_NM_Weapon_Gun_a.description>
+  <Bullet_AssaultRifle_NM_a.label>突击步枪子弹</Bullet_AssaultRifle_NM_a.label>
   <HAR_NM_Weapon_Gun_b.label>卡兰德星霰弹枪</HAR_NM_Weapon_Gun_b.label>
   <HAR_NM_Weapon_Gun_b.description>人工种族起源的故乡卡兰德星所使用的霰弹枪。\n有极高的穿透性和稳定的输出火力。\n缺陷是它的制作难度和成本。\n\n虽然射程很短，但其威力甚至能够轻易粉碎重型机械族的坚实防护</HAR_NM_Weapon_Gun_b.description>
+  <Bullet_Shotgun_NM.label>霰弹枪子弹</Bullet_Shotgun_NM.label>
   <HAR_NM_Weapon_Sword_a.label>卡兰德星剑</HAR_NM_Weapon_Sword_a.label>
   <HAR_NM_Weapon_Sword_a.description>人工种族起源的故乡卡兰德星所使用的剑。\n有极高的穿透性和轻便的操作性能。\n比起攻击更重视重心的维持，具有提高接近目标敌人所需要的能力的功能。</HAR_NM_Weapon_Sword_a.description>
   <NM_M_NightStalker.description>魅魔召唤的迅捷眷属。虽然单次杀伤力不及座狼，但行动极快，猎物很难逃脱。它的利爪与獠牙带有剧毒；即使将其击退，遭到攻击者仍需及时处理毒素。</NM_M_NightStalker.description>

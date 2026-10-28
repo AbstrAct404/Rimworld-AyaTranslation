@@ -56,6 +56,7 @@
   <HAR_ZC_Item_b.description>从地之佛拉斯生成的蓝色石榴。\n当使用于锢魂魔时，可以强化苍褪的太阳。\n每当苍褪的太阳的阶段提升时，所需的苍阳果会增加。碎裂的苍阳果可以强化苍褪的太阳。</HAR_ZC_Item_b.description>
   <HAR_ZC_Item_c.label>完整的苍阳果</HAR_ZC_Item_c.label>
   <HAR_ZC_Item_c.description>从地之佛拉斯生成的蓝色石榴。\n当使用于锢魂魔时，可以强化苍褪的太阳。\n每当苍褪的太阳的阶段提升时，所需的苍阳果会增加。完整的苍阳果可以强化苍褪的太阳。</HAR_ZC_Item_c.description>
+  <CSS_SummonEffect.label>召唤效果</CSS_SummonEffect.label>
   <CSS_SummonEffect.description>光芒闪耀的召唤魔法阵。</CSS_SummonEffect.description>
   <HAR_ZC_Weapon_a.label>阿拉斯托耳</HAR_ZC_Weapon_a.label>
   <HAR_ZC_Weapon_a.description>锢魂魔在执行特殊刑罚时所使用的地狱之剑。\n据说是由混沌灵所创造，其性能几乎可媲美迦南的神器。\n\n由地狱的物质构成，因此仅有锢魂魔能够安全地配戴。\n\n这把剑似乎具备能够直击灵魂的力量，对人类尤其有效。\n一旦被斩中，便会被揭示罪行，成为只能静待死亡的囚徒。\n\n那把剑仿佛拥有生命般地鼓动着。\n剑尖锐利得难以置信，无论是什么障碍，都仿佛能毫无阻碍地斩断。\n而更令人畏惧的是，这把剑对生者无比严苛。\n即便是王族，若曾犯下罪行，也绝不宽恕。</HAR_ZC_Weapon_a.description>

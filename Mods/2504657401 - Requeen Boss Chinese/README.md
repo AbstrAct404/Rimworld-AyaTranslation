@@ -34,7 +34,7 @@
 ---
 - 原模组创意工坊 ID：2504657401
 - 本汉化创意工坊 ID：3769649735
-- 兼容版本：RimWorld 1.6 / 1.7
+- 兼容版本：RimWorld 1.6、RimWorld 1.7
 - packageId：`abstract404.aya.2504657401.zh`
 - 前置 packageId：`Ayameduki.BOSSRequeen`
 - 加载顺序：原模组在前，本汉化在后。
