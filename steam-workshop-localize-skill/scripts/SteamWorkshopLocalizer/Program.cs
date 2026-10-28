@@ -3,11 +3,15 @@ using Steamworks;
 
 uint appId = 294100;
 string language = "schinese";
+bool uploadContent = false;
 var manifests = new List<string>();
 for (int i = 0; i < args.Length; i++)
 {
     switch (args[i])
     {
+        case "--upload-content":
+            uploadContent = true;
+            break;
         case "--appid" when i + 1 < args.Length:
             appId = uint.Parse(args[++i]);
             break;
@@ -56,7 +60,7 @@ try
             new PublishedFileId_t(item.PublishedFileId)
         );
 
-        if (!string.IsNullOrWhiteSpace(item.ContentFolder))
+        if (uploadContent && !string.IsNullOrWhiteSpace(item.ContentFolder))
         {
             if (!Directory.Exists(item.ContentFolder))
                 throw new DirectoryNotFoundException(
@@ -74,7 +78,7 @@ try
             ),
             "SetItemVisibility"
         );
-        if (!string.IsNullOrWhiteSpace(item.PreviewFile))
+        if (uploadContent && !string.IsNullOrWhiteSpace(item.PreviewFile))
         {
             if (!File.Exists(item.PreviewFile))
                 throw new FileNotFoundException(
@@ -85,7 +89,7 @@ try
 
         SteamAPICall_t apiCall = SteamUGC.SubmitItemUpdate(
             handle,
-            "补全了玻璃桌、邮购设施及部分可放置物品名称。"
+            item.ChangeNote
         );
 
         bool finished = false;
@@ -148,7 +152,10 @@ static WorkshopItem ReadManifest(string path)
     string? previewFile = OptionalField(value, "previewfile");
     if (previewFile is not null)
         previewFile = Unescape(previewFile);
-    return new WorkshopItem(id, title, description, contentFolder, previewFile);
+    string changeNote = Unescape(Field(value, "changenote"));
+    if (string.IsNullOrWhiteSpace(changeNote))
+        throw new InvalidDataException("A current update note is required");
+    return new WorkshopItem(id, title, description, contentFolder, previewFile, changeNote);
 }
 
 static ulong CreateWorkshopItem(uint appId)
@@ -237,6 +244,7 @@ static void VerifyLocalizedMetadata(WorkshopItem expected, string language)
     var ids = new[] { new PublishedFileId_t(expected.PublishedFileId) };
     UGCQueryHandle_t query = SteamUGC.CreateQueryUGCDetailsRequest(ids, 1);
     Require(SteamUGC.SetLanguage(query, language), "SetLanguage");
+    Require(SteamUGC.SetAllowCachedResponse(query, 0), "SetAllowCachedResponse");
     Require(SteamUGC.SetReturnLongDescription(query, true), "SetReturnLongDescription");
 
     bool finished = false;
@@ -289,5 +297,6 @@ sealed record WorkshopItem(
     string Title,
     string Description,
     string? ContentFolder,
-    string? PreviewFile
+    string? PreviewFile,
+    string ChangeNote
 );

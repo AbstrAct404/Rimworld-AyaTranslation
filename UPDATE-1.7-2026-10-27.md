@@ -4,7 +4,7 @@
 
 - 依据 GitHub `master` 基线 `6b50df2`，完成 21 个原模组的本地汉化更新；Steam 最新更新时间与本地安装记录全部一致，源文件哈希见 `SOURCE-1.7-DELTA.json`。
 - 整合包现有 3896 条 DefInjected/Keyed 唯一条目，另含直接 XML 补丁和 1.7 专用界面文本程序集；条目数不把直接补丁重复计入。
-- 本轮没有上传任何创意工坊内容，也没有更新工坊标题、简介或图片。`steam_upload` 内生成的是待发布清单。
+- 本地更新完成后，用户已追加授权发布。整合包内容及中文/英文语言分支标题、简介均已更新，两个分支各自回读 `verified=true`；使用相同中文元数据作为英文回退。发布记录见 `WORKSHOP-PUBLISH-AUDIT.json`。
 - 21 个独立汉化项目已按用户要求设为隐藏（Private，仅自己可见），通过同账号 Steam API 回读确认；整合包 `3770548798` 仍为公开。记录见 `WORKSHOP-VISIBILITY-AUDIT.json`。
 - 新内容已部署到 `D:\MODS\Rimworld` 的 22 个包，以及游戏 `Mods/0000000000 - Aya Integrated Chinese`；整合包 141 个文件哈希完全一致。旧版保存在 `D:\MODS\Rimworld\local-backups\aya-before-20261027`，见 `LOCAL-DEPLOYMENT.json`。
 - 尚未推送 GitHub；本次维护源码位于 `D:\MODS\Rimworld\AyaTranslation-work`。本轮未启动游戏，不能将静态模拟等同于实机画面测试。
